@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "az": {
+      "home": "Ana səhifə",
+      "treasury": "Bilik xəzinəsi",
+      "prominentFigures": "Görkəmli şəxsiyyətlər",
+      "prominentFiguresDesc": "Tarix boyu görkəmli alimlər, mütəfəkkirlər və yaradıcı simalar",
+      "industrialRevolutions": "Sənaye inqilabları",
+      "industrialRevolutionsDesc": "Tarixi sənaye inqilablarının izləri",
+      "majorScientificInventions": "Əsas elmi ixtiralar",
+      "majorScientificInventionsDesc": "Elm tarixinin mühüm ixtiraları",
+      "ariaMain": "Əsas naviqasiya",
+      "ariaHome": "Bilik xəzinəsi ana səhifə",
+      "menuOpen": "Menyunu aç",
+      "menuClose": "Menyunu bağla",
+      "skip": "Məzmuna keç",
+      "homeLogoTooltip": "Ana səhifə"
+    },
+    "en": {
+      "home": "Home",
+      "treasury": "Knowledge Treasury",
+      "prominentFigures": "Prominent Figures",
+      "prominentFiguresDesc": "Scientists, thinkers, and creators across history",
+      "industrialRevolutions": "Industrial Revolutions",
+      "industrialRevolutionsDesc": "Landmarks of industrial history",
+      "majorScientificInventions": "Major Scientific Inventions",
+      "majorScientificInventionsDesc": "Key inventions that shaped science",
+      "ariaMain": "Main navigation",
+      "ariaHome": "Knowledge Treasury home",
+      "menuOpen": "Open menu",
+      "menuClose": "Close menu",
+      "skip": "Skip to content",
+      "homeLogoTooltip": "Home page"
+    }
+  },
+  "navIcons": {
+    "home": "🏠",
+    "treasury": "🏛️",
+    "encyclopedia": "👤",
+    "prominentFigures": "👤",
+    "industrial-revolutions": "⚙️",
+    "industrialRevolutions": "⚙️",
+    "major-scientific-inventions": "💡",
+    "majorScientificInventions": "💡"
+  },
+  "breadcrumbs": {
+    "az": {
+      "aria": "Səhifə yolu",
+      "home": "Ana səhifə",
+      "treasury": "Bilik xəzinəsi",
+      "encyclopedia": "Görkəmli şəxsiyyətlər"
+    },
+    "en": {
+      "aria": "Breadcrumb",
+      "home": "Home",
+      "treasury": "Knowledge Treasury",
+      "encyclopedia": "Prominent Figures"
+    }
+  },
+  "meta": {
+    "siteNameAz": "Bilik xəzinəsi",
+    "siteNameEn": "Knowledge Treasury",
+    "catalogCount": 0
+  }
+}

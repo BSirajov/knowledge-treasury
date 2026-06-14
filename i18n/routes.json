@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "defaultLang": "az",
+  "languages": [
+    "az",
+    "en"
+  ],
+  "pages": [
+    {
+      "id": "home",
+      "navId": "home",
+      "az": "az/index.html",
+      "en": "en/index.html"
+    },
+    {
+      "id": "encyclopedia",
+      "navId": "encyclopedia",
+      "navGroup": "treasury",
+      "navParent": "treasury",
+      "az": "az/encyclopedia.html",
+      "en": "en/encyclopedia.html"
+    },
+    {
+      "id": "industrial-revolutions",
+      "navId": "industrial-revolutions",
+      "navGroup": "treasury",
+      "navParent": "treasury",
+      "az": "az/industrial_revolutions.html",
+      "en": "en/industrial_revolutions.html"
+    },
+    {
+      "id": "major-scientific-inventions",
+      "navId": "major-scientific-inventions",
+      "navGroup": "treasury",
+      "navParent": "treasury",
+      "az": "az/major_scientific_inventions.html",
+      "en": "en/major_scientific_inventions.html"
+    },
+    {
+      "id": "prominent-figure",
+      "navId": null,
+      "az": "az/encyclopedia.html",
+      "en": "en/encyclopedia.html",
+      "sitemap": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# Python (helpers/)
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+
+# Build / staging
+.deployment-staging/
+Deployment/
+
+# Editor & OS
+.cursor/
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Office temp files
+~$*
+*.tmp
+~WRL*.tmp
+
+# Local notes (optional internal docs — not for deploy)
+documents/preview/
+
+# Logs
+*.log

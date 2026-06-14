@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<title>Bilik xəzinəsi / Knowledge Treasury</title>
+<meta name="description" content="Knowledge Treasury — discoveries, inventions, and innovations across human history."/>
+<link rel="icon" href="images/kt-logo.svg" type="image/svg+xml"/>
+<script>
+(function () {
+  var q = location.search || "";
+  if (/[?&](legacy|choose)=1/.test(q)) return;
+  var saved;
+  try { saved = localStorage.getItem("daab-lang"); } catch (e) {}
+  if (saved === "en") { location.replace("en/index.html" + q); return; }
+  location.replace("az/index.html" + q);
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@700&amp;display=swap" rel="stylesheet"/>
+<link href="css/daab-common.css?v=1" rel="stylesheet"/>
+<link href="css/daab-lang.css?v=1" rel="stylesheet"/>
+<link href="css/kt-home.css?v=1" rel="stylesheet"/>
+</head>
+<body class="daab-gateway kt-gateway">
+<main class="daab-gateway-page">
+<div class="daab-gateway-card">
+<img class="daab-gateway-logo" src="images/kt-logo.svg" alt="Knowledge Treasury"/>
+<h1>Bilik xəzinəsi</h1>
+<p>Knowledge Treasury</p>
+<div class="daab-gateway-actions">
+<a class="btn btn-primary" href="az/index.html">Azərbaycan dilində davam et</a>
+<a class="btn btn-secondary" href="en/index.html">Continue in English</a>
+</div>
+</div>
+</main>
+</body>
+</html>
