@@ -1,0 +1,1150 @@
+[
+  {
+    "id": "abay_qunanbayev",
+    "name": "Abay Kunanbayev",
+    "dates": "1845 – 1904",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "abdulla_qodiriy",
+    "name": "Abdulla Qadiri",
+    "dates": "1894 – 1938",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "abdulla_shaiq",
+    "name": "Abdulla Shaig",
+    "dates": "1881 – 1959",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "abdurehim_otkur",
+    "name": "Abdurrahim Otkur",
+    "dates": "1923 – 1995",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "ebu_bekr_tehrani",
+    "name": "Abu Bakr Tehrani",
+    "dates": "15th century",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "ebulfez_elchibey",
+    "name": "Abulfaz Elchibey",
+    "dates": "1938 — 2000",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "ada_lovelace",
+    "name": "Ada Lovelace",
+    "dates": "1815–1852",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "ehmed_cavad",
+    "name": "Ahmad Javad",
+    "dates": "1892 – 1937",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "ehmed_bey_agaoglu",
+    "name": "Ahmed bey Agaoglu",
+    "dates": "1869 – 1939",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "albert_einstein",
+    "name": "Albert Einstein",
+    "dates": "1879–1955",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "alexander_von_humboldt",
+    "name": "Alexander von Humboldt",
+    "dates": "1769–1859",
+    "old": "Modern era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "alfred_nobel",
+    "name": "Alfred Nobel",
+    "dates": "1833–1896",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "alfred_russel_wallace",
+    "name": "Alfred Russel Wallace",
+    "dates": "1823–1913",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "eli_bey_huseynzade",
+    "name": "Ali bey Huseynzade",
+    "dates": "1864 – 1940",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "eli_quscu",
+    "name": "Ali Qushji",
+    "dates": "1403 – 1474",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "elishir_nevai",
+    "name": "Ali-Shir Nava'i",
+    "dates": "1441 – 1501",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "eliaga_vahid",
+    "name": "Aliaga Vahid",
+    "dates": "1895 – 1965",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "elkey_margulan",
+    "name": "Alkey Margulan",
+    "dates": "1904 – 1985",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "anaximander",
+    "name": "Anaximander",
+    "dates": "c. 610–546 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "andreas_vesalius",
+    "name": "Andreas Vesalius",
+    "dates": "1514–1564",
+    "old": "Modern era",
+    "new": "Renaissance"
+  },
+  {
+    "id": "andre_marie_ampere",
+    "name": "André-Marie Ampère",
+    "dates": "1775–1836",
+    "old": "Modern era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "antoine_lavoisier",
+    "name": "Antoine Lavoisier",
+    "dates": "1743–1794",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "antonie_van_leeuwenhoek",
+    "name": "Antonie van Leeuwenhoek",
+    "dates": "1632–1723",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "archimedes",
+    "name": "Archimedes",
+    "dates": "c. 287–212 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "aristarchus_of_samos",
+    "name": "Aristarchus of Samos",
+    "dates": "c. 310–230 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "aristotle",
+    "name": "Aristotle",
+    "dates": "384–322 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "aryabhata",
+    "name": "Aryabhata",
+    "dates": "476–550",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "asiq_veysel",
+    "name": "Ashiq Veysel",
+    "dates": "1894 – 1973",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "azad_mirzecanzade",
+    "name": "Azad Mirzajanzade",
+    "dates": "1928 – 2006",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "aziz_sancar",
+    "name": "Aziz Sancar",
+    "dates": "1946 –",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "behruz_kengerli",
+    "name": "Behruz Kangarli",
+    "dates": "1892 – 1922",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "bekir_chobanzade",
+    "name": "Bekir Chobanzade",
+    "dates": "1893 – 1937",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "berdax",
+    "name": "Berdakh",
+    "dates": "1827 – 1900",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "bernhard_riemann",
+    "name": "Bernhard Riemann",
+    "dates": "1826–1866",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "blaise_pascal",
+    "name": "Blaise Pascal",
+    "dates": "1623–1662",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "bulbul",
+    "name": "Bulbul Murtuza Mammadov",
+    "dates": "1897 – 1961",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "cahit_arf",
+    "name": "Cahit Arf",
+    "dates": "1910 – 1997",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "carl_friedrich_gauss",
+    "name": "Carl Friedrich Gauss",
+    "dates": "1777–1855",
+    "old": "Modern era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "carl_linnaeus",
+    "name": "Carl Linnaeus",
+    "dates": "1707–1778",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "charaka",
+    "name": "Charaka",
+    "dates": "c. 1st–2nd century CE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "charles_babbage",
+    "name": "Charles Babbage",
+    "dates": "1791–1871",
+    "old": "Modern era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "charles_darwin",
+    "name": "Charles Darwin",
+    "dates": "1809–1882",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "chingiz_aytmatov",
+    "name": "Chingiz Aytmatov",
+    "dates": "1928 – 2008",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "christiaan_huygens",
+    "name": "Christiaan Huygens",
+    "dates": "1629–1695",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "qorqud_ata",
+    "name": "Dede Korkut",
+    "dates": "legendary",
+    "old": "Antiquity",
+    "new": "Ancient World"
+  },
+  {
+    "id": "democritus",
+    "name": "Democritus",
+    "dates": "c. 460–370 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "dmitri_mendeleev",
+    "name": "Dmitri Mendeleev",
+    "dates": "1834–1907",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "edmond_halley",
+    "name": "Edmond Halley",
+    "dates": "1656–1742",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "edward_jenner",
+    "name": "Edward Jenner",
+    "dates": "1749–1823",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "eratosthenes",
+    "name": "Eratosthenes",
+    "dates": "c. 276–194 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "ernest_rutherford",
+    "name": "Ernest Rutherford",
+    "dates": "1871–1937",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "erwin_schrodinger",
+    "name": "Erwin Schrodinger",
+    "dates": "1887–1961",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "euclid",
+    "name": "Euclid",
+    "dates": "c. 325–265 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "evliya_celebi",
+    "name": "Evliya Celebi",
+    "dates": "1611 – 1682",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "fikret_emirov",
+    "name": "Fikret Amirov",
+    "dates": "1922 – 1984",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "gabdulla_tukay",
+    "name": "Gabdulla Tukay",
+    "dates": "1886 – 1913",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "galen",
+    "name": "Galen",
+    "dates": "129–c. 216",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "galileo_galilei",
+    "name": "Galileo Galilei",
+    "dates": "1564–1642",
+    "old": "Modern era",
+    "new": "Renaissance"
+  },
+  {
+    "id": "qanish_setbayev",
+    "name": "Ganiash Satbayev",
+    "dates": "1899 – 1964",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "qara_qarayev",
+    "name": "Gara Garayev",
+    "dates": "1918 – 1982",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "qasim_bey_zakir",
+    "name": "Gasim bey Zakir",
+    "dates": "1784 – 1857",
+    "old": "Modern era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "qasim_tinistanov",
+    "name": "Gasim Tinishstanov",
+    "dates": "1901 – 1938",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "georg_cantor",
+    "name": "Georg Cantor",
+    "dates": "1845–1918",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "georg_ohm",
+    "name": "Georg Ohm",
+    "dates": "1789–1854",
+    "old": "Modern era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "georges_cuvier",
+    "name": "Georges Cuvier",
+    "dates": "1769–1832",
+    "old": "Modern era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "georges_louis_leclerc_comte_de_buffon",
+    "name": "Georges-Louis Leclerc, Comte de Buffon",
+    "dates": "1707–1788",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "gerolamo_cardano",
+    "name": "Gerolamo Cardano",
+    "dates": "1501–1576",
+    "old": "Modern era",
+    "new": "Renaissance"
+  },
+  {
+    "id": "gottfried_wilhelm_leibniz",
+    "name": "Gottfried Wilhelm Leibniz",
+    "dates": "1646–1716",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "gregor_mendel",
+    "name": "Gregor Mendel",
+    "dates": "1822–1884",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "halime_edib_adivar",
+    "name": "Halide Edib Adivar",
+    "dates": "1884 – 1964",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "hemze_hekimzade_niyazi",
+    "name": "Hamza Hakimzade Niyazi",
+    "dates": "1889 – 1929",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "hesen_bey_zerdabi",
+    "name": "Hasan bey Zardabi",
+    "dates": "1837 – 1907",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "henri_poincare",
+    "name": "Henri Poincaré",
+    "dates": "1854–1912",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "heron_of_alexandria",
+    "name": "Heron of Alexandria",
+    "dates": "c. 10–70 CE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "heyder_eliyev",
+    "name": "Heydar Aliyev",
+    "dates": "1923 – 2003",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "hipparchus",
+    "name": "Hipparchus",
+    "dates": "c. 190–120 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "hippocrates",
+    "name": "Hippocrates",
+    "dates": "c. 460–370 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "huseyn_bayqara",
+    "name": "Husayn Bayqara",
+    "dates": "1438 – 1506",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "huseyn_cavid",
+    "name": "Husayn Javid",
+    "dates": "1882 – 1941",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "hypatia",
+    "name": "Hypatia",
+    "dates": "c. 350–415",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "isaac_newton",
+    "name": "Isaac Newton",
+    "dates": "1642–1727",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "ismail_qaspirali",
+    "name": "Ismail Gasprinski",
+    "dates": "1851 – 1914",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "cefer_cabbarli",
+    "name": "Jafar Jabbarli",
+    "dates": "1899 – 1934",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "celil_memmedquluzade",
+    "name": "Jalil Mammadguluzade",
+    "dates": "1866 – 1932",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "james_clerk_maxwell",
+    "name": "James Clerk Maxwell",
+    "dates": "1831–1879",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "johannes_kepler",
+    "name": "Johannes Kepler",
+    "dates": "1571–1630",
+    "old": "Modern era",
+    "new": "Renaissance"
+  },
+  {
+    "id": "john_dalton",
+    "name": "John Dalton",
+    "dates": "1766–1844",
+    "old": "Modern era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "joseph_fourier",
+    "name": "Joseph Fourier",
+    "dates": "1768–1830",
+    "old": "Modern era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "joseph_louis_lagrange",
+    "name": "Joseph-Louis Lagrange",
+    "dates": "1736–1813",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "katib_celebi",
+    "name": "Katib Celebi",
+    "dates": "1609 – 1657",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "xudu_memmedov",
+    "name": "Khudu Mammadov",
+    "dates": "1927 – 1988",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "leonardo_da_vinci",
+    "name": "Leonardo da Vinci",
+    "dates": "1452–1519",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "leonhard_euler",
+    "name": "Leonhard Euler",
+    "dates": "1707–1783",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "liu_hui",
+    "name": "Liu Hui",
+    "dates": "c. 225–295",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "lord_kelvin",
+    "name": "Lord Kelvin",
+    "dates": "1824–1907",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "lutfi_zade",
+    "name": "Lotfi Zadeh",
+    "dates": "1921 – 2017",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "louis_pasteur",
+    "name": "Louis Pasteur",
+    "dates": "1822–1895",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "ludwig_boltzmann",
+    "name": "Ludwig Boltzmann",
+    "dates": "1844–1906",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "maqtimqulu_feraqi",
+    "name": "Mahtumkuli Firaqi",
+    "dates": "c. 1724 – 1807",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "mehemmed_emin_resulzade",
+    "name": "Mammad Amin Rasulzade",
+    "dates": "1884 – 1955",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "marie_curie",
+    "name": "Marie Curie",
+    "dates": "1867–1934",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "matrakci_nasuh",
+    "name": "Matrakci Nasuh",
+    "dates": "c. 1480 – 1564",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "max_planck",
+    "name": "Max Planck",
+    "dates": "1858–1947",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "fuat_koprulu",
+    "name": "Mehmet Fuat Koprulu",
+    "dates": "1890 – 1966",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "michael_faraday",
+    "name": "Michael Faraday",
+    "dates": "1791–1867",
+    "old": "Modern era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "mikayil_musfiq",
+    "name": "Mikayil Mushfiq",
+    "dates": "1908 – 1938",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "mimar_sinan",
+    "name": "Mimar Sinan",
+    "dates": "1489 – 1588",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "mireli_qashqay",
+    "name": "Mirali Ghashghai",
+    "dates": "1907 – 1969",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "mirze_elekber_sabir",
+    "name": "Mirza Alekber Sabir",
+    "dates": "1862 – 1911",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "mirze_feteli_axundzade",
+    "name": "Mirza Fatali Akhundov",
+    "dates": "1812 – 1878",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "molla_penah_vaqif",
+    "name": "Molla Panah Vagif",
+    "dates": "1717 – 1797",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "fuzuli",
+    "name": "Muhammad Fuzuli",
+    "dates": "1494 – 1556",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "memmed_seid_ordubadi",
+    "name": "Muhammad Said Ordubadi",
+    "dates": "1872 – 1950",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "muxtar_euezov",
+    "name": "Mukhtar Auezov",
+    "dates": "1897 – 1961",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "musa_celil",
+    "name": "Musa Jalil",
+    "dates": "1906 – 1944",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "mustafa_kamal_ataturk",
+    "name": "Mustafa Kemal Ataturk",
+    "dates": "1881 – 1938",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "namiq_kamal",
+    "name": "Namik Kemal",
+    "dates": "1840 – 1888",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "neriman_nerimanov",
+    "name": "Nariman Narimanov",
+    "dates": "1870 – 1925",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "nazim_hikmet",
+    "name": "Nazim Hikmet",
+    "dates": "1902 – 1963",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "nicolaus_copernicus",
+    "name": "Nicolaus Copernicus",
+    "dates": "1473–1543",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "niels_bohr",
+    "name": "Niels Bohr",
+    "dates": "1885–1962",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "oljas_suleymenov",
+    "name": "Olzhas Suleimenov",
+    "dates": "1936 –",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "orhan_pamuk",
+    "name": "Orhan Pamuk",
+    "dates": "1952 –",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "pierre_curie",
+    "name": "Pierre Curie",
+    "dates": "1859–1906",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "pierre_de_fermat",
+    "name": "Pierre de Fermat",
+    "dates": "1607–1665",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "pierre_simon_laplace",
+    "name": "Pierre-Simon Laplace",
+    "dates": "1749–1827",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "piri_reis",
+    "name": "Piri Reis",
+    "dates": "1470 – 1553",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "plato",
+    "name": "Plato",
+    "dates": "c. 428–348 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "ptolemy",
+    "name": "Ptolemy",
+    "dates": "c. 100–170",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "pythagoras",
+    "name": "Pythagoras",
+    "dates": "c. 570–495 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "qayum_nasiri",
+    "name": "Qayyum Nasiri",
+    "dates": "1825 – 1902",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "reshid_behbudov",
+    "name": "Rashid Behbudov",
+    "dates": "1915 – 1989",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "rene_descartes",
+    "name": "René Descartes",
+    "dates": "1596–1650",
+    "old": "Modern era",
+    "new": "Renaissance"
+  },
+  {
+    "id": "robert_boyle",
+    "name": "Robert Boyle",
+    "dates": "1627–1691",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "robert_hooke",
+    "name": "Robert Hooke",
+    "dates": "1635–1703",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "robert_koch",
+    "name": "Robert Koch",
+    "dates": "1843–1910",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "sabahattin_ali",
+    "name": "Sabahattin Ali",
+    "dates": "1907 – 1948",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "sadi_carnot",
+    "name": "Sadi Carnot",
+    "dates": "1796–1832",
+    "old": "Modern era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "sedri_meqsudi_arsal",
+    "name": "Sadri Maksud Arbey",
+    "dates": "1878 – 1957",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "semed_vurgun",
+    "name": "Samad Vurgun",
+    "dates": "1906 – 1956",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "seyid_ezim_sirvani",
+    "name": "Sayyid Azim Shirvani",
+    "dates": "1835 – 1888",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "seydi_eli_reis",
+    "name": "Seydi Ali Reis",
+    "dates": "1498 – 1563",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "shah_ismayil_xetai",
+    "name": "Shah Ismail Khatai",
+    "dates": "1487 – 1524",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "sihabeddin_mercani",
+    "name": "Shihab ad-Din al-Marjani",
+    "dates": "1818 – 1889",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "sofia_kovalevskaya",
+    "name": "Sofia Kovalevskaya",
+    "dates": "1850–1891",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "sushruta",
+    "name": "Sushruta",
+    "dates": "c. 6th century BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "taqieddin_resedci",
+    "name": "Taqi al-Din al-Rasid",
+    "dates": "1526 – 1585",
+    "old": "Modern era",
+    "new": "Renaissance"
+  },
+  {
+    "id": "thales_of_miletus",
+    "name": "Thales of Miletus",
+    "dates": "c. 624–546 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "theophrastus",
+    "name": "Theophrastus",
+    "dates": "c. 371–287 BCE",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "thomas_young",
+    "name": "Thomas Young",
+    "dates": "1773–1829",
+    "old": "Modern era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "tofiq_quliyev",
+    "name": "Tofig Guliyev",
+    "dates": "1917 – 2000",
+    "old": "Contemporary era",
+    "new": "Modern Era"
+  },
+  {
+    "id": "tycho_brahe",
+    "name": "Tycho Brahe",
+    "dates": "1546–1601",
+    "old": "Modern era",
+    "new": "Renaissance"
+  },
+  {
+    "id": "uzeyir_hacibeyov",
+    "name": "Uzeyir Hajibeyov",
+    "dates": "1885 – 1948",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "werner_heisenberg",
+    "name": "Werner Heisenberg",
+    "dates": "1901–1976",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "william_gilbert",
+    "name": "William Gilbert",
+    "dates": "1544–1603",
+    "old": "Modern era",
+    "new": "Renaissance"
+  },
+  {
+    "id": "william_harvey",
+    "name": "William Harvey",
+    "dates": "1578–1657",
+    "old": "Modern era",
+    "new": "Renaissance"
+  },
+  {
+    "id": "william_herschel",
+    "name": "William Herschel",
+    "dates": "1738–1822",
+    "old": "Modern era",
+    "new": "Early Modern Period"
+  },
+  {
+    "id": "yusif_memmedeliyev",
+    "name": "Yusif Mammadaliyev",
+    "dates": "1905 – 1961",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "yusif_vezir_chemenzeminli",
+    "name": "Yusif Vazir Chamanzaminli",
+    "dates": "1887 – 1943",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "zahireddin_mehemmed_babur",
+    "name": "Zahir ud-Din Muhammad Babur",
+    "dates": "1483 – 1530",
+    "old": "Middle Ages",
+    "new": "Renaissance"
+  },
+  {
+    "id": "zeki_velidi_togan",
+    "name": "Zeki Velidi Togan",
+    "dates": "1890 – 1970",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "zhang_heng",
+    "name": "Zhang Heng",
+    "dates": "78–139",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  },
+  {
+    "id": "ziya_gokalp",
+    "name": "Ziya Gokalp",
+    "dates": "1876 – 1924",
+    "old": "Contemporary era",
+    "new": "Industrial Age"
+  },
+  {
+    "id": "zu_chongzhi",
+    "name": "Zu Chongzhi",
+    "dates": "429–500",
+    "old": "Antiquity",
+    "new": "Classical Antiquity"
+  }
+]

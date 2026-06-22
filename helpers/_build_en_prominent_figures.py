@@ -51,33 +51,34 @@ def css_links() -> str:
     return "\n".join(
         f'<link href="{ASSET}css/{name}?v={ver}" rel="stylesheet"/>'
         for name, ver in STYLE_VERSIONS.items()
-        if name.startswith("daab-") and name in (
-            "daab-common.css",
-            "daab-mobile.css",
-            "daab-sticky-chrome.css",
-            "daab-search.css",
-            "daab-back-to-top.css",
-            "daab-lang.css",
-            "daab-nav-mega.css",
-            "daab-hero-summary.css",
-            "daab-prominent-figure-profile.css",
+        if name.startswith("kt-") and name in (
+            "kt-common.css",
+            "kt-perf.css",
+            "kt-mobile.css",
+            "kt-sticky-chrome.css",
+            "kt-site-background.css",
+            "kt-back-to-top.css",
+            "kt-lang.css",
+            "kt-nav-mega.css",
+            "kt-hero-summary.css",
+            "kt-prominent-figure-profile.css",
         )
     )
 
 
 def js_scripts() -> str:
     names = [
-        "daab-mobile.js",
-        "daab-sticky-chrome.js",
-        "daab-back-to-top.js",
-        "daab-i18n.js",
-        "daab-lang-position.js",
-        "daab-design-tokens.js",
-        "daab-nav.js",
-        "daab-primary-nav.js",
-        "daab-breadcrumbs.js",
-        "daab-shell.js",
-        "daab-search.js",
+        "kt-mobile.js",
+        "kt-sticky-chrome.js",
+        "kt-back-to-top.js",
+        "kt-i18n.js",
+        "kt-lang-position.js",
+        "kt-design-tokens.js",
+        "kt-nav.js",
+        "kt-primary-nav.js",
+        "kt-breadcrumbs.js",
+        "kt-shell.js",
+        "kt-search.js",
     ]
     return "\n".join(
         f'<script src="{ASSET}js/{name}?v={SCRIPT_VERSIONS[name]}" defer></script>'
@@ -215,11 +216,11 @@ def sidebar_block(row: dict) -> str:
 
 def placeholder_page(nav_menu: str) -> str:
     return f"""<!DOCTYPE html>
-<html lang="en" data-daab-lang="en" data-daab-asset-root="{ASSET}" data-daab-page-id="prominent-figure" data-daab-profile-name="" data-daab-nav-mount="1">
+<html lang="en" data-kt-lang="en" data-kt-asset-root="{ASSET}" data-kt-page-id="prominent-figure" data-kt-profile-name="" data-kt-nav-mount="1">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
-<title>Profile in preparation — WAAS</title>
+<title>Profile in preparation — Knowledge Treasury</title>
 <meta name="description" content="This encyclopedia profile is being prepared."/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -227,11 +228,11 @@ def placeholder_page(nav_menu: str) -> str:
 {css_links()}
 {js_scripts()}
 </head>
-<body class="daab-prominent-figure-page">
+<body class="kt-prominent-figure-page">
 <a class="skip" href="#content">Skip to content</a>
 {prominent_nav_strip_en(nav_menu)}
 <header class="hero pf-profile-hero pf-profile-hero--placeholder"><div class="hero-inner shell"><section class="hero-copy"><h1>Profile in preparation</h1><p>Material for this figure is being prepared in stages and will be published on a dedicated profile page with sources.</p></section></div></header>
-<main class="pf-main" id="content"><div class="card"><p>The first profile group — from antiquity and the Middle Ages through the modern era — is already available in full page format in the catalog.</p><a class="btn" href="../../encyclopedia.html">Back to catalog</a></div></main>
+<main class="pf-main" id="content"><div class="card"><p>The first profile group — from antiquity and the Middle Ages through the modern era — is already available in full page format in the catalog.</p><a class="btn" href="../../prominent_figures.html">Back to catalog</a></div></main>
 {FOOTER_EN}
 </body>
 </html>
@@ -241,7 +242,7 @@ def placeholder_page(nav_menu: str) -> str:
 def render_profile(row: dict, nav_menu: str) -> str:
     name = row["name"]
     esc_name = html.escape(name, quote=True)
-    title = html.escape(f"{name} — Prominent Figures | WAAS")
+    title = html.escape(f"{name} — Prominent Figures | Knowledge Treasury")
     desc = html.escape(en_summary(row), quote=True)
     main_inner = main_col_azturk(row) if row["category"] == "azturk" else main_col_world(row)
     sidebar = sidebar_block(row).replace("RELATED_PLACEHOLDER", "RELATED_PLACEHOLDER")
@@ -249,7 +250,7 @@ def render_profile(row: dict, nav_menu: str) -> str:
         f'<main class="pf-main" id="content"><div class="content-grid">{main_inner}{sidebar}</div></div></main>'
     )
     return f"""<!DOCTYPE html>
-<html lang="en" data-daab-lang="en" data-daab-asset-root="{ASSET}" data-daab-page-id="prominent-figure" data-daab-profile-name="{esc_name}" data-daab-nav-mount="1">
+<html lang="en" data-kt-lang="en" data-kt-asset-root="{ASSET}" data-kt-page-id="prominent-figure" data-kt-profile-name="{esc_name}" data-kt-nav-mount="1">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
@@ -261,7 +262,7 @@ def render_profile(row: dict, nav_menu: str) -> str:
 {css_links()}
 {js_scripts()}
 </head>
-<body class="daab-prominent-figure-page">
+<body class="kt-prominent-figure-page">
 <a class="skip" href="#content">Skip to content</a>
 {prominent_nav_strip_en(nav_menu)}
 {hero_block(row)}
@@ -333,8 +334,8 @@ def build_file(az_path: Path, group: str, nav_menu: str) -> bool:
         count=1,
     )
     translated = re.sub(
-        r'data-daab-profile-name="[^"]*"',
-        f'data-daab-profile-name="{html.escape(en_name, quote=True)}"',
+        r'data-kt-profile-name="[^"]*"',
+        f'data-kt-profile-name="{html.escape(en_name, quote=True)}"',
         translated,
         count=1,
     )
@@ -367,7 +368,7 @@ _GROUP_LABEL_TITLE = {
 def _fix_title_tag(html_text: str, name: str, group: str) -> str:
     """Replace AZ title tag with a clean English title."""
     label = _GROUP_LABEL_TITLE.get(group, "Prominent Figures")
-    new_title = f"<title>{name} — {label} | WAAS</title>"
+    new_title = f"<title>{name} — {label} | Knowledge Treasury</title>"
     return _RE_TITLE.sub(new_title, html_text, count=1)
 
 
@@ -381,12 +382,12 @@ def _fix_meta_description(html_text: str, name: str, row: dict | None) -> str:
     if row.get("category") == "world":
         desc = (
             f"{name} ({period}) — {field}. "
-            "Compiled profile on the WAAS Encyclopedia of Prominent Figures."
+            "Compiled profile in the Knowledge Treasury."
         )
     else:
         desc = (
             f"{name} — {country}. {field}. "
-            "Compiled profile on the WAAS Encyclopedia of Prominent Figures."
+            "Compiled profile in the Knowledge Treasury."
         )
     new_tag = f'<meta name="description" content="{html.escape(desc[:200])}"'
     return _RE_META_DESC.sub(new_tag, html_text, count=1)

@@ -13,34 +13,28 @@
       "en": "en/index.html"
     },
     {
-      "id": "encyclopedia",
-      "navId": "encyclopedia",
-      "navGroup": "treasury",
-      "navParent": "treasury",
-      "az": "az/encyclopedia.html",
-      "en": "en/encyclopedia.html"
+      "id": "prominent-figures",
+      "navId": "prominent-figures",
+      "az": "az/prominent_figures.html",
+      "en": "en/prominent_figures.html"
     },
     {
       "id": "industrial-revolutions",
       "navId": "industrial-revolutions",
-      "navGroup": "treasury",
-      "navParent": "treasury",
       "az": "az/industrial_revolutions.html",
       "en": "en/industrial_revolutions.html"
     },
     {
       "id": "major-scientific-inventions",
       "navId": "major-scientific-inventions",
-      "navGroup": "treasury",
-      "navParent": "treasury",
-      "az": "az/major_scientific_inventions.html",
-      "en": "en/major_scientific_inventions.html"
+      "az": "en/scientific_inventions_research.html",
+      "en": "en/scientific_inventions_research.html"
     },
     {
       "id": "prominent-figure",
       "navId": null,
-      "az": "az/encyclopedia.html",
-      "en": "en/encyclopedia.html",
+      "az": "az/prominent_figures.html",
+      "en": "en/prominent_figures.html",
       "sitemap": false
     }
   ]

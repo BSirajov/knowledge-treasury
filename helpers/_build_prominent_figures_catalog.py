@@ -7,14 +7,8 @@ import json
 import re
 from pathlib import Path
 
+from _historical_periods import infer_pf_period_az, infer_pf_period_en
 from _paths import ROOT
-from _prominent_figure_en_strings import (
-    CATEGORY_LABEL_EN,
-    translate_country,
-    translate_field,
-    translate_period,
-    translate_region,
-)
 from _prominent_figure_names_en import apply_english_names, english_name
 from _prominent_figure_pronouns_en import apply_singular_pronouns
 
@@ -45,6 +39,23 @@ CATEGORY_LABELS = {
     "world": "Dünya alimləri",
 }
 
+CATEGORY_LABEL_EN = {
+    "azturk": "Azerbaijani & Turkic heritage",
+    "world": "World scientists",
+}
+
+
+def translate_field(raw: str) -> str:
+    return raw or ""
+
+
+def translate_country(raw: str) -> str:
+    return raw or ""
+
+
+def translate_region(raw: str) -> str:
+    return raw or ""
+
 
 def parse_field(raw: str) -> tuple[str, str]:
     parts = [p.strip() for p in raw.split(",") if p.strip()]
@@ -67,12 +78,19 @@ def birth_year(dates: str, birth_val: str) -> int | None:
     for src in (birth_val, dates):
         if not src:
             continue
+        lower = src.lower()
         m = RE_YEAR.search(src.replace("BCE", "").replace("bce", ""))
         if m:
             try:
-                return int(m.group(1))
+                year = int(m.group(1))
+                if "bce" in lower or "bc" in lower or "e.ə" in lower or "ə.e" in lower:
+                    return -year
+                return year
             except ValueError:
                 pass
+    century = parse_century_year(dates or birth_val)
+    if century is not None:
+        return century
     return None
 
 
@@ -146,23 +164,7 @@ def fallback_year(text: str) -> int | None:
 
 
 def infer_period(dates: str, birth_val: str, year: int | None) -> str:
-    """Historical era label for catalogue filters and table view."""
-    combined = f"{dates} {birth_val}".strip()
-    lower = combined.lower()
-    if any(token in lower for token in ("bce", "e.ə", "ə.e", "e.e", "milli", "əfsanəvi", "legendary")):
-        return "Antik dövr"
-    resolved = year if year is not None else fallback_year(combined)
-    if resolved is None:
-        resolved = parse_century_year(combined)
-    if resolved is None:
-        return ""
-    if resolved < 500:
-        return "Antik dövr"
-    if resolved < 1500:
-        return "Orta əsrlər"
-    if resolved < 1800:
-        return "Yeni dövr"
-    return "Müasir dövr"
+    return infer_pf_period_az(dates, birth_val, year)
 
 
 def parse_profile(path: Path, category: str) -> dict | None:
@@ -195,8 +197,7 @@ def parse_profile(path: Path, category: str) -> dict | None:
     slug = path.stem
     href = f"prominent_figures/{category}/{slug}.html"
     by = birth_year(dates, birth_val)
-    if not period:
-        period = infer_period(dates, birth_val, by)
+    period = infer_period(dates, birth_val, by)
     return {
         "id": slug,
         "name": name,
@@ -221,7 +222,7 @@ def localize_row_en(row: dict) -> dict:
     out["name"] = en_name
     out["categoryLabel"] = CATEGORY_LABEL_EN.get(row["category"], row.get("categoryLabel", ""))
     out["field"] = translate_field(row.get("field") or "")
-    out["period"] = translate_period(row.get("period") or "")
+    out["period"] = infer_pf_period_en(row.get("dates") or "", "", row.get("birthYear"))
     out["region"] = translate_region(row.get("region") or "")
     out["country"] = translate_country(row.get("country") or "")
     if row.get("summary") and re.search(r"[əğıöüşçƏĞİÖÜŞÇ]", row["summary"]):

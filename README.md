@@ -1,15 +1,15 @@
 # Bilik xəzinəsi / Knowledge Treasury
 
-This web project is dedicated to collecting and presenting the most influential scientific discoveries, inventions, innovations, and other valuable knowledge from different fields of human activity throughout history — from ancient times to the present day.
+Independent bilingual knowledge platform (AZ/EN) dedicated to collecting and presenting humanity's most influential scientific discoveries, inventions, innovations, and intellectual heritage — from ancient times to the present day.
 
-Independent bilingual knowledge platform (AZ/EN), bootstrapped from the DAAB website Treasury section.
+This repository is a **standalone** static site. It does not depend on, link to, or share branding with any other web project.
 
 ## Contents
 
 - **Home** (`az/index.html`, `en/index.html`)
-- **Prominent Figures** — 201 profiles (`encyclopedia.html`)
+- **Prominent Figures** — 201 profiles (`prominent_figures.html`)
 - **Industrial Revolutions** — placeholder
-- **Major Scientific Inventions** — placeholder
+- **Major Scientific Inventions** — 60 inventions (`en/scientific_inventions_research.html`)
 
 ## Local preview
 
@@ -28,7 +28,7 @@ Open http://localhost:8020/index.html
 ## Structure
 
 - `az/`, `en/` — locale pages
-- `css/`, `js/`, `images/` — shared assets
+- `css/`, `js/`, `images/` — shared Knowledge Treasury assets (`kt-*` naming)
 - `i18n/` — navigation and UI strings
 - `helpers/` — catalog build scripts (not deployed)
 
@@ -37,4 +37,10 @@ Open http://localhost:8020/index.html
 ```bat
 python helpers/_build_prominent_figures_catalog.py
 python helpers/_build_en_prominent_figures.py
+```
+
+## Independence audit
+
+```bat
+python helpers/_kt_independence_audit.py
 ```

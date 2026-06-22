@@ -1,0 +1,70 @@
+/* Resizable table columns (scientists directory and similar catalogues) */
+
+.kt-resizable-table{
+  table-layout: fixed;
+}.kt-resizable-table.kt-cols-ready th[class*="col-"]{
+  width: auto;
+  padding-right: 18px;
+}.kt-resizable-table.kt-cols-ready th[class*="col-"]:last-child,
+.kt-resizable-table.kt-cols-ready th.col-cins{
+  padding-right: 15px;
+}.kt-resizable-table td{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}.kt-resizable-table td.col-name,
+.kt-resizable-table td.col-spec,
+.kt-resizable-table td.col-cntry{
+  white-space: nowrap;
+}.kt-resizable-table td.col-email{
+  white-space: normal;
+}.kt-resizable-table td.col-email .email-link{
+  max-width: 100%;
+}.kt-col-resize-handle{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  width: 10px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: col-resize;
+  touch-action: none;
+}.kt-col-resize-handle::after{
+  content: "";
+  position: absolute;
+  top: 18%;
+  right: 4px;
+  width: 2px;
+  height: 64%;
+  border-radius: 1px;
+  background: rgba(255, 255, 255, .28);
+  transition: background .15s ease, box-shadow .15s ease;
+}.kt-col-resize-handle:hover::after,
+.kt-col-resize-handle:focus-visible::after{
+  background: var(--gold-soft, #e8c547);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .12);
+}.kt-col-resize-handle:focus-visible{
+  outline: none;
+}.kt-col-resize-handle:focus-visible::after{
+  outline: 2px solid rgba(232, 197, 71, .85);
+  outline-offset: 1px;
+}html.kt-col-resizing,
+html.kt-col-resizing *{
+  cursor: col-resize !important;
+  user-select: none !important;
+}html.kt-col-resizing .kt-col-resize-handle::after{
+  background: var(--gold-soft, #e8c547);
+}
+
+@media (pointer: coarse) {.kt-col-resize-handle{
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {.kt-col-resize-handle::after{
+    transition: none;
+  }
+}

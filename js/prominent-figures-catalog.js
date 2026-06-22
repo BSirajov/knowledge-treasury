@@ -11,7 +11,7 @@
 
   var DATA = catalogData();
   var CARD_RENDER_BATCH = 18;
-  var collation = window.DAAB_COLLATION || {};
+  var collation = window.KT_COLLATION || {};
   var localeCompare =
     collation.compare ||
     function (a, b) {
@@ -61,15 +61,11 @@
       },
       sortAsc: "A→Z",
       sortDesc: "Z→A",
+      sortAscPeriod: "Əvvəlki dövr",
+      sortDescPeriod: "Sonrakı dövr",
+      sortAscPeriodTitle: "Kronoloji: köhnədən yeniyə",
+      sortDescPeriodTitle: "Kronoloji: yenidən köhnəyə",
       sortDirAria: "Sıralama istiqaməti",
-      allCount: function (n) {
-        return "<span>" + n + "</span> profil";
-      },
-      matched: function (visible, total) {
-        var html = "<span>" + visible + "</span> uyğun profil";
-        if (visible < total) html += " (" + total + " ümumi)";
-        return html;
-      },
       cardCategory: "Kateqoriya",
       cardPeriod: "Dövr",
       cardField: "Sahə",
@@ -130,15 +126,11 @@
       },
       sortAsc: "A→Z",
       sortDesc: "Z→A",
+      sortAscPeriod: "Earliest first",
+      sortDescPeriod: "Latest first",
+      sortAscPeriodTitle: "Chronological order (earliest periods first)",
+      sortDescPeriodTitle: "Reverse chronological order (latest periods first)",
       sortDirAria: "Sort direction",
-      allCount: function (n) {
-        return "<span>" + n + "</span> profile" + (n === 1 ? "" : "s");
-      },
-      matched: function (visible, total) {
-        var html = "<span>" + visible + "</span> matching profile" + (visible === 1 ? "" : "s");
-        if (visible < total) html += " (" + total + " total)";
-        return html;
-      },
       cardCategory: "Category",
       cardPeriod: "Period",
       cardField: "Field",
@@ -170,7 +162,7 @@
 
   function lang() {
     var el = document.documentElement;
-    return (el.getAttribute("data-daab-lang") || el.lang || "az").slice(0, 2);
+    return (el.getAttribute("data-kt-lang") || el.lang || "az").slice(0, 2);
   }
 
   function t() {
@@ -212,20 +204,39 @@
     if (values.indexOf(current) >= 0) sel.value = current;
   }
 
-  var SORT_STORAGE_KEY = "daab-encyclopedia-sort";
-  var VIEW_STORAGE_KEY = "daab-encyclopedia-view";
-  var GROUP_STORAGE_KEY = "daab-encyclopedia-group";
-  var PER_PAGE_TABLE_KEY = "daab-encyclopedia-per-page-table";
-  var PER_PAGE_CARDS_KEY = "daab-encyclopedia-per-page-cards";
+  var SORT_STORAGE_KEY = "kt-encyclopedia-sort";
+  var VIEW_STORAGE_KEY = "kt-encyclopedia-view";
+  var GROUP_STORAGE_KEY = "kt-encyclopedia-group";
+  var PER_PAGE_TABLE_KEY = "kt-encyclopedia-per-page-table";
+  var PER_PAGE_CARDS_KEY = "kt-encyclopedia-per-page-cards";
   var PER_PAGE_OPTIONS = ["20", "50", "100", "999999"];
   var GROUP_COLUMNS = ["category", "period", "field", "country"];
 
-  function filterCountLabels() {
-    var L = t();
-    return {
-      all: L.allCount,
-      matched: L.matched,
-    };
+  function getPeriodRank(period) {
+    var hp = window.KT_HISTORICAL_PERIODS;
+    if (hp && typeof hp.getPeriodRank === "function") {
+      return hp.getPeriodRank(period, lang());
+    }
+    return 999;
+  }
+
+  function uniquePeriodSorted(values) {
+    return values
+      .filter(function (v, i, arr) {
+        return v && arr.indexOf(v) === i;
+      })
+      .sort(function (a, b) {
+        return getPeriodRank(a) - getPeriodRank(b);
+      });
+  }
+
+  function showAllItems(items, noResults) {
+    items.forEach(function (el) {
+      el.classList.remove("is-filtered-out", "is-match", "is-excluded");
+    });
+    if (noResults) {
+      noResults.classList.remove("visible");
+    }
   }
 
   function normQuery(q) {
@@ -489,7 +500,7 @@
   }
 
   function defaultSortState() {
-    return { sortCol: "name", sortDir: 1 };
+    return { sortCol: "period", sortDir: 1 };
   }
 
   function readGroupState() {
@@ -599,16 +610,11 @@
     return tr;
   }
 
-  function showAllItems(items, resultCount, noResults, countLabels) {
-    items.forEach(function (el) {
-      el.classList.remove("is-filtered-out", "is-match", "is-excluded");
-    });
-    if (resultCount && countLabels) {
-      resultCount.innerHTML = countLabels.all(items.length);
-    }
-    if (noResults) {
-      noResults.classList.remove("visible");
-    }
+  function activeFilterValues(id) {
+    var mf = window.KT_CATALOG_MULTI_FILTER;
+    if (mf) return mf.getActiveValues(id);
+    var el = document.getElementById(id);
+    return el && el.value ? [el.value] : [];
   }
 
   function clearFilterInputs(
@@ -619,6 +625,15 @@
     filterCountry
   ) {
     if (searchInput) searchInput.value = "";
+    if (window.KT_CATALOG_MULTI_FILTER) {
+      window.KT_CATALOG_MULTI_FILTER.clearMany([
+        "filterCategory",
+        "filterPeriod",
+        "filterField",
+        "filterCountry",
+      ]);
+      return;
+    }
     if (filterCategory) filterCategory.value = "";
     if (filterPeriod) filterPeriod.value = "";
     if (filterField) filterField.value = "";
@@ -627,10 +642,10 @@
 
   function syncToolbarFilterBadge() {
     if (
-      window.DAAB_SCIENTISTS_TOOLBAR &&
-      typeof window.DAAB_SCIENTISTS_TOOLBAR.syncAll === "function"
+      window.KT_SCIENTISTS_TOOLBAR &&
+      typeof window.KT_SCIENTISTS_TOOLBAR.syncAll === "function"
     ) {
-      window.DAAB_SCIENTISTS_TOOLBAR.syncAll();
+      window.KT_SCIENTISTS_TOOLBAR.syncAll();
     }
   }
 
@@ -669,14 +684,12 @@
     if (!grid || !DATA.length) return;
 
     var ui = t();
-    var countLabels = filterCountLabels();
     var searchInput = document.getElementById("searchInput");
     var filterCategory = document.getElementById("filterCategory");
     var filterPeriod = document.getElementById("filterPeriod");
     var filterField = document.getElementById("filterField");
     var filterCountry = document.getElementById("filterCountry");
     var clearFilters = document.getElementById("clearFilters");
-    var resultCount = document.getElementById("resultCount");
     var noResults = document.getElementById("no-results");
     var sortBy = document.getElementById("sortBy");
     var groupBy = document.getElementById("groupBy");
@@ -689,7 +702,7 @@
     var sortDir = savedSort.sortDir;
     var groupCol = readGroupState();
     var viewMode = readViewState();
-    var periodOptions = uniqueSorted(
+    var periodOptions = uniquePeriodSorted(
       DATA.map(function (d) {
         return d.period;
       })
@@ -718,14 +731,12 @@
         grid: grid,
         tableBody: tableBody,
         ui: ui,
-        countLabels: countLabels,
         searchInput: searchInput,
         filterCategory: filterCategory,
         filterPeriod: filterPeriod,
         filterField: filterField,
         filterCountry: filterCountry,
         clearFilters: clearFilters,
-        resultCount: resultCount,
         noResults: noResults,
         sortBy: sortBy,
         groupBy: groupBy,
@@ -749,14 +760,12 @@
     var grid = ctx.grid;
     var tableBody = ctx.tableBody;
     var ui = ctx.ui;
-    var countLabels = ctx.countLabels;
     var searchInput = ctx.searchInput;
     var filterCategory = ctx.filterCategory;
     var filterPeriod = ctx.filterPeriod;
     var filterField = ctx.filterField;
     var filterCountry = ctx.filterCountry;
     var clearFilters = ctx.clearFilters;
-    var resultCount = ctx.resultCount;
     var noResults = ctx.noResults;
     var sortBy = ctx.sortBy;
     var groupBy = ctx.groupBy;
@@ -796,6 +805,14 @@
     fillSelect(filterPeriod, ui.period, ctx.periodOptions);
     fillSelect(filterField, ui.field, ctx.fieldOptions);
     fillSelect(filterCountry, ui.country, ctx.countryOptions);
+
+    if (window.KT_CATALOG_MULTI_FILTER) {
+      ["filterCategory", "filterPeriod", "filterField", "filterCountry"].forEach(
+        function (id) {
+          window.KT_CATALOG_MULTI_FILTER.refresh(id);
+        }
+      );
+    }
 
     var periodHeader = document.querySelector('.encyclopedia-table th[data-col="period"]');
     if (periodHeader) periodHeader.textContent = ui.tablePeriod;
@@ -1029,13 +1046,25 @@
       if (sortBy && sortBy.value !== sortCol) {
         sortBy.value = sortCol;
       }
+      var ascText = sortCol === "period" ? ui.sortAscPeriod : ui.sortAsc;
+      var descText = sortCol === "period" ? ui.sortDescPeriod : ui.sortDesc;
+      var ascTitle =
+        sortCol === "period" ? ui.sortAscPeriodTitle || ui.sortAscPeriod : ui.sortAsc;
+      var descTitle =
+        sortCol === "period" ? ui.sortDescPeriodTitle || ui.sortDescPeriod : ui.sortDesc;
       if (sortAscBtn) {
         sortAscBtn.classList.toggle("is-active", ascending);
         sortAscBtn.setAttribute("aria-pressed", ascending ? "true" : "false");
+        sortAscBtn.setAttribute("title", ascTitle);
+        var ascLabel = sortAscBtn.querySelector(".sort-control__dir-text");
+        if (ascLabel) ascLabel.textContent = ascText;
       }
       if (sortDescBtn) {
         sortDescBtn.classList.toggle("is-active", !ascending);
         sortDescBtn.setAttribute("aria-pressed", ascending ? "false" : "true");
+        sortDescBtn.setAttribute("title", descTitle);
+        var descLabel = sortDescBtn.querySelector(".sort-control__dir-text");
+        if (descLabel) descLabel.textContent = descText;
       }
       updateTableSortUi();
     }
@@ -1067,8 +1096,8 @@
           });
         }
       );
-      if (window.DAAB_TABLE_RESIZE && typeof window.DAAB_TABLE_RESIZE.initTable === "function") {
-        window.DAAB_TABLE_RESIZE.initTable(table);
+      if (window.KT_TABLE_RESIZE && typeof window.KT_TABLE_RESIZE.initTable === "function") {
+        window.KT_TABLE_RESIZE.initTable(table);
       }
     }
 
@@ -1077,6 +1106,15 @@
         var av = getSortValue(a, "birth");
         var bv = getSortValue(b, "birth");
         if (av !== bv) return sortDir * (av - bv);
+        return sortDir * localeCompare(getItemName(a), getItemName(b));
+      }
+      if (sortCol === "period") {
+        var periodA = getPeriodRank(getSortValue(a, "period"));
+        var periodB = getPeriodRank(getSortValue(b, "period"));
+        if (periodA !== periodB) return sortDir * (periodA - periodB);
+        var birthA = getSortValue(a, "birth");
+        var birthB = getSortValue(b, "birth");
+        if (birthA !== birthB) return sortDir * (birthA - birthB);
         return sortDir * localeCompare(getItemName(a), getItemName(b));
       }
       var primary =
@@ -1109,6 +1147,9 @@
         groupMap[key].cards.push(card);
       });
       groups.sort(function (a, b) {
+        if (groupCol === "period") {
+          return getPeriodRank(a.key) - getPeriodRank(b.key);
+        }
         return localeCompare(a.label, b.label);
       });
       return groups;
@@ -1207,7 +1248,7 @@
       applySortState(defaults.sortCol, defaults.sortDir, true);
     }
 
-    showAllItems(cards, resultCount, noResults, countLabels);
+    showAllItems(cards, noResults);
     clearFilterInputs(
       searchInput,
       filterCategory,
@@ -1251,7 +1292,7 @@
       });
     }
 
-    if (!searchInput || !filterCountry) return;
+    if (!searchInput) return;
 
     function updateFilterStyles() {
       ["filterCategory", "filterPeriod", "filterField", "filterCountry"].forEach(
@@ -1259,16 +1300,39 @@
           var el = document.getElementById(id);
           if (!el) return;
           var wrap = el.closest(".sel-wrap");
-          if (wrap) wrap.classList.toggle("active", el.value !== "");
+          if (!wrap) return;
+          var active = window.KT_CATALOG_MULTI_FILTER
+            ? window.KT_CATALOG_MULTI_FILTER.isActive(id)
+            : el.value !== "";
+          wrap.classList.toggle("active", active);
         }
       );
     }
 
-    function itemMatches(el, q, category, period, field, country) {
-      if (category && el.dataset.category !== category) return false;
-      if (period && el.dataset.period !== period) return false;
-      if (field && el.dataset.field !== field) return false;
-      if (country && el.dataset.country !== country) return false;
+    function filterIsActive(id) {
+      var mf = window.KT_CATALOG_MULTI_FILTER;
+      if (mf) return mf.isActive(id);
+      var el = document.getElementById(id);
+      return !!(el && el.value);
+    }
+
+    function itemMatches(el, q) {
+      var mf = window.KT_CATALOG_MULTI_FILTER;
+      if (mf) {
+        if (!mf.passesFilter("filterCategory", el.dataset.category || "")) return false;
+        if (!mf.passesFilter("filterPeriod", el.dataset.period || "")) return false;
+        if (!mf.passesFilter("filterField", el.dataset.field || "")) return false;
+        if (!mf.passesFilter("filterCountry", el.dataset.country || "")) return false;
+      } else {
+        if (filterCategory && filterCategory.value && el.dataset.category !== filterCategory.value)
+          return false;
+        if (filterPeriod && filterPeriod.value && el.dataset.period !== filterPeriod.value)
+          return false;
+        if (filterField && filterField.value && el.dataset.field !== filterField.value)
+          return false;
+        if (filterCountry && filterCountry.value && el.dataset.country !== filterCountry.value)
+          return false;
+      }
       var hay = el.dataset.search || "";
       if (q && hay.indexOf(q) === -1) return false;
       return true;
@@ -1280,16 +1344,18 @@
 
     function applyFilters() {
       var q = normQuery(searchInput.value);
-      var category = filterCategory ? filterCategory.value : "";
-      var period = filterPeriod ? filterPeriod.value : "";
-      var field = filterField ? filterField.value : "";
-      var country = filterCountry.value;
-      var filtering = !!(q || category || period || field || country);
+      var filtering = !!(
+        q ||
+        filterIsActive("filterCategory") ||
+        filterIsActive("filterPeriod") ||
+        filterIsActive("filterField") ||
+        filterIsActive("filterCountry")
+      );
       var visible = 0;
       page = 1;
 
       if (!filtering) {
-        showAllItems(cards, resultCount, noResults, countLabels);
+        showAllItems(cards, noResults);
         Array.prototype.forEach.call(rows, function (row) {
           setFilteredState(row, true);
         });
@@ -1300,20 +1366,14 @@
       }
 
       cards.forEach(function (card) {
-        var match = itemMatches(card, q, category, period, field, country);
+        var match = itemMatches(card, q);
         setFilteredState(card, match);
         if (match) visible++;
       });
       Array.prototype.forEach.call(rows, function (row) {
-        setFilteredState(
-          row,
-          itemMatches(row, q, category, period, field, country)
-        );
+        setFilteredState(row, itemMatches(row, q));
       });
 
-      if (resultCount) {
-        resultCount.innerHTML = countLabels.matched(visible, cards.length);
-      }
       if (noResults) {
         noResults.classList.toggle("visible", visible === 0);
       }
@@ -1337,11 +1397,13 @@
 
     searchInput.addEventListener("input", applyFilters);
 
-    filterCountry.addEventListener("change", function () {
-      applyFilters();
-      scrollToFirstVisible(filterCountry.value);
-    });
-
+    if (filterCountry) {
+      filterCountry.addEventListener("change", function () {
+        applyFilters();
+        var countries = activeFilterValues("filterCountry");
+        if (countries.length === 1) scrollToFirstVisible(countries[0]);
+      });
+    }
     if (filterCategory) filterCategory.addEventListener("change", applyFilters);
     if (filterPeriod) filterPeriod.addEventListener("change", applyFilters);
     if (filterField) filterField.addEventListener("change", applyFilters);
@@ -1383,10 +1445,14 @@
         btn.setAttribute("aria-label", fname ? base + " — " + fname : base);
       }
       btn.addEventListener("click", function () {
-        var el = document.getElementById(btn.dataset.for);
-        if (el) {
-          el.value = "";
-          el.dispatchEvent(new Event("change", { bubbles: true }));
+        if (window.KT_CATALOG_MULTI_FILTER) {
+          window.KT_CATALOG_MULTI_FILTER.clear(btn.dataset.for);
+        } else {
+          var el = document.getElementById(btn.dataset.for);
+          if (el) {
+            el.value = "";
+            el.dispatchEvent(new Event("change", { bubbles: true }));
+          }
         }
         applyFilters();
       });
@@ -1409,7 +1475,7 @@
 
     updateFilterStyles();
     syncToolbarFilterBadge();
-    document.dispatchEvent(new CustomEvent("daab-scientists-catalog-ready"));
+    document.dispatchEvent(new CustomEvent("kt-catalog-ready"));
   }
 
   if (document.readyState === "loading") {

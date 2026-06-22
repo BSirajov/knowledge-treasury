@@ -1,0 +1,1189 @@
+{
+  "total": 169,
+  "broken": [],
+  "all": [
+    {
+      "url": "http://info.cern.ch/hypertext/WWW/TheProject.html",
+      "status": 200,
+      "final_url": "http://info.cern.ch/hypertext/WWW/TheProject.html",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "http://infolab.stanford.edu/~backrub/google.html",
+      "status": 200,
+      "final_url": "http://infolab.stanford.edu/~backrub/google.html",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer",
+      "status": 200,
+      "final_url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://airandspace.si.edu/exhibitions/apollo-to-the-moon",
+      "status": 200,
+      "final_url": "https://airandspace.si.edu/exhibitions/apollo-moon",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://aws.amazon.com/what-is-cloud-computing/",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/what-is-cloud-computing/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://bitcoin.org/bitcoin.pdf",
+      "status": 200,
+      "final_url": "https://bitcoin.org/bitcoin.pdf",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ccaf.io/cbeci/index",
+      "status": 200,
+      "final_url": "https://ccaf.io/cbnsi/cbeci",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8085367/james-watt-low-pressure-steam-engine-1788",
+      "status": 200,
+      "final_url": "https://collection.sciencemuseumgroup.org.uk/objects/co8085367/james-watt-low-pressure-steam-engine-1788",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://collection.sciencemuseumgroup.org.uk/search/objects?q=internal+combustion+engine",
+      "status": 200,
+      "final_url": "https://collection.sciencemuseumgroup.org.uk/search/objects?q=internal+combustion+engine",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://collection.sciencemuseumgroup.org.uk/search/objects?q=london+sewer",
+      "status": 200,
+      "final_url": "https://collection.sciencemuseumgroup.org.uk/search/objects?q=london+sewer",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://computerhistory.org/",
+      "status": 200,
+      "final_url": "https://computerhistory.org/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.1038/171737a0",
+      "status": 200,
+      "final_url": "https://www.nature.com/articles/171737a0?error=cookies_not_supported&code=d919c269-5532-40ff-931a-a0e2c30c4b42",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.1038/187493a0",
+      "status": 200,
+      "final_url": "https://www.nature.com/articles/187493a0?error=cookies_not_supported&code=0ac52231-09b5-4c78-9302-45ecad8af3db",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.1038/35057062",
+      "status": 200,
+      "final_url": "https://www.nature.com/articles/35057062?error=cookies_not_supported&code=5134cde5-c78d-467a-9d9a-c4895b2b54ef",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://edu.rsc.org/resources/the-haber-process/2213.article",
+      "status": 200,
+      "final_url": "https://edu.rsc.org/resources/manufacturing-sodium-carbonate-an-overview/2213.article",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ether_Dome",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Ether_Dome",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/National_Museum_of_American_History",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/National_Museum_of_American_History",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ethw.org/Archives:IEEE_Power_Engineering_Review_Historical_Articles",
+      "status": 200,
+      "final_url": "https://ethw.org/Archives:IEEE_Power_Engineering_Review_Historical_Articles",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ethw.org/Telegraph",
+      "status": 200,
+      "final_url": "https://ethw.org/Telegraph",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ethw.org/Telephone",
+      "status": 200,
+      "final_url": "https://ethw.org/Telephone",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole",
+      "status": 200,
+      "final_url": "https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://executive.mit.edu/course/artificial-intelligence/a056g00000URaa4AAD.html",
+      "status": 200,
+      "final_url": "https://executive.mit.edu/course/mastering-design-thinking/a056g00000URaa4AAD.html",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://home.cern/science/computing/birth-web",
+      "status": 200,
+      "final_url": "https://home.cern/fr/science/computing/birth-web/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://humanorigins.si.edu/evidence/behavior/hearths-shelters",
+      "status": 200,
+      "final_url": "https://humanorigins.si.edu/evidence/behavior/hearths-shelters",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+      "status": 200,
+      "final_url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://johnsnowsociety.org/",
+      "status": 200,
+      "final_url": "https://johnsnowsociety.org/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/",
+      "status": 200,
+      "final_url": "https://mathshistory.st-andrews.ac.uk/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://micro.magnet.fsu.edu/primer/index.html",
+      "status": 200,
+      "final_url": "https://micro.magnet.fsu.edu/primer/index.html",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ocw.mit.edu/",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ourworldindata.org/agricultural-land-by-global-diets",
+      "status": 200,
+      "final_url": "https://ourworldindata.org/agricultural-land-by-global-diets",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ourworldindata.org/artificial-intelligence",
+      "status": 200,
+      "final_url": "https://ourworldindata.org/artificial-intelligence",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ourworldindata.org/battery-price-decline",
+      "status": 200,
+      "final_url": "https://ourworldindata.org/battery-price-decline",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ourworldindata.org/electric-car-sales",
+      "status": 200,
+      "final_url": "https://ourworldindata.org/electric-car-sales",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ourworldindata.org/plastic-pollution",
+      "status": 200,
+      "final_url": "https://ourworldindata.org/plastic-pollution",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ourworldindata.org/renewable-energy",
+      "status": 200,
+      "final_url": "https://ourworldindata.org/renewable-energy",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ourworldindata.org/rise-of-social-media",
+      "status": 200,
+      "final_url": "https://ourworldindata.org/rise-of-social-media",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ourworldindata.org/technology-adoption",
+      "status": 200,
+      "final_url": "https://ourworldindata.org/technological-change",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ourworldindata.org/vaccination",
+      "status": 200,
+      "final_url": "https://ourworldindata.org/vaccination",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://ourworldindata.org/water-access",
+      "status": 200,
+      "final_url": "https://ourworldindata.org/clean-water",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/scientific-method/",
+      "status": 200,
+      "final_url": "https://plato.stanford.edu/entries/scientific-method/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22474385/",
+      "status": 200,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/22474385/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22723414/",
+      "status": 200,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/22723414/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31768071/",
+      "status": 200,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/31768071/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://royalsociety.org/people/isaac-newton-12403/",
+      "status": 200,
+      "final_url": "https://royalsociety.org/people/isaac-newton-12403/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://science.howstuffworks.com/laser.htm",
+      "status": 202,
+      "final_url": "https://science.howstuffworks.com/laser.htm",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://science.nasa.gov/universe/observatories/",
+      "status": 200,
+      "final_url": "https://science.nasa.gov/universe/observatories/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://spectrum.ieee.org/semiconductors",
+      "status": 200,
+      "final_url": "https://spectrum.ieee.org/topic/semiconductors/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://web.archive.org/web/20231201000000/https://www.aps.org/publications/apsnews/200010/history.cfm",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20230930103709/https://www.aps.org/publications/apsnews/200010/history.cfm",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://web.archive.org/web/20240101000000/https://www.internetsociety.org/internet/history/",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20250501035549/https://www.internetsociety.org/internet/history/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://webbtelescope.org/news/first-images",
+      "status": 200,
+      "final_url": "https://science.nasa.gov/mission/webb/webbs-first-images/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://wellcomecollection.org/",
+      "status": 200,
+      "final_url": "https://wellcomecollection.org/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://wellcomecollection.org/works?query=anaesthesia+history",
+      "status": 200,
+      "final_url": "https://wellcomecollection.org/search/works?query=anaesthesia+history",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://world-nuclear.org/information-library/current-and-future-generation/nuclear-power-in-the-world-today.aspx",
+      "status": 200,
+      "final_url": "https://world-nuclear.org/information-library/current-and-future-generation/nuclear-power-in-the-world-today",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.alberteinstein.info/",
+      "status": 200,
+      "final_url": "https://albert-einstein.huji.ac.il/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.asml.com/en/technology",
+      "status": 200,
+      "final_url": "https://www.asml.com/en/technology",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.atomicarchive.com/",
+      "status": 200,
+      "final_url": "https://www.atomicarchive.com/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.bbc.co.uk/history/historic_figures/fleming_alexander.shtml",
+      "status": 200,
+      "final_url": "https://www.bbc.co.uk/history/historic_figures/fleming_alexander.shtml",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.bbc.co.uk/history/historic_figures/newton_isaac.shtml",
+      "status": 200,
+      "final_url": "https://www.bbc.co.uk/teach/articles/zh8792p",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.bbc.co.uk/historyofthebbc",
+      "status": 200,
+      "final_url": "https://www.bbc.co.uk/historyofthebbc",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/b00dxjls",
+      "status": 200,
+      "final_url": "https://www.bbc.co.uk/programmes/b00dxjls",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.bell-labs.com/about/history/",
+      "status": 200,
+      "final_url": "https://www.nokia.com/bell-labs/about/history/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.bl.uk/collection-items/gutenberg-bible",
+      "status": 200,
+      "final_url": "https://www.bl.uk/stories",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.bostondynamics.com/resources/videos",
+      "status": 200,
+      "final_url": "https://bostondynamics.com/videos/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.cdc.gov/",
+      "status": 200,
+      "final_url": "https://www.cdc.gov/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.cdc.gov/mmwr/",
+      "status": 200,
+      "final_url": "https://www.cdc.gov/mmwr/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4841a1.htm",
+      "status": 200,
+      "final_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4841a1.htm",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.cdc.gov/rabies/about/",
+      "status": 200,
+      "final_url": "https://www.cdc.gov/rabies/about/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.cfr.org/articles/war-over-worlds-most-critical-technology-conversation-chris-miller",
+      "status": 200,
+      "final_url": "https://www.cfr.org/articles/war-over-worlds-most-critical-technology-conversation-chris-miller",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.computerhistory.org/babbage/ada-lovelace/",
+      "status": 200,
+      "final_url": "https://www.computerhistory.org/babbage/ada-lovelace/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.computerhistory.org/revolution/mobile-computing/18/322",
+      "status": 200,
+      "final_url": "https://www.computerhistory.org/revolution/mobile-computing/18/322",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.computerhistory.org/siliconengine/",
+      "status": 200,
+      "final_url": "https://www.computerhistory.org/siliconengine/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.deepmind.com/research/highlighted-research/alphafold",
+      "status": 200,
+      "final_url": "https://deepmind.google/science/alphafold/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.dnaftb.org/",
+      "status": 200,
+      "final_url": "https://www.dnaftb.org/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications",
+      "status": 200,
+      "final_url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.esa.int/Science_Exploration/Space_Science",
+      "status": 200,
+      "final_url": "https://www.esa.int/Science_Exploration/Space_Science",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.genome.gov/genetics-glossary/CRISPR",
+      "status": 200,
+      "final_url": "https://www.genome.gov/genetics-glossary/CRISPR",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.genome.gov/human-genome-project",
+      "status": 200,
+      "final_url": "https://www.genome.gov/human-genome-project",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.getty.edu/art/collection/object/103RH5",
+      "status": 200,
+      "final_url": "https://www.getty.edu/art/collection/object/103RH5",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.google.com/search/howsearchworks/",
+      "status": 200,
+      "final_url": "https://www.google.com/search/howsearchworks/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.gps.gov/",
+      "status": 200,
+      "final_url": "https://www.gps.gov/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.history.com/topics/discovery/scientific-revolution",
+      "status": 200,
+      "final_url": "https://www.history.de/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.history.com/topics/industrial-revolution/industrial-revolution",
+      "status": 200,
+      "final_url": "https://www.history.de/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.history.com/topics/inventions/telegraph",
+      "status": 200,
+      "final_url": "https://www.history.de/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.iea.org/reports/global-ev-outlook-2024",
+      "status": 200,
+      "final_url": "https://www.iea.org/reports/global-ev-outlook-2024",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.iea.org/reports/world-energy-outlook-2024",
+      "status": 200,
+      "final_url": "https://www.iea.org/reports/world-energy-outlook-2024",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.ieee-ras.org/",
+      "status": 200,
+      "final_url": "https://www.ieee-ras.org/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.khanacademy.org/humanities/world-history/world-history-beginnings/birth-agriculture-neolithic-revolution",
+      "status": 200,
+      "final_url": "https://www.khanacademy.org/humanities/world-history/world-history-beginnings/birth-agriculture-neolithic-revolution",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields",
+      "status": 200,
+      "final_url": "https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.ligo.caltech.edu/news/ligo20160211",
+      "status": 200,
+      "final_url": "https://www.ligo.caltech.edu/news/ligo20160211",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.loc.gov/preservation/about/",
+      "status": 200,
+      "final_url": "https://www.loc.gov/preservation/about/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.marconisociety.org/about/marconi/",
+      "status": 200,
+      "final_url": "https://marconisociety.org/events/marconi-awards-gala-institute-forums-2025/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nasa.gov/directorates/heo/scan/communications/policy/GPS.html",
+      "status": 200,
+      "final_url": "https://www.nasa.gov/directorates/somd/space-communications-navigation-program/gps/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nasa.gov/history/120-years-ago-the-first-powered-flight-at-kitty-hawk/",
+      "status": 200,
+      "final_url": "https://www.nasa.gov/history/120-years-ago-the-first-powered-flight-at-kitty-hawk/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-satellite-grades-5-8/",
+      "status": 200,
+      "final_url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-satellite-grades-5-8/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nasa.gov/specials/60counting/",
+      "status": 200,
+      "final_url": "https://www.nasa.gov/specials/60counting/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nationalgeographic.com/environment/article/agriculture",
+      "status": 200,
+      "final_url": "https://www.nationalgeographic.com/environment/article/sustainable-agriculture",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nature.com/articles/171737a0",
+      "status": 200,
+      "final_url": "https://www.nature.com/articles/171737a0?error=cookies_not_supported&code=81efd2c3-063e-4220-88c9-9c9f44313fd3",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nature.com/articles/35057062",
+      "status": 200,
+      "final_url": "https://www.nature.com/articles/35057062?error=cookies_not_supported&code=5ae1fda5-b808-4aa0-998b-93fc6e15214b",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.netflix.com/title/81254224",
+      "status": 200,
+      "final_url": "https://www.netflix.com/at-en/title/81254224",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nibib.nih.gov/science-education/science-topics/magnetic-resonance-imaging-mri",
+      "status": 200,
+      "final_url": "https://www.nibib.nih.gov/science-education/science-topics/magnetic-resonance-imaging-mri",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nobelprize.org/",
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/chemistry/2019/summary/",
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/chemistry/2019/summary/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/chemistry/2020/popular-information/",
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/chemistry/2020/popular-information/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/",
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/medicine/1962/summary/",
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/medicine/1962/summary/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/physics/1901/rontgen/lecture/",
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/physics/1901/rontgen/lecture/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/physics/1932/heisenberg/biographical/",
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/physics/1932/heisenberg/biographical/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/physics/1965/feynman/biographical/",
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/physics/1965/feynman/biographical/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/physics/2000/kilby/biographical/",
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/physics/2000/kilby/biographical/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/physics/2009/kao/facts/",
+      "status": 200,
+      "final_url": "https://www.nobelprize.org/prizes/physics/2009/kao/facts/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.omniglot.com/writing/",
+      "status": 200,
+      "final_url": "https://www.omniglot.com/writing/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.pbs.org/",
+      "status": 200,
+      "final_url": "https://www.pbs.org/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.pbs.org/opb/nerds2.0.1/",
+      "status": 200,
+      "final_url": "https://www.pbs.org/retired-site/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.pbs.org/tesla/",
+      "status": 200,
+      "final_url": "https://www.pbs.org/tesla/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.pbs.org/video/frontline-the-vaccine-war/",
+      "status": 200,
+      "final_url": "https://www.pbs.org/video/frontline-the-vaccine-war/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/americanexperience/films/bomb/",
+      "status": 200,
+      "final_url": "https://www.pbs.org/wgbh/americanexperience/films/bomb/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/americanexperience/films/man-who-tried-to-feed-the-world/",
+      "status": 200,
+      "final_url": "https://www.pbs.org/wgbh/americanexperience/films/man-who-tried-to-feed-the-world/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/nova/genome/",
+      "status": 200,
+      "final_url": "https://www.pbs.org/wgbh/nova/genome/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.pbs.org/wnet/secrets/",
+      "status": 200,
+      "final_url": "https://www.pbs.org/wnet/secrets/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.radiologyinfo.org/en/",
+      "status": 200,
+      "final_url": "https://www.radiologyinfo.org/en",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.rigb.org/our-history",
+      "status": 200,
+      "final_url": "https://www.rigb.org/about-us/our-history",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.rms.org.uk/",
+      "status": 200,
+      "final_url": "https://www.rms.org.uk/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.rsc.org/periodic-table",
+      "status": 200,
+      "final_url": "https://periodic-table.rsc.org/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.sciencehistory.org/the-history-and-future-of-plastics",
+      "status": 200,
+      "final_url": "https://www.sciencehistory.org/education/classroom-activities/role-playing-games/case-of-plastics/history-and-future-of-plastics/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.sciencemuseum.org.uk/",
+      "status": 200,
+      "final_url": "https://www.sciencemuseum.org.uk/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.smithsonianmag.com/history/a-history-of-paper-and-printing-180953012/",
+      "status": 200,
+      "final_url": "https://www.smithsonianmag.com/history/igorrote-tribe-traveled-world-these-men-took-all-money-180953012/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.smithsonianmag.com/history/the-wheel-how-one-of-the-most-important-inventions-came-to-be-180976977/",
+      "status": 200,
+      "final_url": "https://www.smithsonianmag.com/history/hear-what-18000-year-old-giant-conch-instrument-sounds-180976977/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.smithsonianmag.com/innovation/a-history-of-3d-printing-180975475/",
+      "status": 200,
+      "final_url": "https://www.smithsonianmag.com/travel/artist-uses-thousands-lego-bricks-make-lifelike-sculptures-animals-180975475/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.smithsonianmag.com/innovation/keep-it-cool-how-refrigerator-changed-everything-180949007/",
+      "status": 200,
+      "final_url": "https://www.smithsonianmag.com/smithsonian-institution/theres-nothing-like-a-sparklab-to-ignite-the-imagination-1-180949007/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.spacetelescope.org/images/",
+      "status": 200,
+      "final_url": "https://esahubble.org/images/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.submarinecablemap.com/",
+      "status": 200,
+      "final_url": "https://www.submarinecablemap.com/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.ted.com/talks/anthony_atala_printing_a_human_kidney",
+      "status": 200,
+      "final_url": "https://www.ted.com/talks/anthony_atala_printing_a_human_kidney",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.ted.com/talks/jennifer_doudna_how_crispr_lets_us_edit_our_dna",
+      "status": 200,
+      "final_url": "https://www.ted.com/talks/jennifer_doudna_how_crispr_lets_us_edit_our_dna",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.ted.com/talks/tim_berners_lee_a_magna_carta_for_the_web",
+      "status": 200,
+      "final_url": "https://www.ted.com/talks/tim_berners_lee_a_magna_carta_for_the_web",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.thehenryford.org/visit/things-to-do",
+      "status": 200,
+      "final_url": "https://www.thehenryford.org/visit/things-to-do",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.turing.ac.uk/",
+      "status": 200,
+      "final_url": "https://www.turing.ac.uk/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "status": 200,
+      "final_url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.who.int/news-room/spotlight/history-of-vaccination",
+      "status": 200,
+      "final_url": "https://www.who.int/news-room/spotlight/history-of-vaccination",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.worldhistory.org/compass/",
+      "status": 200,
+      "final_url": "https://www.worldhistory.org/disambiguation/Compass/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.worldhistory.org/gunpowder/",
+      "status": 200,
+      "final_url": "https://www.worldhistory.org/disambiguation/Gunpowder/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.worldhistory.org/neolithic_revolution/",
+      "status": 200,
+      "final_url": "https://www.worldhistory.org/disambiguation/Neolithic_Revolution/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.worldhistory.org/writing/",
+      "status": 200,
+      "final_url": "https://www.worldhistory.org/writing/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo",
+      "status": 200,
+      "final_url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&cbrd=1&ucbcb=1",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLsPUh22kYmNBl4h0i4mI5zDflExXJMo_x",
+      "status": 200,
+      "final_url": "https://www.youtube.com/playlist?list=PLsPUh22kYmNBl4h0i4mI5zDflExXJMo_x&cbrd=1&ucbcb=1",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0-CWk-CsK7E",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=0-CWk-CsK7E",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1T7PMFxFaJY",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=1T7PMFxFaJY",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4OpBylwH9DU",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=4OpBylwH9DU",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7ukDKVHnac4",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=7ukDKVHnac4",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9CuGrBzRhfI",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=9CuGrBzRhfI",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9Y7gAzTMdMA",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=9Y7gAzTMdMA",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=AWI70HXrbG0",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=AWI70HXrbG0",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DKF5dKo_r_Y",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=DKF5dKo_r_Y",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DYq774z4dws",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=DYq774z4dws",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EAU5D8hqIUI",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=EAU5D8hqIUI",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Gg0TXNXgz-w",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=Gg0TXNXgz-w",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HyjLt_RGEww",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=HyjLt_RGEww",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Jzw6_dXKEhc",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=Jzw6_dXKEhc",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=N6IAzlugWw0",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=N6IAzlugWw0",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RfT82_OM0rA",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=RfT82_OM0rA",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Yocja_N5s1I",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=Yocja_N5s1I",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fPnwBITSmgU",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=fPnwBITSmgU",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kKKM8Y-u7ds",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=kKKM8Y-u7ds",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mc979OhitAg",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=mc979OhitAg",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=opbMwHNAkMs",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=opbMwHNAkMs",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rb7TVW77ZCs",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=rb7TVW77ZCs",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tLMv27FnVs8",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=tLMv27FnVs8",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zhL5DCizj5c",
+      "status": 200,
+      "final_url": "https://www.youtube.com/watch?v=zhL5DCizj5c",
+      "ok": true,
+      "error": null
+    }
+  ]
+}

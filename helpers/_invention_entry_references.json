@@ -1,0 +1,274 @@
+{
+  "_comment": "Maps invention entry slugs to bottom-bibliography ref IDs (group-slug:index).",
+  "entries": {
+    "controlled-use-of-fire": [
+      "a-books-and-major-scholarly-works:6",
+      "a-books-and-major-scholarly-works:17",
+      "f-online-video-lectures-ted-talks-and-educational-series:4",
+      "j-press-popular-science-and-general-reference:11"
+    ],
+    "agriculture-and-domestication": [
+      "a-books-and-major-scholarly-works:3",
+      "a-books-and-major-scholarly-works:6",
+      "a-books-and-major-scholarly-works:14",
+      "f-online-video-lectures-ted-talks-and-educational-series:10",
+      "f-online-video-lectures-ted-talks-and-educational-series:18",
+      "j-press-popular-science-and-general-reference:0",
+      "j-press-popular-science-and-general-reference:8"
+    ],
+    "the-wheel": [
+      "j-press-popular-science-and-general-reference:3"
+    ],
+    "writing-systems": [
+      "f-online-video-lectures-ted-talks-and-educational-series:16",
+      "j-press-popular-science-and-general-reference:7"
+    ],
+    "mathematics-and-the-concept-of-zero": [
+      "a-books-and-major-scholarly-works:9",
+      "e-documentary-films-and-broadcast-media:4",
+      "f-online-video-lectures-ted-talks-and-educational-series:15",
+      "h-professional-societies-standards-bodies-and-academic-databases:8"
+    ],
+    "paper": [
+      "j-press-popular-science-and-general-reference:1"
+    ],
+    "the-compass": [
+      "a-books-and-major-scholarly-works:9"
+    ],
+    "gunpowder": [
+      "a-books-and-major-scholarly-works:3"
+    ],
+    "the-printing-press": [
+      "a-books-and-major-scholarly-works:4",
+      "d-museum-archive-and-library-resources:0",
+      "f-online-video-lectures-ted-talks-and-educational-series:13"
+    ],
+    "the-scientific-method": [
+      "f-online-video-lectures-ted-talks-and-educational-series:7",
+      "h-professional-societies-standards-bodies-and-academic-databases:16"
+    ],
+    "the-telescope": [
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:4",
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:5",
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:11"
+    ],
+    "the-microscope": [
+      "a-books-and-major-scholarly-works:16",
+      "f-online-video-lectures-ted-talks-and-educational-series:12",
+      "h-professional-societies-standards-bodies-and-academic-databases:2",
+      "h-professional-societies-standards-bodies-and-academic-databases:12"
+    ],
+    "newtonian-mechanics": [
+      "d-museum-archive-and-library-resources:1",
+      "d-museum-archive-and-library-resources:10",
+      "e-documentary-films-and-broadcast-media:1"
+    ],
+    "steam-engine": [
+      "a-books-and-major-scholarly-works:11",
+      "d-museum-archive-and-library-resources:11",
+      "f-online-video-lectures-ted-talks-and-educational-series:6"
+    ],
+    "electricity-generation-and-distribution": [
+      "e-documentary-films-and-broadcast-media:9",
+      "h-professional-societies-standards-bodies-and-academic-databases:3"
+    ],
+    "electromagnetism": [
+      "a-books-and-major-scholarly-works:5",
+      "h-professional-societies-standards-bodies-and-academic-databases:11"
+    ],
+    "internal-combustion-engine": [
+      "d-museum-archive-and-library-resources:11"
+    ],
+    "automobile": [
+      "d-museum-archive-and-library-resources:6"
+    ],
+    "airplane": [
+      "d-museum-archive-and-library-resources:12",
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:8"
+    ],
+    "refrigeration": [
+      "c-institutional-and-government-publications-and-reports:0",
+      "j-press-popular-science-and-general-reference:2"
+    ],
+    "vaccination": [
+      "b-peer-reviewed-articles-and-original-scientific-papers:3",
+      "c-institutional-and-government-publications-and-reports:9",
+      "c-institutional-and-government-publications-and-reports:11",
+      "d-museum-archive-and-library-resources:13",
+      "e-documentary-films-and-broadcast-media:8",
+      "f-online-video-lectures-ted-talks-and-educational-series:14"
+    ],
+    "antibiotics": [
+      "c-institutional-and-government-publications-and-reports:10",
+      "e-documentary-films-and-broadcast-media:3"
+    ],
+    "germ-theory-of-disease": [
+      "h-professional-societies-standards-bodies-and-academic-databases:7"
+    ],
+    "anaesthesia": [
+      "d-museum-archive-and-library-resources:8",
+      "d-museum-archive-and-library-resources:13"
+    ],
+    "x-rays-and-medical-imaging": [
+      "b-peer-reviewed-articles-and-original-scientific-papers:2",
+      "b-peer-reviewed-articles-and-original-scientific-papers:9",
+      "d-museum-archive-and-library-resources:13",
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:10",
+      "j-press-popular-science-and-general-reference:6"
+    ],
+    "sanitation-and-clean-water-systems": [
+      "c-institutional-and-government-publications-and-reports:1",
+      "c-institutional-and-government-publications-and-reports:8"
+    ],
+    "dna-structure-and-molecular-genetics": [
+      "b-peer-reviewed-articles-and-original-scientific-papers:0",
+      "b-peer-reviewed-articles-and-original-scientific-papers:10",
+      "e-documentary-films-and-broadcast-media:2",
+      "h-professional-societies-standards-bodies-and-academic-databases:1"
+    ],
+    "human-genome-sequencing": [
+      "b-peer-reviewed-articles-and-original-scientific-papers:11",
+      "c-institutional-and-government-publications-and-reports:6",
+      "e-documentary-films-and-broadcast-media:10"
+    ],
+    "crispr-gene-editing": [
+      "b-peer-reviewed-articles-and-original-scientific-papers:1",
+      "f-online-video-lectures-ted-talks-and-educational-series:2",
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:6",
+      "j-press-popular-science-and-general-reference:9"
+    ],
+    "the-periodic-table": [
+      "f-online-video-lectures-ted-talks-and-educational-series:11",
+      "h-professional-societies-standards-bodies-and-academic-databases:6",
+      "h-professional-societies-standards-bodies-and-academic-databases:13"
+    ],
+    "quantum-mechanics": [
+      "a-books-and-major-scholarly-works:5",
+      "f-online-video-lectures-ted-talks-and-educational-series:8"
+    ],
+    "theory-of-relativity": [
+      "d-museum-archive-and-library-resources:5",
+      "f-online-video-lectures-ted-talks-and-educational-series:9",
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:5",
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:7"
+    ],
+    "nuclear-energy-and-nuclear-science": [
+      "a-books-and-major-scholarly-works:13",
+      "c-institutional-and-government-publications-and-reports:4",
+      "e-documentary-films-and-broadcast-media:6"
+    ],
+    "plastics-and-synthetic-materials": [
+      "c-institutional-and-government-publications-and-reports:12",
+      "h-professional-societies-standards-bodies-and-academic-databases:15"
+    ],
+    "fertilisers-and-modern-agricultural-chemistry": [
+      "e-documentary-films-and-broadcast-media:7",
+      "h-professional-societies-standards-bodies-and-academic-databases:14"
+    ],
+    "telegraph": [
+      "a-books-and-major-scholarly-works:15",
+      "j-press-popular-science-and-general-reference:5"
+    ],
+    "telephone": [
+      "d-museum-archive-and-library-resources:7",
+      "h-professional-societies-standards-bodies-and-academic-databases:4"
+    ],
+    "radio": [
+      "e-documentary-films-and-broadcast-media:5",
+      "h-professional-societies-standards-bodies-and-academic-databases:9"
+    ],
+    "transistor": [
+      "a-books-and-major-scholarly-works:10",
+      "d-museum-archive-and-library-resources:2",
+      "f-online-video-lectures-ted-talks-and-educational-series:17"
+    ],
+    "integrated-circuit-microchip": [
+      "a-books-and-major-scholarly-works:10",
+      "b-peer-reviewed-articles-and-original-scientific-papers:6",
+      "d-museum-archive-and-library-resources:3"
+    ],
+    "computer": [
+      "d-museum-archive-and-library-resources:4",
+      "e-documentary-films-and-broadcast-media:0",
+      "f-online-video-lectures-ted-talks-and-educational-series:5"
+    ],
+    "internet": [
+      "e-documentary-films-and-broadcast-media:11",
+      "i-data-visualisation-mapping-and-infrastructure-resources:7",
+      "i-data-visualisation-mapping-and-infrastructure-resources:8"
+    ],
+    "world-wide-web": [
+      "f-online-video-lectures-ted-talks-and-educational-series:1",
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:0",
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:1",
+      "i-data-visualisation-mapping-and-infrastructure-resources:9"
+    ],
+    "search-engines": [
+      "b-peer-reviewed-articles-and-original-scientific-papers:8",
+      "i-data-visualisation-mapping-and-infrastructure-resources:6"
+    ],
+    "satellite-technology": [
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:3",
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:9"
+    ],
+    "gps-global-positioning-system": [
+      "i-data-visualisation-mapping-and-infrastructure-resources:5"
+    ],
+    "semiconductor-technology": [
+      "a-books-and-major-scholarly-works:10",
+      "a-books-and-major-scholarly-works:16",
+      "i-data-visualisation-mapping-and-infrastructure-resources:1",
+      "j-press-popular-science-and-general-reference:10"
+    ],
+    "laser": [
+      "b-peer-reviewed-articles-and-original-scientific-papers:5",
+      "h-professional-societies-standards-bodies-and-academic-databases:0"
+    ],
+    "fibre-optic-communication": [
+      "b-peer-reviewed-articles-and-original-scientific-papers:4",
+      "i-data-visualisation-mapping-and-infrastructure-resources:4",
+      "i-data-visualisation-mapping-and-infrastructure-resources:8"
+    ],
+    "spaceflight": [
+      "c-institutional-and-government-publications-and-reports:5"
+    ],
+    "smartphones": [
+      "d-museum-archive-and-library-resources:4"
+    ],
+    "social-media-platforms": [
+      "c-institutional-and-government-publications-and-reports:7",
+      "e-documentary-films-and-broadcast-media:12"
+    ],
+    "artificial-intelligence": [
+      "c-institutional-and-government-publications-and-reports:14",
+      "g-space-agencies-physics-laboratories-and-major-scientific-resources:2"
+    ],
+    "renewable-energy-technologies": [
+      "c-institutional-and-government-publications-and-reports:3",
+      "c-institutional-and-government-publications-and-reports:13",
+      "f-online-video-lectures-ted-talks-and-educational-series:3"
+    ],
+    "battery-technology": [
+      "c-institutional-and-government-publications-and-reports:2"
+    ],
+    "electric-vehicles": [
+      "c-institutional-and-government-publications-and-reports:2"
+    ],
+    "robotics": [
+      "h-professional-societies-standards-bodies-and-academic-databases:5",
+      "i-data-visualisation-mapping-and-infrastructure-resources:3"
+    ],
+    "3d-printing-additive-manufacturing": [
+      "f-online-video-lectures-ted-talks-and-educational-series:0",
+      "j-press-popular-science-and-general-reference:4"
+    ],
+    "blockchain": [
+      "b-peer-reviewed-articles-and-original-scientific-papers:7",
+      "f-online-video-lectures-ted-talks-and-educational-series:19",
+      "i-data-visualisation-mapping-and-infrastructure-resources:2"
+    ],
+    "cloud-computing": [
+      "i-data-visualisation-mapping-and-infrastructure-resources:0"
+    ]
+  }
+}

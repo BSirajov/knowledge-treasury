@@ -26,8 +26,9 @@ Desktop.ini
 *.tmp
 ~WRL*.tmp
 
-# Local notes (optional internal docs — not for deploy)
+# Local notes and non-deploy staging (optional internal docs)
 documents/preview/
+preview/
 
 # Logs
 *.log

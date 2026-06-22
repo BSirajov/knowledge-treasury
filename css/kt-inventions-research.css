@@ -1,0 +1,602 @@
+/**
+ * Scientific Inventions Research — interactive knowledge interface.
+ * Builds on kt-inventions.css and kt-sidebar-widget.css.
+ */
+
+body.inventions-research-page {
+  scroll-padding-top: calc(
+    var(--kt-sticky-top-stack, var(--kt-nav-height, 86px)) +
+      var(--kt-scroll-anchor-gap, 1.25rem)
+  );
+}
+
+/* Hero + summary panel — Knowledge Treasury catalog pattern */
+html[data-kt-page-id="major-scientific-inventions"] .hero {
+  position: relative;
+  overflow: hidden;
+  color: var(--ink) !important;
+  background: var(--white) var(--site-bg-image) top center / 100% auto no-repeat !important;
+}
+
+html[data-kt-page-id="major-scientific-inventions"] .hero::before {
+  content: "";
+  inset: 0;
+  position: absolute;
+  background: var(--color-hero-scrim);
+}
+
+html[data-kt-page-id="major-scientific-inventions"] .hero::after {
+  content: "";
+  inset: 0;
+  mask-image: linear-gradient(to bottom, #000 0%, transparent 82%);
+  opacity: 0.72;
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0));
+}
+
+html[data-kt-page-id="major-scientific-inventions"] .hero-inner {
+  align-items: start;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1.12fr 0.88fr;
+  margin: auto;
+  max-width: var(--max);
+  padding: 32px 24px 40px;
+  position: relative;
+  z-index: 1;
+}
+
+html[data-kt-page-id="major-scientific-inventions"] .hero-copy {
+  max-width: 820px;
+  min-width: 0;
+}
+
+html[data-kt-page-id="major-scientific-inventions"] .hero h1 {
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: clamp(21.28px, 3.36vw, 40.32px);
+  letter-spacing: -0.035em;
+  line-height: 1.12;
+  margin: 0 0 14px;
+  padding-top: 0.08em;
+}
+
+html[data-kt-page-id="major-scientific-inventions"] .hero-summary-panel {
+  backdrop-filter: blur(18px);
+  background: var(--color-hero-panel-bg) !important;
+  border: 1px solid var(--color-hero-panel-border) !important;
+  border-radius: 30px;
+  box-shadow: var(--shadow-hero-panel) !important;
+  padding: 22px;
+}
+
+html[data-kt-page-id="major-scientific-inventions"] .hero-summary-card {
+  backdrop-filter: blur(18px);
+  background: var(--color-panel-card-bg) !important;
+  border: 1px solid var(--color-panel-card-border) !important;
+  border-radius: var(--radius);
+  box-shadow: 0 18px 50px rgba(0, 45, 82, 0.16) !important;
+  color: var(--ink) !important;
+  padding: 24px;
+}
+
+html[data-kt-page-id="major-scientific-inventions"] .hero-summary-card .panel-title {
+  color: var(--color-heading-blue);
+  font-family: var(--font-serif);
+  font-size: var(--font-size-summary-panel-title-md);
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+html[data-kt-page-id="major-scientific-inventions"] .hero-summary-card .hero-text,
+html[data-kt-page-id="major-scientific-inventions"] .hero-summary-card .panel-copy-lead {
+  color: var(--muted);
+  margin: 0;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  html[data-kt-page-id="major-scientific-inventions"] .hero-inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.inventions-research-page .research-hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+  font-size: 14px;
+  color: color-mix(in srgb, var(--ink) 78%, transparent);
+}
+
+.inventions-research-page .research-hero-stats strong {
+  color: var(--blue-700);
+  font-variant-numeric: tabular-nums;
+}
+
+.inventions-research-page .research-hero-related {
+  font-size: 14px;
+  margin: 12px 0 0;
+  opacity: 0.9;
+}
+
+.inventions-research-page .research-hero-related a {
+  color: var(--blue-700);
+  font-weight: 600;
+}
+
+/* Catalog toolbar — shared styles in kt-catalog-toolbar.css */
+.inventions-research-page .research-main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.inventions-research-page .articles-panel-widget {
+  flex-shrink: 0;
+}
+
+.research-category.is-category-collapsed > .research-category__intro,
+.research-category.is-category-collapsed > .research-entry {
+  display: none;
+}
+
+.research-no-results {
+  background: var(--blue-50, #f0f6ff);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 12px;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.research-no-results[hidden] {
+  display: none !important;
+}
+
+.research-progress {
+  background: color-mix(in srgb, var(--border) 65%, transparent);
+  border-radius: 999px;
+  height: 3px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.research-progress__bar {
+  background: linear-gradient(90deg, var(--blue-500), var(--blue-700));
+  display: block;
+  height: 100%;
+  transform-origin: left center;
+  transform: scaleX(0);
+  width: 100%;
+}
+
+/* Layout */
+.inventions-research-page .charter-layout.research-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.inventions-research-page .research-sidebar {
+  position: sticky;
+  top: calc(var(--kt-sticky-top-stack, var(--kt-nav-height, 86px)) + 16px);
+}
+
+@media (min-width: 1061px) {
+  .inventions-research-page .charter-layout.research-layout {
+    grid-template-columns: minmax(260px, 300px) minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .inventions-research-page .research-sidebar > .sidebar-widget {
+    max-height: calc(100vh - var(--kt-sticky-top-stack, var(--kt-nav-height, 86px)) - 48px);
+    overflow: hidden;
+  }
+}
+
+/* TOC — uses shared .toc-group styles from kt-sidebar-widget.css */
+.inventions-research-page .toc-group[data-toc-cat] .toc-group__head .tl-date {
+  color: var(--blue-700);
+  font-weight: 800;
+}
+
+.inventions-research-page .toc-group[data-toc-cat] .toc-group__head a,
+.inventions-research-page .toc-group[data-toc-cat] .toc-group__label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.research-toc-entry .tl-date {
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  min-width: 2.5em;
+  text-align: right;
+}
+
+.research-toc-entry a {
+  font-size: 13px;
+}
+
+.research-toc-entry.is-hidden,
+.toc-group.is-hidden {
+  display: none;
+}
+
+.inventions-research-page .research-toc-entry a.tl-active {
+  color: var(--blue-700);
+  font-weight: 700;
+}
+
+/* Categories */
+.research-category {
+  margin-bottom: 36px;
+  scroll-margin-top: calc(
+    var(--kt-sticky-top-stack, var(--kt-nav-height, 86px)) +
+      var(--kt-scroll-anchor-gap, 1.25rem)
+  );
+}
+
+.research-category.is-filtered-out {
+  display: none;
+}
+
+.research-category__head {
+  background: var(--blue-700);
+  border-bottom: 3px solid var(--blue-400);
+  border-radius: 14px 14px 0 0;
+  color: var(--white);
+  font-family: var(--font-serif);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  padding: 16px 20px;
+}
+
+.research-category__intro {
+  background: var(--blue-50, #f0f6ff);
+  border: 1px solid var(--border);
+  border-top: 0;
+  color: color-mix(in srgb, var(--ink) 82%, transparent);
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 0;
+  padding: 16px 20px;
+}
+
+/* Collapsible entries */
+.research-entry {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: 0;
+  scroll-margin-top: calc(
+    var(--kt-sticky-top-stack, var(--kt-nav-height, 86px)) +
+      var(--kt-scroll-anchor-gap, 1.25rem)
+  );
+}
+
+.research-entry:last-child {
+  border-radius: 0 0 14px 14px;
+}
+
+.research-entry.is-filtered-out {
+  display: none;
+}
+
+.research-entry.is-expanded {
+  box-shadow: inset 3px 0 0 var(--blue-500);
+}
+
+.research-entry__header {
+  padding: 0;
+}
+
+.research-entry__toggle {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  gap: 12px;
+  padding: 18px 20px 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.research-entry__toggle:hover .research-entry__name {
+  color: var(--blue-700);
+}
+
+.research-entry__title-wrap {
+  align-items: baseline;
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  column-gap: 0.55em;
+  font-family: var(--font-serif);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.2;
+  min-width: 0;
+}
+
+.research-entry__num {
+  color: var(--blue-700);
+  flex: 0 0 auto;
+  font-family: var(--font-sans, Inter, system-ui, sans-serif);
+  font-size: 0.82em;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.research-entry__name {
+  flex: 1 1 auto;
+  font-weight: 700;
+  min-width: min(12rem, 100%);
+  transition: color 0.15s;
+}
+
+.research-entry__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.research-badge {
+  border-radius: 999px;
+  font-family: var(--font-sans, Inter, system-ui, sans-serif);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 4px 10px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.research-badge--period {
+  background: var(--blue-50, #f0f6ff);
+  color: var(--blue-700);
+}
+
+.research-entry__chevron {
+  border-right: 2px solid var(--muted);
+  border-bottom: 2px solid var(--muted);
+  flex: 0 0 auto;
+  height: 8px;
+  margin-top: 2px;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+  width: 8px;
+}
+
+.research-entry.is-expanded .research-entry__chevron {
+  transform: rotate(-135deg);
+  margin-top: 6px;
+}
+
+.research-entry__meta,
+.research-entry__summary {
+  margin: 0;
+  padding: 0 20px 14px;
+}
+
+.research-entry__meta {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.research-entry__summary {
+  color: color-mix(in srgb, var(--ink) 85%, transparent);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.research-entry__body {
+  border-top: 1px solid color-mix(in srgb, var(--border) 80%, transparent);
+  padding: 18px 20px 22px;
+}
+
+.research-entry__body[hidden] {
+  display: none !important;
+}
+
+.research-entry__visual {
+  margin-bottom: 18px;
+}
+
+.research-section {
+  margin-bottom: 22px;
+}
+
+.research-section:last-child {
+  margin-bottom: 0;
+}
+
+.research-section h3 {
+  color: var(--blue-700);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.research-section p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0 0 12px;
+}
+
+.research-section p:last-child {
+  margin-bottom: 0;
+}
+
+.research-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.research-list li {
+  font-size: 15px;
+  line-height: 1.65;
+  margin-bottom: 8px;
+}
+
+.research-list li:last-child {
+  margin-bottom: 0;
+}
+
+.research-bibliography {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.research-bibliography li {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.research-bibliography a.resource-link {
+  word-break: break-word;
+}
+
+.research-empty {
+  color: var(--muted);
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* General bibliography — category-style collapsible section */
+.research-bibliography-entry {
+  border-radius: 14px;
+  margin-bottom: 36px;
+  margin-top: 12px;
+  overflow: hidden;
+  scroll-margin-top: calc(
+    var(--kt-sticky-top-stack, var(--kt-nav-height, 86px)) +
+      var(--kt-scroll-anchor-gap, 1.25rem)
+  );
+}
+
+.research-bibliography-entry.research-entry {
+  border-top: 1px solid var(--border);
+}
+
+.research-bibliography-entry .research-entry__toggle--category {
+  background: var(--blue-700);
+  border-bottom: 3px solid var(--blue-400);
+  color: var(--white);
+  font-family: var(--font-serif);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.25;
+  padding: 16px 20px;
+}
+
+.research-bibliography-entry .research-entry__toggle--category:hover .research-entry__name {
+  color: var(--white);
+}
+
+.research-bibliography-entry .research-entry__name {
+  font-weight: 700;
+}
+
+.research-bibliography-entry .research-entry__chevron {
+  border-color: color-mix(in srgb, var(--white) 82%, transparent);
+}
+
+.research-bibliography-entry.is-expanded {
+  box-shadow: none;
+}
+
+.research-bibliography-entry .research-entry__summary {
+  background: var(--blue-50, #f0f6ff);
+  border-top: 0;
+  color: color-mix(in srgb, var(--ink) 82%, transparent);
+  font-size: 15px;
+  line-height: 1.65;
+  padding: 16px 20px;
+}
+
+.research-bibliography-entry .research-entry__body {
+  padding: 18px 20px 22px;
+}
+
+.research-bibliography--general {
+  margin: 0 0 14px;
+}
+
+.research-bibliography-entry .research-source-note {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Mobile TOC FAB */
+.research-toc-fab {
+  align-items: center;
+  background: var(--blue-700);
+  border: 0;
+  border-radius: 999px;
+  bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.22);
+  color: var(--white);
+  cursor: pointer;
+  display: inline-flex;
+  height: 52px;
+  justify-content: center;
+  position: fixed;
+  right: 16px;
+  width: 52px;
+  z-index: 40;
+}
+
+.research-toc-fab[hidden] {
+  display: none !important;
+}
+
+@media (min-width: 1061px) {
+  .research-toc-fab {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1060px) {
+  .inventions-research-page .research-sidebar {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .research-entry__toggle {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 16px 16px 8px;
+  }
+
+  .research-entry__badges {
+    order: 3;
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .research-entry__meta,
+  .research-entry__summary,
+  .research-entry__body {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

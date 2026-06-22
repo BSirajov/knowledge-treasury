@@ -1,0 +1,570 @@
+/**
+ * Injects breadcrumb trail from routes + nav metadata.
+ * Falls back to embedded route/label data when i18n JSON cannot be fetched.
+ */
+(function () {
+  "use strict";
+
+  var breadcrumbsInserted = false;
+  var mountInFlight = false;
+
+  /** Hub pages with static breadcrumb markup — skip dynamic injection. */
+  var SKIP_BREADCRUMB_PAGE_IDS = {};
+
+  function currentPageId() {
+    return (document.documentElement.getAttribute("data-kt-page-id") || "").trim();
+  }
+
+  function shouldSkipBreadcrumbs() {
+    return !!SKIP_BREADCRUMB_PAGE_IDS[currentPageId()];
+  }
+
+  function clearLandingPageBreadcrumbs() {
+    document.querySelectorAll(".forum-breadcrumbs, .breadcrumbs.forum-breadcrumbs").forEach(function (el) {
+      el.remove();
+    });
+    removeBreadcrumbs();
+    document.documentElement.style.setProperty("--kt-breadcrumbs-height", "0px");
+  }
+
+  function finishWithoutBreadcrumbs() {
+    breadcrumbsInserted = true;
+    clearLandingPageBreadcrumbs();
+    document.dispatchEvent(new CustomEvent("kt-breadcrumbs-ready"));
+    if (window.KT_STICKY_CHROME && typeof window.KT_STICKY_CHROME.sync === "function") {
+      window.KT_STICKY_CHROME.sync();
+    }
+  }
+
+  var PAGE_LABEL_KEYS = {
+    home: "home",
+    "prominent-figures": "prominentFigures",
+    encyclopedia: "prominentFigures",
+    "industrial-revolutions": "industrialRevolutions",
+    "major-scientific-inventions": "majorScientificInventions",
+    "scientific-inventions-research": "scientificInventionsResearch"
+  };
+
+  var GROUP_LABEL_KEYS = {};
+
+  /** Dropdown groups in primary nav (not top-level page links). */
+  var PRIMARY_GROUP_PARENTS = {};
+
+  function usesForumHubCrumb() {
+    return false;
+  }
+
+  var FALLBACK_ROUTES = {
+    pages: [
+      { id: "home", az: "az/index.html", en: "en/index.html", navParent: null },
+      {
+        id: "prominent-figures",
+        az: "az/prominent_figures.html",
+        en: "en/prominent_figures.html",
+        navParent: null
+      },
+      {
+        id: "industrial-revolutions",
+        az: "az/industrial_revolutions.html",
+        en: "en/industrial_revolutions.html",
+        navParent: null
+      },
+      {
+        id: "major-scientific-inventions",
+        az: "en/scientific_inventions_research.html",
+        en: "en/scientific_inventions_research.html",
+        navParent: null
+      },
+      {
+        id: "prominent-figure",
+        az: "az/prominent_figures.html",
+        en: "en/prominent_figures.html",
+        navParent: null
+      }
+    ]
+  };
+
+  var FALLBACK_UI = {
+    breadcrumbs: {
+      az: {
+        aria: "Səhifə yolu",
+        home: "Ana səhifə",
+        prominentFigures: "Görkəmli şəxsiyyətlər",
+        industrialRevolutions: "Sənaye inqilabları",
+        majorScientificInventions: "Əsas elmi ixtiralar",
+        scientificInventionsResearch: "Elmi ixtiralar — tədqiqat"
+      },
+      en: {
+        aria: "Breadcrumb",
+        home: "Home",
+        prominentFigures: "Prominent Figures",
+        industrialRevolutions: "Industrial Revolutions",
+        majorScientificInventions: "Major Scientific Inventions",
+        scientificInventionsResearch: "Scientific Inventions Research"
+      }
+    },
+    nav: {
+      az: {
+        home: "Ana səhifə",
+        prominentFigures: "Görkəmli şəxsiyyətlər",
+        industrialRevolutions: "Sənaye inqilabları",
+        majorScientificInventions: "Əsas elmi ixtiralar",
+        scientificInventionsResearch: "Elmi ixtiralar — tədqiqat"
+      },
+      en: {
+        home: "Home",
+        prominentFigures: "Prominent Figures",
+        industrialRevolutions: "Industrial Revolutions",
+        majorScientificInventions: "Major Scientific Inventions",
+        scientificInventionsResearch: "Scientific Inventions Research"
+      }
+    }
+  };
+
+  var FALLBACK_NAV = {
+    sections: {}
+  };
+
+  function getI18n() {
+    return window.KT_I18N || null;
+  }
+
+  function pageById(routes, id) {
+    var pages = routes.pages || [];
+    for (var i = 0; i < pages.length; i++) {
+      if (pages[i].id === id) return pages[i];
+    }
+    return null;
+  }
+
+  function pageHref(I18N, page, lang) {
+    if (I18N && typeof I18N.pageHref === "function") {
+      return I18N.pageHref(page, lang);
+    }
+    if (!page) return lang === "en" ? "index.html" : "index.html";
+    var target = lang === "en" ? page.en : page.az;
+    var prefix = lang + "/";
+    if (target.toLowerCase().indexOf(prefix) === 0) {
+      target = target.slice(prefix.length);
+    }
+    return target;
+  }
+
+  function t(ui, lang, section, key) {
+    var block = ui[section] && ui[section][lang];
+    return (block && block[key]) || key;
+  }
+
+  /** Legacy page id for the News feed (Activities → News submenu). */
+  function breadcrumbPageId(pageId) {
+    if (pageId === "activities") return "activities-news";
+    return pageId;
+  }
+
+  function pageTitle(ui, lang, pageId) {
+    pageId = breadcrumbPageId(pageId);
+    var key = PAGE_LABEL_KEYS[pageId];
+    if (!key) return pageId;
+    var crumbBlock = ui.breadcrumbs && ui.breadcrumbs[lang];
+    if (crumbBlock && crumbBlock[key]) return crumbBlock[key];
+    var navBlock = ui.nav && ui.nav[lang];
+    return (navBlock && navBlock[key]) || pageId;
+  }
+
+  function sectionLanding(navDef, groupId) {
+    var sec = navDef.sections && navDef.sections[groupId];
+    return sec ? sec.landingId : null;
+  }
+
+  function isBreadcrumbNode(node) {
+    return (
+      node &&
+      (node.id === "kt-breadcrumbs" ||
+        (node.classList && node.classList.contains("kt-breadcrumbs")))
+    );
+  }
+
+  function findMountPoint() {
+    var nav = document.querySelector(".nav-strip");
+    if (nav && nav.parentNode) {
+      var before = nav.nextElementSibling;
+      while (isBreadcrumbNode(before)) {
+        before = before.nextElementSibling;
+      }
+      return { parent: nav.parentNode, before: before };
+    }
+    var main = document.getElementById("content") || document.querySelector("main");
+    if (main && main.parentNode) {
+      return { parent: main.parentNode, before: main };
+    }
+    return null;
+  }
+
+  function removeBreadcrumbs() {
+    document.querySelectorAll("#kt-breadcrumbs, nav.kt-breadcrumbs").forEach(function (el) {
+      if (el.getAttribute("data-kt-breadcrumbs-static") === "1") return;
+      el.remove();
+    });
+    document.documentElement.style.setProperty("--kt-breadcrumbs-height", "0px");
+  }
+
+  function breadcrumbsElement() {
+    return (
+      document.getElementById("kt-breadcrumbs") || staticBreadcrumbsNode()
+    );
+  }
+
+  function syncBreadcrumbsHeight() {
+    var el = breadcrumbsElement();
+    if (!el) {
+      document.documentElement.style.setProperty("--kt-breadcrumbs-height", "0px");
+      return;
+    }
+    var h = Math.ceil(el.getBoundingClientRect().height);
+    document.documentElement.style.setProperty(
+      "--kt-breadcrumbs-height",
+      h > 0 ? h + "px" : "0px"
+    );
+  }
+
+  function staticBreadcrumbsNode() {
+    // Some pages ship their own breadcrumb markup (e.g. forum pages).
+    // If present, we should not inject a second breadcrumb trail.
+    var el = document.querySelector(".breadcrumbs");
+    if (!el) return null;
+    if (el.id === "kt-breadcrumbs") return null;
+    if (el.classList && el.classList.contains("kt-breadcrumbs")) return null;
+    return el;
+  }
+
+  function adoptStaticBreadcrumbs() {
+    if (shouldSkipBreadcrumbs()) {
+      finishWithoutBreadcrumbs();
+      return true;
+    }
+    var el = staticBreadcrumbsNode();
+    if (!el) return false;
+    // Remove any previously injected crumbs to avoid duplicates.
+    removeBreadcrumbs();
+    breadcrumbsInserted = true;
+    function sync() {
+      var h = Math.ceil(el.getBoundingClientRect().height);
+      document.documentElement.style.setProperty("--kt-breadcrumbs-height", h > 0 ? h + "px" : "0px");
+    }
+    sync();
+    requestAnimationFrame(sync);
+    if (typeof ResizeObserver !== "undefined") {
+      var ro = new ResizeObserver(sync);
+      ro.observe(el);
+    }
+    window.addEventListener("resize", sync, { passive: true });
+    document.dispatchEvent(new CustomEvent("kt-breadcrumbs-ready"));
+    if (window.KT_STICKY_CHROME && typeof window.KT_STICKY_CHROME.sync === "function") {
+      window.KT_STICKY_CHROME.sync();
+    }
+    return true;
+  }
+
+  function findCurrentPage(I18N, routes) {
+    var pageId = document.documentElement.getAttribute("data-kt-page-id");
+    if (pageId) {
+      var byId = pageById(routes, pageId);
+      if (byId) return byId;
+    }
+
+    if (I18N && typeof I18N.findPage === "function") {
+      var found = I18N.findPage(routes);
+      if (found) return found;
+    }
+
+    var pathKey = I18N && typeof I18N.currentPathKey === "function" ? I18N.currentPathKey() : "";
+    if (!pathKey) return null;
+
+    var pages = routes.pages || [];
+    for (var i = 0; i < pages.length; i++) {
+      var p = pages[i];
+      if ((p.az && p.az.toLowerCase() === pathKey) || (p.en && p.en.toLowerCase() === pathKey)) {
+        return p;
+      }
+    }
+    return null;
+  }
+
+  function buildProminentFigureTrail(routes, navDef, ui, lang, I18N) {
+    var pageId = document.documentElement.getAttribute("data-kt-page-id");
+    if (pageId !== "prominent-figure") return null;
+
+    var current =
+      document.documentElement.getAttribute("data-kt-profile-name") || "";
+    if (!current) {
+      var h1 = document.querySelector(".pf-hero .hero-name");
+      if (h1) current = h1.textContent.replace(/\s+/g, " ").trim();
+    }
+    if (!current) return null;
+
+    var path = location.pathname.replace(/\\/g, "/");
+    var encHref = /\/prominent_figures\//.test(path)
+      ? "../../prominent_figures.html"
+      : "prominent_figures.html";
+    var catalogPage = pageById(routes, "prominent-figures");
+    var catalogHref = catalogPage ? pageHref(I18N, catalogPage, lang) : encHref;
+
+    var crumbs = [];
+    var home = pageById(routes, "home");
+    if (home) {
+      crumbs.push({
+        href: pageHref(I18N, home, lang),
+        text: t(ui, lang, "breadcrumbs", "home")
+      });
+    }
+    crumbs.push({
+      href: catalogHref,
+      text: pageTitle(ui, lang, "prominent-figures")
+    });
+    crumbs.push({
+      href: null,
+      text: current,
+      current: true
+    });
+    return crumbs;
+  }
+
+  function buildTrail(routes, navDef, ui, lang, page, I18N) {
+    var prominentTrail = buildProminentFigureTrail(routes, navDef, ui, lang, I18N);
+    if (prominentTrail) return prominentTrail;
+
+    if (!page) return null;
+    if (page.id === "home") {
+      return [
+        {
+          href: null,
+          text: t(ui, lang, "breadcrumbs", "home"),
+          current: true
+        }
+      ];
+    }
+    if (SKIP_BREADCRUMB_PAGE_IDS[page.id]) return null;
+
+    var crumbs = [];
+    var home = pageById(routes, "home");
+    if (home) {
+      crumbs.push({
+        href: pageHref(I18N, home, lang),
+        text: t(ui, lang, "breadcrumbs", "home")
+      });
+    }
+
+    // About / Membership / Activities dropdowns (Forum 2024 uses hub crumb).
+    if (
+      page.navParent &&
+      page.navParent !== "forum" &&
+      PRIMARY_GROUP_PARENTS[page.navParent] &&
+      !usesForumHubCrumb(page)
+    ) {
+      var groupKey = GROUP_LABEL_KEYS[page.navParent];
+      var landingId = sectionLanding(navDef, page.navParent);
+      var landing = landingId ? pageById(routes, landingId) : null;
+      crumbs.push({
+        href: landing ? pageHref(I18N, landing, lang) : null,
+        text: groupKey
+          ? t(ui, lang, "breadcrumbs", groupKey) || pageTitle(ui, lang, landingId || page.navParent)
+          : page.navParent
+      });
+    }
+
+    if (usesForumHubCrumb(page)) {
+      var forumHub = pageById(routes, "forum-2024");
+      if (forumHub) {
+        crumbs.push({
+          href: pageHref(I18N, forumHub, lang),
+          text: pageTitle(ui, lang, "forum-2024")
+        });
+      }
+    }
+
+    crumbs.push({
+      href: null,
+      text: pageTitle(ui, lang, breadcrumbPageId(page.id)),
+      current: true
+    });
+
+    return crumbs;
+  }
+
+  function render(crumbs, ui, lang) {
+    var nav = document.createElement("nav");
+    nav.className = "kt-breadcrumbs";
+    nav.id = "kt-breadcrumbs";
+    nav.setAttribute("aria-label", t(ui, lang, "breadcrumbs", "aria"));
+
+    var ol = document.createElement("ol");
+    ol.className = "kt-breadcrumbs-list";
+
+    crumbs.forEach(function (crumb, index) {
+      var li = document.createElement("li");
+      li.className = "kt-breadcrumbs-item";
+
+      if (index > 0) {
+        var sep = document.createElement("span");
+        sep.className = "kt-breadcrumbs-sep";
+        sep.setAttribute("aria-hidden", "true");
+        sep.textContent = "›";
+        li.appendChild(sep);
+      }
+
+      if (crumb.current || !crumb.href) {
+        var span = document.createElement("span");
+        span.className = "kt-breadcrumbs-current";
+        span.setAttribute("aria-current", "page");
+        span.textContent = crumb.text;
+        li.appendChild(span);
+      } else {
+        var a = document.createElement("a");
+        a.href = crumb.href;
+        a.textContent = crumb.text;
+        li.appendChild(a);
+      }
+
+      ol.appendChild(li);
+    });
+
+    nav.appendChild(ol);
+    return nav;
+  }
+
+  function loadData(I18N) {
+    if (location.protocol === "file:") {
+      return Promise.resolve([FALLBACK_ROUTES, FALLBACK_UI, FALLBACK_NAV]);
+    }
+    return Promise.all([I18N.loadRoutes(), I18N.loadUi(), I18N.loadNav()]).catch(function () {
+      return [FALLBACK_ROUTES, FALLBACK_UI, FALLBACK_NAV];
+    });
+  }
+
+  function adoptExistingBreadcrumbs() {
+    var existing = document.getElementById("kt-breadcrumbs");
+    if (!existing || !existing.querySelector(".kt-breadcrumbs-list")) return false;
+    breadcrumbsInserted = true;
+    syncBreadcrumbsHeight();
+    requestAnimationFrame(syncBreadcrumbsHeight);
+    document.dispatchEvent(new CustomEvent("kt-breadcrumbs-ready"));
+    if (window.KT_STICKY_CHROME && typeof window.KT_STICKY_CHROME.sync === "function") {
+      window.KT_STICKY_CHROME.sync();
+    }
+    if (typeof ResizeObserver !== "undefined") {
+      var ro = new ResizeObserver(syncBreadcrumbsHeight);
+      ro.observe(existing);
+    }
+    window.addEventListener("resize", syncBreadcrumbsHeight, { passive: true });
+    return true;
+  }
+
+  function mount() {
+    if (breadcrumbsInserted || mountInFlight) return;
+    if (document.body && document.body.classList.contains("kt-gateway")) return;
+    if (shouldSkipBreadcrumbs()) {
+      finishWithoutBreadcrumbs();
+      return;
+    }
+    if (adoptStaticBreadcrumbs()) return;
+    if (adoptExistingBreadcrumbs()) return;
+
+    var I18N = getI18n();
+    if (!I18N) return;
+
+    mountInFlight = true;
+    var lang = I18N.detectLang();
+
+    loadData(I18N)
+      .then(function (results) {
+        if (breadcrumbsInserted) return;
+
+        var routes = results[0] || FALLBACK_ROUTES;
+        var ui = results[1] || FALLBACK_UI;
+        var navDef = results[2] || FALLBACK_NAV;
+        var page = findCurrentPage(I18N, routes);
+        var crumbs = buildTrail(routes, navDef, ui, lang, page, I18N);
+        var minCrumbs = page && page.id === "home" ? 1 : 2;
+        if (!crumbs || crumbs.length < minCrumbs) return;
+
+        removeBreadcrumbs();
+        var el = render(crumbs, ui, lang);
+        var mountPoint = findMountPoint();
+        if (mountPoint) {
+          mountPoint.parent.insertBefore(el, mountPoint.before);
+        } else {
+          var nav = document.querySelector(".nav-strip");
+          if (nav && nav.parentNode) {
+            nav.parentNode.insertBefore(el, nav.nextSibling);
+          }
+        }
+        if (!document.getElementById("kt-breadcrumbs")) return;
+        breadcrumbsInserted = true;
+        syncBreadcrumbsHeight();
+        document.dispatchEvent(new CustomEvent("kt-breadcrumbs-ready"));
+        if (typeof ResizeObserver !== "undefined") {
+          var ro = new ResizeObserver(syncBreadcrumbsHeight);
+          ro.observe(el);
+        }
+        window.addEventListener("resize", syncBreadcrumbsHeight, { passive: true });
+        if (window.KT_STICKY_CHROME && typeof window.KT_STICKY_CHROME.sync === "function") {
+          window.KT_STICKY_CHROME.sync();
+        }
+      })
+      .catch(function (err) {
+        console.warn("[kt-breadcrumbs] Mount failed:", err);
+      })
+      .finally(function () {
+        mountInFlight = false;
+      });
+  }
+
+  function boot(attempt) {
+    if (breadcrumbsInserted) return;
+    if (shouldSkipBreadcrumbs()) {
+      finishWithoutBreadcrumbs();
+      return;
+    }
+    if (adoptStaticBreadcrumbs()) return;
+    if (adoptExistingBreadcrumbs()) return;
+    if (getI18n()) {
+      mount();
+      return;
+    }
+    if (attempt < 40) {
+      setTimeout(function () {
+        boot(attempt + 1);
+      }, 25);
+    }
+  }
+
+  document.addEventListener("kt-primary-nav-ready", function () {
+    boot(0);
+  });
+
+  window.addEventListener(
+    "load",
+    function () {
+      boot(0);
+      setTimeout(function () {
+        if (!breadcrumbsInserted) boot(0);
+      }, 200);
+      setTimeout(function () {
+        if (!breadcrumbsInserted) boot(0);
+      }, 800);
+    },
+    { once: true }
+  );
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", function () {
+      boot(0);
+    });
+  } else {
+    boot(0);
+  }
+
+  window.KT_BREADCRUMBS = {
+    syncHeight: syncBreadcrumbsHeight
+  };
+})();

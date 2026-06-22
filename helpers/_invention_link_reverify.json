@@ -1,0 +1,910 @@
+{
+  "checked": 66,
+  "still_broken": [
+    {
+      "url": "https://airandspace.si.edu/explore/topics/apollo/apollo11.cfm",
+      "status": 404,
+      "final_url": "https://airandspace.si.edu/explore/topics/apollo/apollo11.cfm",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://airandspace.si.edu/explore/topics/wright-brothers",
+      "status": 404,
+      "final_url": "https://airandspace.si.edu/explore/topics/wright-brothers",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://americanhistory.si.edu/",
+      "status": 403,
+      "final_url": "https://americanhistory.si.edu/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://americanhistory.si.edu/collections/search/object/nmah_1106986",
+      "status": 403,
+      "final_url": "https://americanhistory.si.edu/collections/search/object/nmah_1106986",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://americanhistory.si.edu/collections/search/object/nmah_849543",
+      "status": 403,
+      "final_url": "https://americanhistory.si.edu/collections/search/object/nmah_849543",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://computerhistory.org/stories/integrated-circuit/",
+      "status": 404,
+      "final_url": "https://computerhistory.org/stories/integrated-circuit/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://computerhistory.org/stories/mobile-phone/",
+      "status": 404,
+      "final_url": "https://computerhistory.org/stories/mobile-phone/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://computerhistory.org/stories/transistor/",
+      "status": 404,
+      "final_url": "https://computerhistory.org/stories/transistor/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://doi.org/10.1126/science.1225829",
+      "status": 403,
+      "final_url": "https://www.science.org/doi/10.1126/science.1225829",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://ethw.org/Electric_Power",
+      "status": 404,
+      "final_url": "https://ethw.org/Electric_Power",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://humanorigins.si.edu/human-characteristics/fire",
+      "status": 404,
+      "final_url": "https://humanorigins.si.edu/human-characteristics/fire",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://innovativegenomics.org/crisprpedia/",
+      "status": 403,
+      "final_url": "https://innovativegenomics.org/crisprpedia/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://micro.magnet.fsu.edu/primer/museum/microscopy.html",
+      "status": 404,
+      "final_url": "https://micro.magnet.fsu.edu/primer/museum/microscopy.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://ourworldindata.org/battery-price-declines",
+      "status": 404,
+      "final_url": "https://ourworldindata.org/battery-price-declines",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://ourworldindata.org/energy-crypto-currencies",
+      "status": 404,
+      "final_url": "https://ourworldindata.org/energy-crypto-currencies",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://ourworldindata.org/social-media",
+      "status": 404,
+      "final_url": "https://ourworldindata.org/social-media",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://royalsociety.org/collections/newton/",
+      "status": 404,
+      "final_url": "https://royalsociety.org/collections/newton/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://webfoundation.org/about/history/",
+      "status": null,
+      "final_url": "https://webfoundation.org/about/history/",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.aps.org/publications/apsnews/200010/history.cfm",
+      "status": 403,
+      "final_url": "https://www.aps.org/publications/apsnews/200010/history.cfm",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.asml.com/en/technology/euv-lithography/how-euv-works",
+      "status": 404,
+      "final_url": "https://www.asml.com/en/technology/euv-lithography/how-euv-works",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/history/british/middle_ages/blackpowder_01.shtml",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/history/british/middle_ages/blackpowder_01.shtml",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/b00btblm",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/programmes/b00btblm",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/b04bch1p",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/programmes/b04bch1p",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/b06f22jg",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/programmes/b06f22jg",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/p004kl5l",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/programmes/p004kl5l",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/p00gkwy6",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/programmes/p00gkwy6",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/p0b0dmq4",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/programmes/p0b0dmq4",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bl.uk/gutenberg-bible",
+      "status": 404,
+      "final_url": "https://www.bl.uk/gutenberg-bible",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.britishmuseum.org/learn/schools/ages-14/ancient-egypt/the-history-of-writing",
+      "status": 403,
+      "final_url": "https://www.britishmuseum.org/learn/schools/ages-14/ancient-egypt/the-history-of-writing",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.cdc.gov/rabies/prevention/history.html",
+      "status": 404,
+      "final_url": "https://www.cdc.gov/rabies/prevention/history.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.cfr.org/book/chip-war",
+      "status": 308,
+      "final_url": "https://www.cfr.org/book/chip-war",
+      "ok": false,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://www.corning.com/optical-communications/",
+      "status": 403,
+      "final_url": "https://www.corning.com/optical-communications/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.corning.com/optical-communications/worldwide/en/home/inside-the-network/fiber-optic-technology.html",
+      "status": 403,
+      "final_url": "https://www.corning.com/optical-communications/worldwide/en/home/inside-the-network/fiber-optic-technology.html",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.esa.int/Enabling_Support/Operations/How_do_satellites_work",
+      "status": 404,
+      "final_url": "https://www.esa.int/Enabling_Support/Operations/How_do_satellites_work",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.feynmanlectures.caltech.edu/",
+      "status": 403,
+      "final_url": "https://www.feynmanlectures.caltech.edu/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.iaea.org/topics/nuclear-power",
+      "status": 403,
+      "final_url": "https://www.iaea.org/topics/nuclear-power",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.internetsociety.org/internet/history-internet/",
+      "status": 403,
+      "final_url": "https://www.internetsociety.org/internet/history-internet/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.johnsnowsociety.org/john-snow.html",
+      "status": 404,
+      "final_url": "https://johnsnowsociety.org/john-snow.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.ligo.caltech.edu/page/press-release-gr150914",
+      "status": 500,
+      "final_url": "https://www.ligo.caltech.edu/page/press-release-gr150914",
+      "ok": false,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://www.loc.gov/collections/alexander-graham-bell/",
+      "status": 403,
+      "final_url": "https://www.loc.gov/collections/alexander-graham-bell/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.loc.gov/preservation/resources/resthomes/paper.html",
+      "status": 404,
+      "final_url": "https://www.loc.gov/preservation/resources/resthomes/paper.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.massgeneral.org/museum/exhibit/ether-dome",
+      "status": 404,
+      "final_url": "https://www.massgeneral.org/museum/exhibit/ether-dome",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-a-telescope-58.html",
+      "status": 404,
+      "final_url": "https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-a-telescope-58.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.nasa.gov/centers/glenn/about/history/wright.html",
+      "status": 404,
+      "final_url": "https://www.nasa.gov/centers/glenn/about/history/wright.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.nasa.gov/satellites/",
+      "status": 404,
+      "final_url": "https://www.nasa.gov/satellites/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.nature.com/articles/d41586-019-02665-9",
+      "status": 303,
+      "final_url": "https://www.nature.com/articles/d41586-019-02665-9?error=cookies_not_supported&code=610ee6d5-0d69-48b0-a1ee-cd2daf7339f1",
+      "ok": false,
+      "error": "HTTP Error 303: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nSee Other"
+    },
+    {
+      "url": "https://www.nature.com/articles/news.2012.299",
+      "status": 303,
+      "final_url": "https://www.nature.com/articles/news.2012.299?error=cookies_not_supported&code=df2340a8-e611-48a7-ab9a-0c904ac58e8f",
+      "ok": false,
+      "error": "HTTP Error 303: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nSee Other"
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/green-revolution/",
+      "status": 404,
+      "final_url": "https://www.pbs.org/wgbh/americanexperience/features/green-revolution/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/frontline/documentary/vaccine-war/",
+      "status": 404,
+      "final_url": "https://www.pbs.org/wgbh/frontline/documentary/vaccine-war/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/nova/physics/scientific-revolution.html",
+      "status": 404,
+      "final_url": "https://www.pbs.org/wgbh/nova/physics/scientific-revolution.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/nova/tech/steam-engine.html",
+      "status": 404,
+      "final_url": "https://www.pbs.org/wgbh/nova/tech/steam-engine.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.pewresearch.org/topic/internet-technology/platforms-services/social-media/",
+      "status": 403,
+      "final_url": "https://www.pewresearch.org/topic/internet-technology/platforms-services/social-media/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.rigb.org/our-history/famous-scientists/michael-faraday",
+      "status": 404,
+      "final_url": "https://www.rigb.org/our-history/famous-scientists/michael-faraday",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.rms.org.uk/discover-engage/microscopy-exploration.html",
+      "status": 404,
+      "final_url": "https://www.rms.org.uk/discover-engage/microscopy-exploration.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.rsc.org/education/eic/issues/2013mar/haber-process-fertilisers.asp",
+      "status": 404,
+      "final_url": "https://www.rsc.org/education/eic/issues/2013mar/haber-process-fertilisers.asp",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.sciencemuseum.org.uk/objects-and-stories/steam-engine",
+      "status": 405,
+      "final_url": "https://www.sciencemuseum.org.uk/objects-and-stories/steam-engine",
+      "ok": false,
+      "error": "HTTP Error 405: Method Not Allowed"
+    },
+    {
+      "url": "https://www.sciencemuseum.org.uk/objects-and-stories/technology-engineering/internal-combustion-engine",
+      "status": 405,
+      "final_url": "https://www.sciencemuseum.org.uk/objects-and-stories/technology-engineering/internal-combustion-engine",
+      "ok": false,
+      "error": "HTTP Error 405: Method Not Allowed"
+    },
+    {
+      "url": "https://www.ted.com/talks/ramez_naam_the_case_for_optimism_on_climate_change",
+      "status": 404,
+      "final_url": "https://www.ted.com/talks/ramez_naam_the_case_for_optimism_on_climate_change",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.thameswater.co.uk/about-us/responsibility/engineering/history-of-our-sewers",
+      "status": 404,
+      "final_url": "https://www.thameswater.co.uk/about-us/responsibility/engineering/history-of-our-sewers",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.thehenryford.org/explore/stories-of-innovation/",
+      "status": 308,
+      "final_url": "https://www.thehenryford.org/explore/stories-of-innovation/",
+      "ok": false,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://www.turing.ac.uk/alan-turing",
+      "status": 403,
+      "final_url": "https://www.turing.ac.uk/alan-turing",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.turing.ac.uk/research/interest-groups/trustworthy-human-centric-ai",
+      "status": 403,
+      "final_url": "https://www.turing.ac.uk/research/interest-groups/trustworthy-human-centric-ai",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.wired.com/2014/05/the-victorian-internet/",
+      "status": 404,
+      "final_url": "https://www.wired.com/2014/05/the-victorian-internet/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "all": [
+    {
+      "url": "https://airandspace.si.edu/explore/topics/apollo/apollo11.cfm",
+      "status": 404,
+      "final_url": "https://airandspace.si.edu/explore/topics/apollo/apollo11.cfm",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://airandspace.si.edu/explore/topics/wright-brothers",
+      "status": 404,
+      "final_url": "https://airandspace.si.edu/explore/topics/wright-brothers",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://americanhistory.si.edu/",
+      "status": 403,
+      "final_url": "https://americanhistory.si.edu/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://americanhistory.si.edu/collections/search/object/nmah_1106986",
+      "status": 403,
+      "final_url": "https://americanhistory.si.edu/collections/search/object/nmah_1106986",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://americanhistory.si.edu/collections/search/object/nmah_849543",
+      "status": 403,
+      "final_url": "https://americanhistory.si.edu/collections/search/object/nmah_849543",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://computerhistory.org/stories/integrated-circuit/",
+      "status": 404,
+      "final_url": "https://computerhistory.org/stories/integrated-circuit/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://computerhistory.org/stories/mobile-phone/",
+      "status": 404,
+      "final_url": "https://computerhistory.org/stories/mobile-phone/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://computerhistory.org/stories/transistor/",
+      "status": 404,
+      "final_url": "https://computerhistory.org/stories/transistor/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://cudl.lib.cam.ac.uk/view/PR-ADV-B-00039-00001",
+      "status": 200,
+      "final_url": "https://cudl.lib.cam.ac.uk/view/PR-ADV-B-00039-00001",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.1126/science.1225829",
+      "status": 403,
+      "final_url": "https://www.science.org/doi/10.1126/science.1225829",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://ethw.org/Electric_Power",
+      "status": 404,
+      "final_url": "https://ethw.org/Electric_Power",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://humanorigins.si.edu/human-characteristics/fire",
+      "status": 404,
+      "final_url": "https://humanorigins.si.edu/human-characteristics/fire",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://innovativegenomics.org/crisprpedia/",
+      "status": 403,
+      "final_url": "https://innovativegenomics.org/crisprpedia/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://micro.magnet.fsu.edu/primer/museum/microscopy.html",
+      "status": 404,
+      "final_url": "https://micro.magnet.fsu.edu/primer/museum/microscopy.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://ourworldindata.org/battery-price-declines",
+      "status": 404,
+      "final_url": "https://ourworldindata.org/battery-price-declines",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://ourworldindata.org/energy-crypto-currencies",
+      "status": 404,
+      "final_url": "https://ourworldindata.org/energy-crypto-currencies",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://ourworldindata.org/social-media",
+      "status": 404,
+      "final_url": "https://ourworldindata.org/social-media",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://radiopaedia.org/",
+      "status": 200,
+      "final_url": "https://radiopaedia.org/",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://royalsociety.org/collections/newton/",
+      "status": 404,
+      "final_url": "https://royalsociety.org/collections/newton/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://webfoundation.org/about/history/",
+      "status": null,
+      "final_url": "https://webfoundation.org/about/history/",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.aps.org/publications/apsnews/200010/history.cfm",
+      "status": 403,
+      "final_url": "https://www.aps.org/publications/apsnews/200010/history.cfm",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.asml.com/en/technology/euv-lithography/how-euv-works",
+      "status": 404,
+      "final_url": "https://www.asml.com/en/technology/euv-lithography/how-euv-works",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/history/british/middle_ages/blackpowder_01.shtml",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/history/british/middle_ages/blackpowder_01.shtml",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/b00btblm",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/programmes/b00btblm",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/b04bch1p",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/programmes/b04bch1p",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/b06f22jg",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/programmes/b06f22jg",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/p004kl5l",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/programmes/p004kl5l",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/p00gkwy6",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/programmes/p00gkwy6",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bbc.co.uk/programmes/p0b0dmq4",
+      "status": 404,
+      "final_url": "https://www.bbc.co.uk/programmes/p0b0dmq4",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.bl.uk/gutenberg-bible",
+      "status": 404,
+      "final_url": "https://www.bl.uk/gutenberg-bible",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.britishmuseum.org/learn/schools/ages-14/ancient-egypt/the-history-of-writing",
+      "status": 403,
+      "final_url": "https://www.britishmuseum.org/learn/schools/ages-14/ancient-egypt/the-history-of-writing",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.cdc.gov/rabies/prevention/history.html",
+      "status": 404,
+      "final_url": "https://www.cdc.gov/rabies/prevention/history.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.cfr.org/book/chip-war",
+      "status": 308,
+      "final_url": "https://www.cfr.org/book/chip-war",
+      "ok": false,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://www.corning.com/optical-communications/",
+      "status": 403,
+      "final_url": "https://www.corning.com/optical-communications/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.corning.com/optical-communications/worldwide/en/home/inside-the-network/fiber-optic-technology.html",
+      "status": 403,
+      "final_url": "https://www.corning.com/optical-communications/worldwide/en/home/inside-the-network/fiber-optic-technology.html",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.discovermagazine.com/planet-earth/the-worst-mistake-in-the-history-of-the-human-race",
+      "status": 200,
+      "final_url": "https://www.discovermagazine.com/the-worst-mistake-in-the-history-of-the-human-race-12157",
+      "ok": true,
+      "error": null
+    },
+    {
+      "url": "https://www.esa.int/Enabling_Support/Operations/How_do_satellites_work",
+      "status": 404,
+      "final_url": "https://www.esa.int/Enabling_Support/Operations/How_do_satellites_work",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.feynmanlectures.caltech.edu/",
+      "status": 403,
+      "final_url": "https://www.feynmanlectures.caltech.edu/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.iaea.org/topics/nuclear-power",
+      "status": 403,
+      "final_url": "https://www.iaea.org/topics/nuclear-power",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.internetsociety.org/internet/history-internet/",
+      "status": 403,
+      "final_url": "https://www.internetsociety.org/internet/history-internet/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.johnsnowsociety.org/john-snow.html",
+      "status": 404,
+      "final_url": "https://johnsnowsociety.org/john-snow.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.ligo.caltech.edu/page/press-release-gr150914",
+      "status": 500,
+      "final_url": "https://www.ligo.caltech.edu/page/press-release-gr150914",
+      "ok": false,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://www.loc.gov/collections/alexander-graham-bell/",
+      "status": 403,
+      "final_url": "https://www.loc.gov/collections/alexander-graham-bell/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.loc.gov/preservation/resources/resthomes/paper.html",
+      "status": 404,
+      "final_url": "https://www.loc.gov/preservation/resources/resthomes/paper.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.massgeneral.org/museum/exhibit/ether-dome",
+      "status": 404,
+      "final_url": "https://www.massgeneral.org/museum/exhibit/ether-dome",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-a-telescope-58.html",
+      "status": 404,
+      "final_url": "https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-a-telescope-58.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.nasa.gov/centers/glenn/about/history/wright.html",
+      "status": 404,
+      "final_url": "https://www.nasa.gov/centers/glenn/about/history/wright.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.nasa.gov/satellites/",
+      "status": 404,
+      "final_url": "https://www.nasa.gov/satellites/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.nature.com/articles/d41586-019-02665-9",
+      "status": 303,
+      "final_url": "https://www.nature.com/articles/d41586-019-02665-9?error=cookies_not_supported&code=610ee6d5-0d69-48b0-a1ee-cd2daf7339f1",
+      "ok": false,
+      "error": "HTTP Error 303: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nSee Other"
+    },
+    {
+      "url": "https://www.nature.com/articles/news.2012.299",
+      "status": 303,
+      "final_url": "https://www.nature.com/articles/news.2012.299?error=cookies_not_supported&code=df2340a8-e611-48a7-ab9a-0c904ac58e8f",
+      "ok": false,
+      "error": "HTTP Error 303: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nSee Other"
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/green-revolution/",
+      "status": 404,
+      "final_url": "https://www.pbs.org/wgbh/americanexperience/features/green-revolution/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/frontline/documentary/vaccine-war/",
+      "status": 404,
+      "final_url": "https://www.pbs.org/wgbh/frontline/documentary/vaccine-war/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/nova/physics/scientific-revolution.html",
+      "status": 404,
+      "final_url": "https://www.pbs.org/wgbh/nova/physics/scientific-revolution.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/nova/tech/steam-engine.html",
+      "status": 404,
+      "final_url": "https://www.pbs.org/wgbh/nova/tech/steam-engine.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.pewresearch.org/topic/internet-technology/platforms-services/social-media/",
+      "status": 403,
+      "final_url": "https://www.pewresearch.org/topic/internet-technology/platforms-services/social-media/",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.rigb.org/our-history/famous-scientists/michael-faraday",
+      "status": 404,
+      "final_url": "https://www.rigb.org/our-history/famous-scientists/michael-faraday",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.rms.org.uk/discover-engage/microscopy-exploration.html",
+      "status": 404,
+      "final_url": "https://www.rms.org.uk/discover-engage/microscopy-exploration.html",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.rsc.org/education/eic/issues/2013mar/haber-process-fertilisers.asp",
+      "status": 404,
+      "final_url": "https://www.rsc.org/education/eic/issues/2013mar/haber-process-fertilisers.asp",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.sciencemuseum.org.uk/objects-and-stories/steam-engine",
+      "status": 405,
+      "final_url": "https://www.sciencemuseum.org.uk/objects-and-stories/steam-engine",
+      "ok": false,
+      "error": "HTTP Error 405: Method Not Allowed"
+    },
+    {
+      "url": "https://www.sciencemuseum.org.uk/objects-and-stories/technology-engineering/internal-combustion-engine",
+      "status": 405,
+      "final_url": "https://www.sciencemuseum.org.uk/objects-and-stories/technology-engineering/internal-combustion-engine",
+      "ok": false,
+      "error": "HTTP Error 405: Method Not Allowed"
+    },
+    {
+      "url": "https://www.ted.com/talks/ramez_naam_the_case_for_optimism_on_climate_change",
+      "status": 404,
+      "final_url": "https://www.ted.com/talks/ramez_naam_the_case_for_optimism_on_climate_change",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.thameswater.co.uk/about-us/responsibility/engineering/history-of-our-sewers",
+      "status": 404,
+      "final_url": "https://www.thameswater.co.uk/about-us/responsibility/engineering/history-of-our-sewers",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.thehenryford.org/explore/stories-of-innovation/",
+      "status": 308,
+      "final_url": "https://www.thehenryford.org/explore/stories-of-innovation/",
+      "ok": false,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://www.turing.ac.uk/alan-turing",
+      "status": 403,
+      "final_url": "https://www.turing.ac.uk/alan-turing",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.turing.ac.uk/research/interest-groups/trustworthy-human-centric-ai",
+      "status": 403,
+      "final_url": "https://www.turing.ac.uk/research/interest-groups/trustworthy-human-centric-ai",
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.wired.com/2014/05/the-victorian-internet/",
+      "status": 404,
+      "final_url": "https://www.wired.com/2014/05/the-victorian-internet/",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

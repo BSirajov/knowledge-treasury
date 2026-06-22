@@ -3,41 +3,15 @@
   "primary": [
     {
       "type": "page",
-      "id": "home"
+      "id": "prominent-figures"
     },
     {
-      "type": "group",
-      "id": "treasury",
-      "style": "dropdown",
-      "labelKey": "treasury",
-      "landingId": "encyclopedia",
-      "children": [
-        {
-          "id": "encyclopedia",
-          "labelKey": "prominentFigures",
-          "descKey": "prominentFiguresDesc"
-        },
-        {
-          "id": "industrial-revolutions",
-          "labelKey": "industrialRevolutions",
-          "descKey": "industrialRevolutionsDesc"
-        },
-        {
-          "id": "major-scientific-inventions",
-          "labelKey": "majorScientificInventions",
-          "descKey": "majorScientificInventionsDesc"
-        }
-      ]
+      "type": "page",
+      "id": "major-scientific-inventions"
+    },
+    {
+      "type": "page",
+      "id": "industrial-revolutions"
     }
-  ],
-  "sections": {
-    "treasury": {
-      "landingId": "encyclopedia",
-      "pages": [
-        "encyclopedia",
-        "industrial-revolutions",
-        "major-scientific-inventions"
-      ]
-    }
-  }
+  ]
 }

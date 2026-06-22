@@ -1,0 +1,779 @@
+[
+  {
+    "name": "Controlled Use of Fire",
+    "period": "c. 1,000,000 – 400,000 BCE",
+    "key_figures": "Homo erectus (earliest evidence); later Homo sapiens",
+    "summary": "Fire evidence from Wonderwerk Cave, South Africa dates to ~1 million years ago. Deliberate control enabled cooking, warmth, and protection — reshaping human biology and culture.",
+    "key_facts": [
+      "Oldest evidence: ~1 million years ago",
+      "Key sites: Wonderwerk Cave, South Africa",
+      "Cooking fuelled human brain development",
+      "Enabled settlement in colder climates",
+      "Precursor to metallurgy and industry"
+    ]
+  },
+  {
+    "name": "Agriculture and Domestication",
+    "period": "c. 10,000 – 8,000 BCE",
+    "key_figures": "Multiple independent centres: Fertile Crescent, China, Mesoamerica, Africa",
+    "summary": "Farming emerged independently in at least seven regions. Crop cultivation and animal domestication enabled permanent settlements, population growth, and the first cities.",
+    "key_facts": [
+      "At least 7 independent origins worldwide",
+      "First crops: wheat, barley, millet, rice",
+      "First animals: goats, sheep, cattle, pigs",
+      "Enabled cities, states, writing, trade",
+      "Also introduced zoonotic diseases"
+    ]
+  },
+  {
+    "name": "The Wheel",
+    "period": "c. 3,500 BCE (wheeled vehicle); c. 5,500 BCE (potter's wheel)",
+    "key_figures": "Mesopotamia and the Eurasian steppe (multiple independent inventions debated)",
+    "summary": "The wheel appeared in Mesopotamia ~3500 BCE. The key insight was the axle, allowing free rotation. The wheel&#x27;s principle underpins gears, turbines, engines, and all machinery.",
+    "key_facts": [
+      "First use: pottery wheel (~5500 BCE)",
+      "Transport wheels: ~3500 BCE, Mesopotamia",
+      "Americas and Africa developed without it",
+      "Rotary principle → all modern machinery",
+      "Spindle, lathe, centrifuge all derived"
+    ]
+  },
+  {
+    "name": "Writing Systems",
+    "period": "c. 3,400 – 3,000 BCE (Sumerian cuneiform); c. 3,200 BCE (Egyptian hieroglyphs)",
+    "key_figures": "Sumer (cuneiform); Egypt (hieroglyphs); China and Mesoamerica (independent inventions)",
+    "summary": "Writing was invented at least four times independently. A Cuneiform began as an accounting system. The alphabet (~1800 BCE) reduced thousands of signs to a small phonetic set.",
+    "key_facts": [
+      "At least 4 independent inventions",
+      "Cuneiform: earliestwriting (~3400 BCE)",
+      "Alphabet invented in ancient Levant ~1800 BCE",
+      "Enabled law, science, literature, history",
+      "Foundational to all accumulated knowledge"
+    ]
+  },
+  {
+    "name": "Mathematics and the Concept of Zero",
+    "period": "c. 3,000 BCE (counting systems); 628 CE (Brahmagupta formalises zero)",
+    "key_figures": "Babylonian, Egyptian, Indian (Brahmagupta), and Maya mathematicians",
+    "summary": "hmagupta formalised zero as a number in 628 CE. The Hindu- bicnumeral system reached Europevia Islamicscholars, lacing Roman numeralsand enabling modern calculation.",
+    "key_facts": [
+      "Brahmagupta formalised zero: 628 CE",
+      "Babylonian algebra dates to~2000 BCE",
+      "Hindu-Arabic numerals spread via Islamic world",
+      "Calculus (Newton/Leibniz) builton this base",
+      "Binary arithmetic underpins all computing"
+    ]
+  },
+  {
+    "name": "Paper",
+    "period": "c. 105 CE (official Chinese invention attributed to Cai Lun); spread to Europe by 12th century",
+    "key_figures": "Cai Lun (Han Dynasty China); later Islamic and European paper mills",
+    "summary": "Cai Lun made paper from plant fibres in 105 CE. Paper reached the Islamic world by the 8th century, and Europe by the 12th — making knowledge cheaper and more portable.",
+    "key_facts": [
+      "Invented in Han Dynasty China, 105 CE",
+      "Reached Islamic world: 8 th century",
+      "Reached Europe via Islamic Spain: 12 th century",
+      "Made books affordable before printing press",
+      "Global production today: 400 M tonnes/year"
+    ]
+  },
+  {
+    "name": "The Compass",
+    "period": "c. 200 BCE (early Chinese lodestone compass); c. 1100 CE (navigational use in Europe and China)",
+    "key_figures": "Han Dynasty China; independently developed in Europe c. 12th century",
+    "summary": "First a Chinese divination tool, the magnetic compass was E adapted for maritime navigation by ~1040 CE. It enabled open- ocean sailing and the Age of Exploration. 上",
+    "key_facts": [
+      "Earliest Chinese compass: ~200 BCE",
+      "Maritime use: Chinese texts~1040-1119 CE",
+      "European navigation use: ~11 g 0 CE",
+      "Enabled Ageof Explorationvoyages",
+      "Foundation of modern navigation science"
+    ]
+  },
+  {
+    "name": "Gunpowder",
+    "period": "c. 850 CE (Chinese alchemical discovery); widespread military use from c. 1000 CE",
+    "key_figures": "Chinese alchemists (Tang Dynasty); spread to Islamic world and Europe by 13th century",
+    "summary": "covered seeking immortality, gunpowder&#x27;s formula (sulphur, rcoal, saltpetre) appeared in Chinese texts by 850 CE. nonsmademedieval fortificationsobsolete.",
+    "key_facts": [
+      "Discovered by Tang Dynasty alchemists ~850 CE",
+      "Military use in China: 1 oth century",
+      "Reached Europe via Islamic scholars: 13 th century",
+      "Madefeudal stonecastles obsolete",
+      "Later enabled mining and civil engineering"
+    ]
+  },
+  {
+    "name": "The Printing Press",
+    "period": "c. 1440 CE (Gutenberg's movable-type press in Europe); movable type in China c. 1040 CE",
+    "key_figures": "Johannes Gutenberg (Europe); Bi Sheng (China, c. 1040 CE, earlier movable type)",
+    "summary": "enberg&#x27;s movable-type press (~1440) reduced book costs by 6 within decades, enabling mass literacy. The Gutenberg Bible 455) was among the first major printed books.",
+    "key_facts": [
+      "Movable type in China: Bi Sheng, ~1040 CE",
+      "Gutenberg press: Mainz, Germany.~1440 CE",
+      "Gutenberg Bible printed c. 1455",
+      "Bookcostfell~g 0%withindecades",
+      "Accelerated Renaissance and Reformation"
+    ]
+  },
+  {
+    "name": "The Scientific Method",
+    "period": "c. 1000–1600 CE (development from Ibn al-Haytham to Bacon, Galileo, Descartes)",
+    "key_figures": "Ibn al-Haytham (optics, c. 1021); Francis Bacon; Galileo Galilei; René Descartes",
+    "summary": "al-Haytham pioneered systematicexperimentation in optics 021 CE). Bacon, Galileo, and Descartes developed the othetico-deductive model that drivesmodern science.",
+    "key_facts": [
+      "Ibn al-Haytham&#x27;s&#x27;Book of Optics&#x27;: c. 1021 CE",
+      "Bacon&#x27;s&#x27;Novum Organum&#x27;: 1620",
+      "Galileo introduced quantitative measurement",
+      "Self-correcting: errors exposed by experiment",
+      "Foundation ofall modernscienceand tech"
+    ]
+  },
+  {
+    "name": "The Telescope",
+    "period": "1608 (first patent, Netherlands); 1609 (Galileo's astronomical use)",
+    "key_figures": "Hans Lipperhey (inventor, Netherlands); Galileo Galilei (first systematic astronomical use)",
+    "summary": "Galileo turned the telescope skyward in 1609, observing moons of Jupiter, lunar mountains, and phases of Venus — all challenging the Earth-centred model of the cosmos.",
+    "key_facts": [
+      "Patent: Hans Lipperhey, Netherlands, 1608",
+      "Galileo&#x27;s observations began Jan 1610",
+      "Revealed moons of Jupiter, craters on Moon",
+      "Began moderm observational astronomy",
+      "WST (2021) is its direct descendant"
+    ]
+  },
+  {
+    "name": "The Microscope",
+    "period": "c. 1590 (earliest compound microscope); 1670s (Antoni van Leeuwenhoek's improvements)",
+    "key_figures": "Zacharias Janssen (compound microscope, c. 1590); Antoni van Leeuwenhoek (high-power single-lens)",
+    "summary": "uwenhoek built microscopes magnifying up to 270 x in the Os, first observing bacteria — &#x27;animalcules&#x27;. This discovery s the first step toward germ theory.",
+    "key_facts": [
+      "Compound microscope: Janssen ~1590",
+      "Leeuwenhoek magnified up to 270 x, 1670 s",
+      "First observations of bacteria and protozoa",
+      "Robert Hooke&#x27;s Micrographia: 1665",
+      "Electron microscopes now image individual atoms"
+    ]
+  },
+  {
+    "name": "Newtonian Mechanics",
+    "period": "1687 (Principia Mathematica published)",
+    "key_figures": "Isaac Newton",
+    "summary": "vton&#x27;s Principia (1687) unified terrestrial and celestial sics in one framework. He also invented calculus as a tool describing continuously changing quantities.",
+    "key_facts": [
+      "Principia Mathematica published: 1687",
+      "Three lawsofmotion+ law ofgravitation",
+      "Co-invented calculus with Leibniz",
+      "Unified terrestrial and celestial physics",
+      "Foundation of all classical engineering"
+    ]
+  },
+  {
+    "name": "Steam Engine",
+    "period": "1712 (Newcomen atmospheric engine); 1769 (Watt's separate condenser patent)",
+    "key_figures": "Thomas Newcomen; James Watt (improved design); Richard Trevithick (high-pressure steam)",
+    "summary": "t&#x27;sseparatecondenser(1769) dramaticallyincreased ciency, making steam practical for factories and railways. owered the Industrial Revolution.",
+    "key_facts": [
+      "Newcomen atmospheric engine: 1712",
+      "Watt&#x27;sseparatecondenserpatent: 1769",
+      "First steam railway. Trevithick, 1804",
+      "Powered mills, mines, ships, railways",
+      "Inaugurated large-scale fossil fuel use"
+    ]
+  },
+  {
+    "name": "Electricity Generation and Distribution",
+    "period": "1831 (Faraday's electromagnetic induction); 1880s (Edison and Tesla's competing systems)",
+    "key_figures": "Michael Faraday; Thomas Edison; Nikola Tesla; George Westinghouse",
+    "summary": "aday&#x27;s 1831 discovery of electromagnetic induction underlies ry generator. The AC/Dc &#x27;War of the Currents&#x27; in the 1880 s led with AC winning for long-distance distribution.",
+    "key_facts": [
+      "Faraday&#x27;s electromagnetic induction: 1831",
+      "Edison&#x27;s DC system vs Tesla&#x27;s AC: 1880 s-1890 s",
+      "AC won: enables long-distance distribution",
+      "~750 Mpeople still lack electricity today",
+      "Mostversatile energy form ever developed"
+    ]
+  },
+  {
+    "name": "Electromagnetism",
+    "period": "1820–1865 (Ørsted, Ampère, Faraday, Maxwell)",
+    "key_figures": "Hans Christian Ørsted; André-Marie Ampère; Michael Faraday; James Clerk Maxwell",
+    "summary": "xwell&#x27;s four equations (1865) unified electricity, magnetism, Ilight asaspects of one phenomenon, predicting ctromagneticwaves andlaying thebasis formodern tronics.",
+    "key_facts": [
+      "Orsted: electricity deflects compass: 1820",
+      "Faraday: electromagnetic induction: 1831",
+      "Maxwell&#x27;s equations published: 1865",
+      "Predicted light, radio, X-rays as EM waves",
+      "Foundation of all motors, radios, Wi-F"
+    ]
+  },
+  {
+    "name": "Internal Combustion Engine",
+    "period": "1859–1876 (first practical designs: Lenoir, Otto, Beau de Rochas)",
+    "key_figures": "Étienne Lenoir; Nikolaus Otto (four-stroke cycle, 1876); Rudolf Diesel (1897)",
+    "summary": "olaus Otto&#x27;s four-stroke cycle (1876) became the basis for st gasoline engines. Karl Benz applied it to a horseless riage in 1885, creating the first automobile.",
+    "key_facts": [
+      "Lenoir&#x27;s first commercial Ic E: 1859",
+      "Otto four-stroke cycle patent: 1876",
+      "Diesel compression-ignition engine: 1897",
+      "Compact design enabled cars and aircraft",
+      "Now driving transition to electricvehicles"
+    ]
+  },
+  {
+    "name": "Automobile",
+    "period": "1885–1886 (Benz Patent-Motorwagen); mass production from 1908 (Ford Model T)",
+    "key_figures": "Karl Benz; Gottlieb Daimler; Henry Ford (mass production)",
+    "summary": "z&#x27;s Patent-Motorwagen (1885) was the first true automobile. d&#x27;s Model T (1908) and moving assembly line (1913) made cars ordable for ordinary working people.",
+    "key_facts": [
+      "Benz Patent-Motorwagen: 1885",
+      "Ford Model Tpricefellfrom 825 to 260",
+      "Ford moving assembly line: 1913",
+      "Created entire new industrial ecosystem",
+      "~1.35 M road fatalities globally per year"
+    ]
+  },
+  {
+    "name": "Airplane",
+    "period": "1903 (Wright Brothers' first powered flight, Kitty Hawk, North Carolina)",
+    "key_figures": "Orville and Wilbur Wright; later: Louis Blériot, Anthony Fokker, Frank Whittle (jet engine)",
+    "summary": "Wright Brothers&#x27;12-second flighton 17 December 1903 was hittle, 1937) made modern aviation possible.",
+    "key_facts": [
+      "First powered flight: 17 December 1903",
+      "First powered, heavier-than-air flight. The jet engine",
+      "Jet engine patent: Whittle, 1937",
+      "First operational jet aircraft: 1944",
+      "4+ billion passengers/yearpre-pandemic",
+      "~2.5%ofglobal C 0 emissions"
+    ]
+  },
+  {
+    "name": "Refrigeration",
+    "period": "1834 (Perkins' vapour-compression cycle patent); widespread use from 1920s–1950s",
+    "key_figures": "Jacob Perkins; Carl von Linde; Clarence Birdseye (commercial frozen food)",
+    "summary": "thanical refrigeration (Perkins, 1834) and Birdseye&#x27;s quick zing(1920 s) transformed foodsafety andenabled global d chains for food and vaccines.",
+    "key_facts": [
+      "Vapour-compression patent: Perkins, 1834",
+      "Von Linde&#x27;s industrial refrigeration: 1870 s",
+      "Birdseye quick-freezing process: 1920 s",
+      "Eliminatesmostfoodborne illnessrisk",
+      "Enables vaccine and medicine cold chains"
+    ]
+  },
+  {
+    "name": "Vaccination",
+    "period": "1796 (Jenner's smallpox vaccine); mass immunisation programmes from the 19th century",
+    "key_figures": "Edward Jenner (smallpox); Louis Pasteur (rabies, cholera); Jonas Salk (polio)",
+    "summary": "her&#x27;s 1796 cowpox inoculation was theworld&#x27;s firstvaccine. allpoxwas declared eradicated by WHO in 1980-the first man disease fully eliminated.",
+    "key_facts": [
+      "Jenner&#x27;s first vaccination: 1796",
+      "Smallpox eradicated by WHO: 1980",
+      "Polio reduced by &gt;99.9% frompeak",
+      "Vaccines saved 154 M lives (Lancet, 2024)",
+      "M RNA vaccinesdeveloped in 2020 for COVi D-19"
+    ]
+  },
+  {
+    "name": "Antibiotics",
+    "period": "1928 (Fleming's penicillin discovery); 1940s (mass production and clinical use)",
+    "key_figures": "Alexander Fleming (discovery, 1928); Howard Florey and Ernst Chain (development, 1940s)",
+    "summary": "Fleming observed penicillin inhibiting bacteria in 1928. Florey and Chain purified it by 1940. Mass production during WWlI saved countless lives from infected wounds.",
+    "key_facts": [
+      "Fleming&#x27;s discovery: 28 September 1928",
+      "Florey and Chain&#x27;spurification: 1940",
+      "Mass productionby Wwll: 1944",
+      "Added ~23 years to average lifespan",
+      "Antimicrobial resistance: top global threat"
+    ]
+  },
+  {
+    "name": "Germ Theory of Disease",
+    "period": "1850s–1880s (Pasteur and Koch's foundational work)",
+    "key_figures": "Louis Pasteur; Robert Koch; Ignaz Semmelweis; John Snow",
+    "summary": "teur&#x27;s experiments(1859-1861) established that specific roorganisms cause specific diseases. Koch identified the TB illus (1882) and cholera bacterium (1883).",
+    "key_facts": [
+      "Snow traced cholera to water pump: 1854",
+      "Semmelweis: handwashing reduces deaths: 1847",
+      "Pasteur&#x27;s germ theory experiments: 1859-61",
+      "Koch identified TB and cholera bactenia",
+      "Foundation of vaccines, antibiotics, surgery"
+    ]
+  },
+  {
+    "name": "Anaesthesia",
+    "period": "1842–1847 (Crawford Long, William Morton, James Young Simpson)",
+    "key_figures": "Crawford Long (ether, 1842); William Morton (first public demonstration, 1846); James Young Simpson (chloroform)",
+    "summary": "Morton&#x27;s public demonstration of ether anaesthesia at Massachusetts General Hospital on 16 October 1846 is the conventional start date. Chloroform anaesthesia, introduced by Simpson in 1847, transformed surgery worldwide.",
+    "key_facts": [
+      "First ether use in surgery: Long, 1842",
+      "Public ether demonstration: Morton, 1846",
+      "Chloroform introduced: Simpson, 1847",
+      "Made complex operations possible",
+      "Modern anaesthesia uses sophisticated drug combos"
+    ]
+  },
+  {
+    "name": "X-Rays and Medical Imaging",
+    "period": "1895 (Röntgen's discovery of X-rays); CT (1971); MRI (1977); ultrasound (1950s)",
+    "key_figures": "Wilhelm Conrad Röntgen (X-rays, 1895); Godfrey Hounsfield and Allan Cormack (CT, 1971)",
+    "summary": "tgen produced the first X-ray image — of his wife&#x27;s hand hin weeks of discovering X-rays in November 1895. CT nning (197 l) added cross-sectional imaging.",
+    "key_facts": [
+      "X-rays discovered: 8 November 1895",
+      "Nobel Prize in Physics: Rontgen, 1901",
+      "CT scanner: Hounsfield and Cormack, 1971",
+      "MRI (no ionising radiation): 1977-1980 s",
+      "Now includes PET, ultrasound, functional MRI"
+    ]
+  },
+  {
+    "name": "Sanitation and Clean Water Systems",
+    "period": "1850s–1900 (Great Stink, London sewer system); 20th century global expansion",
+    "key_figures": "Joseph Bazalgette (London sewers); Edwin Chadwick; John Snow; Lemuel Shattuck",
+    "summary": "don&#x27;s Great Stink (1858) drove construction of Bazalgette&#x27;s /er network. Water chlorination in Jersey City (1908) duced immediate dramatic fallsin waterborme disease.",
+    "key_facts": [
+      "London&#x27;s Great Stink: 1858",
+      "Bazalgette&#x27;ssewernetwork: completed 1870 s",
+      "First water chlorination: Jersey City, 1908",
+      "Eliminated most cholera and typhoid",
+      "2 B people still lack safe water (WHO 2023)"
+    ]
+  },
+  {
+    "name": "DNA Structure and Molecular Genetics",
+    "period": "1953 (Watson and Crick's double helix structure); preceded by Avery (1944) and Franklin's X-ray work",
+    "key_figures": "James Watson, Francis Crick; Rosalind Franklin (X-ray crystallography); Erwin Chargaff; Oswald Avery",
+    "summary": "Watson and Crick deduced the double helix structure in 1953 partly using Rosalind Franklin's crucial X-ray diffraction data. This explained heredity at the molecular level.",
+    "key_facts": [
+      "Avery showed DNA carries genetic info: 1944",
+      "Franklin&#x27;s&#x27;Photo 51&#x27;: critical X-ray data",
+      "Watson and Crick double helix: April 1953",
+      "Nobel Prize: Watson, Crick, Wilkins, 1962",
+      "Opened molecular biology. biotechnology, CRi SPR"
+    ]
+  },
+  {
+    "name": "Human Genome Sequencing",
+    "period": "1990–2003 (Human Genome Project); first complete sequence 2022",
+    "key_figures": "Human Genome Project consortium (NIH, Wellcome Trust, multiple nations); Craig Venter (Celera Genomics)",
+    "summary": "Human Genome Project sequenced 3 billion base pairs over 13 HGP launched: 1990 rs. Genome sequencing cost fell from $3 B in 2003 to under 10 by 2024, transforming personalised medicine.",
+    "key_facts": [
+      "Draft sequence completed: 2001",
+      "HGP declared complete: April 2003",
+      "Costfellfrom 3 Bto 200 by 2024",
+      "Gapless T 2 T sequence: 2022"
+    ]
+  },
+  {
+    "name": "CRISPR Gene Editing",
+    "period": "2012 (CRISPR-Cas9 adapted for gene editing); first clinical applications from 2020s",
+    "key_figures": "Jennifer Doudna and Emmanuelle Charpentier (Nobel Prize 2020); Feng Zhang (independent parallel work)",
+    "summary": "idna and Charpentier&#x27;s 2012 Science paper showed CRISPR-Cas Boudna &amp; Charpentier CRISPR paper: 2012 Id be reprogrammed to edit any DNA sequence. First CRISPR rapy (sickle cell) FDA-approved in 2023.",
+    "key_facts": [
+      "Nobel Prize in Chemistry: 2020",
+      "First FDA-approved CRISPR therapy: 2023",
+      "Applications: genetic disease, cancer, crops",
+      "Ethical debate: germline editing prohibited"
+    ]
+  },
+  {
+    "name": "The Periodic Table",
+    "period": "1869 (Mendeleev's publication); completed across the 20th century",
+    "key_figures": "Dmitri Mendeleev; Lothar Meyer (independent parallel work)",
+    "summary": "ndeleev arranged elements by atomic weight in 1869, leaving s for undiscovered elements whose properties he predicted h remarkable accuracy (later confirmed).",
+    "key_facts": [
+      "Published: Mendeleev, 1869",
+      "Leftgaps for undiscovered elements",
+      "All three predicted elements confirmed by 1886",
+      "Modern table organised by atomicnumber(1913)",
+      "118 elements confirmed; organises all chemistry"
+    ]
+  },
+  {
+    "name": "Quantum Mechanics",
+    "period": "1900–1930s (Planck, Einstein, Bohr, Heisenberg, Schrödinger, Dirac)",
+    "key_figures": "Max Planck; Niels Bohr; Werner Heisenberg; Erwin Schrödinger; Paul Dirac; Albert Einstein",
+    "summary": "antum mechanics describes all atomic and subatomic phenomerpaanck&#x27;s quantum hypothesis: 1900 the most precisely tested theory in physics, with dictionsverified to one part in ten billion.",
+    "key_facts": [
+      "Bohratomicmodel: 1913",
+      "Heisenberg/Schrodinger equations: 1925-26",
+      "Dirac predicted antimatter: 1928",
+      "Foundation: laser, transistor, MRl, computing"
+    ]
+  },
+  {
+    "name": "Theory of Relativity",
+    "period": "1905 (Special Relativity); 1915 (General Relativity)",
+    "key_figures": "Albert Einstein",
+    "summary": "ecial relativity (1905) gave us E=mc². General relativity 15) described gravity as spacetime curvature, predicting vitational waves, black holes, and time dilation.",
+    "key_facts": [
+      "Special relativity (E=mc 2): 1905",
+      "General relativity: 1915",
+      "GPS requires relativistic corrections to work",
+      "Gravitational waves detected by Li GO: 2015",
+      "First black hole image: EHT, 2019"
+    ]
+  },
+  {
+    "name": "Nuclear Energy and Nuclear Science",
+    "period": "1938 (nuclear fission discovered); 1942 (first controlled chain reaction); 1951 (first electricity from nuclear power)",
+    "key_figures": "Otto Hahn, Lise Meitner, Fritz Strassmann (fission); Enrico Fermi (reactor); Manhattan Project team",
+    "summary": "Nuclear fission was discovered in December 1938. Fermi achieved Fi the first controlled chain reaction in 1942. Nuclear power today provides ~10%of world electricity",
+    "key_facts": [
+      "First controlled chain reaction in 1942. Nuclear power",
+      "First controlled chain reaction: Fermi, 1942",
+      "Atomicbombs used: August 1945",
+      "First electricity from nuclear: USSR, 1954",
+      "~10% of world electricity, very low-carbon"
+    ]
+  },
+  {
+    "name": "Plastics and Synthetic Materials",
+    "period": "1907 (Bakelite, first fully synthetic plastic); 1930s–1950s (nylon, polyethylene, Teflon)",
+    "key_figures": "Leo Baekeland (Bakelite); Wallace Carothers (nylon); DuPont chemists",
+    "summary": "kelite (1907) was the first fully synthetic plastic. Nylon, yethylene, PVC, and Teflon followed in the 1930 s-40 s. Global duction now exceeds 40 o M tonnes per year.",
+    "key_facts": [
+      "Bakelite (first synthetic plastic): 1907",
+      "Nylon developed by Carothersat Du Pont: 1935",
+      "Polyethylene discovered by ICl: 1933",
+      "Globalproduction: 40 o M+ tonnes/year",
+      "~8 M tonnes enter oceans annually"
+    ]
+  },
+  {
+    "name": "Fertilisers and Modern Agricultural Chemistry",
+    "period": "1909 (Haber-Bosch process for synthetic ammonia); widespread use from 1950s Green Revolution",
+    "key_figures": "Fritz Haber; Carl Bosch (BASF); Norman Borlaug (Green Revolution)",
+    "summary": "Haber-Bosch process (1909) synthesises ammonia from hospheric nitrogen, making synthetic fertiliser possible. f the nitrogen in human bodies now comes from this process.",
+    "key_facts": [
+      "Haber-Bosch process patented: 1909",
+      "~50%ofhumanbody nitrogen from thisprocess",
+      "Enabled 3 x increase in food production",
+      "Green Revolution saved~l B peoplefrom famine",
+      "Nitrogen runoff causes major water pollution"
+    ]
+  },
+  {
+    "name": "Telegraph",
+    "period": "1837 (Cooke and Wheatstone, UK); 1844 (Morse's Baltimore–Washington line)",
+    "key_figures": "Samuel Morse; Alfred Vail; William Cooke; Charles Wheatstone",
+    "summary": "telegraph separated communication from physical transport the first time. The transatlantic cable (1866) connected ope and North America almost instantly.",
+    "key_facts": [
+      "Cooke and Wheatstone patent: 1837",
+      "Morsecode system: 1838",
+      "First transcontinental Us line: 1861",
+      "Transatlanticcable: 1866",
+      "Created Reuters, AP, and financial wire services"
+    ]
+  },
+  {
+    "name": "Telephone",
+    "period": "1876 (Bell's patent); widespread adoption from 1890s–1920s",
+    "key_figures": "Alexander Graham Bell; Elisha Gray (disputed co-inventor); Antonio Meucci",
+    "summary": "I&#x27;s patent (7 March 1876) became one of the most nmercially valuable in history. AT&amp;T, founded from Bell&#x27;s npany, dominated Us communications for a century.",
+    "key_facts": [
+      "Bell&#x27;s telephone patent: 7 March 1876",
+      "Bell Telephone Company founded: 1877",
+      "Legal disputes with Gray and Meucci",
+      "Became AT&amp;T, dominated US fora century",
+      "Phone networkbecame early intemetbackbone"
+    ]
+  },
+  {
+    "name": "Radio",
+    "period": "1895–1901 (Marconi's wireless telegraphy); broadcasting from 1920s",
+    "key_figures": "Guglielmo Marconi; Nikola Tesla; Heinrich Hertz (discovery of radio waves, 1887)",
+    "summary": "Hertz proved electromagnetic waves exist in 1887. Marconi's first transatlantic radio signal (1901) opened the era of wireless communication and eventually mass broadcasting.",
+    "key_facts": [
+      "Hertzdemonstrated EMwaves: 1887",
+      "Marconi&#x27;s transatlantic signal: 1901",
+      "BBCfounded: 1922",
+      "Radio was decisive in both World Wars",
+      "Underpins Wi-Fi, Bluetooth, GPS, mobile phones"
+    ]
+  },
+  {
+    "name": "Transistor",
+    "period": "1947 (invention at Bell Labs); widespread commercial use from mid-1950s",
+    "key_figures": "William Shockley, John Bardeen, Walter Brattain (Bell Labs)",
+    "summary": "entedat Bell Labson 23 December 1947, thetransistor laced vacuum tubes. Modem processor chips contain over 100 on transistors on a fingemail-sized die.",
+    "key_facts": [
+      "Firsttransistordemonstrated: 23 Dec 1947",
+      "Nobel Prize in Physics: 1956",
+      "First transistor radio: 1954",
+      "Silicon transistor (Texas Instruments): 1954",
+      "100 B+ transistors on modem chips"
+    ]
+  },
+  {
+    "name": "Integrated Circuit / Microchip",
+    "period": "1958–1959 (independent inventions by Kilby and Noyce)",
+    "key_figures": "Jack Kilby (Texas Instruments); Robert Noyce (Fairchild Semiconductor)",
+    "summary": "y (12 Sep 1958) and Noyce independently placed multiple nsistorson a single chip. This enabled the exponential t/size reduction described by Moore&#x27;s Law.",
+    "key_facts": [
+      "Kilby&#x27;s IC: 12 September 1958",
+      "Noyce&#x27;s planar silicon IC: 1959",
+      "Kilby Nobel Prize in Physics: 2000",
+      "Intel founded by Noyce and Moore: 1968",
+      "Semiconductor industry.&gt;$600 B revenue/year"
+    ]
+  },
+  {
+    "name": "Computer",
+    "period": "1936–1945 (theoretical foundations and first digital computers); commercial era from 1950s",
+    "key_figures": "Alan Turing (theoretical foundation); Konrad Zuse (Z3, 1941); ENIAC team (1945); John von Neumann",
+    "summary": "ng&#x27;s 1936 theoretical foundation and the first programmable nputers (Z 3, ENi AC) established computing. Von Neumann&#x27;s hitecturebecame thestandard designfor all computers.",
+    "key_facts": [
+      "Turing&#x27;s &#x27;Computable Numbers&#x27;paper: 1936",
+      "Zuse Z 3 (first programmable computer): 1941",
+      "ENl AC (first electronic): 1945",
+      "Von Neumannarchitecture: 1945",
+      "Universal machine: same hardware, any software"
+    ]
+  },
+  {
+    "name": "Internet",
+    "period": "1969 (ARPANET); 1970s–1980s (TCP/IP protocols); 1990s (commercial internet)",
+    "key_figures": "ARPA/DARPA team; Vint Cerf and Bob Kahn (TCP/IP, 1974); Tim Berners-Lee (WWW, 1989–1991)",
+    "summary": "PANET (1969) connected four US research universities. Cerf Kahn&#x27;s TCP/IP protocol (1974) allowed different networks to nmunicate, creating the internet as we know it.",
+    "key_facts": [
+      "ARPANET firstmessage: 29 October 1969",
+      "TCP/IP protocol: Cerf and Kahn, 1974",
+      "NSFNET opened to commerce: 1991",
+      "5 billion active internetusers(2024)",
+      "Carries ~5 exabytes of dataper day"
+    ]
+  },
+  {
+    "name": "World Wide Web",
+    "period": "1989–1991 (proposal and first implementation); 1993 (Mosaic browser, public adoption)",
+    "key_figures": "Tim Berners-Lee; Robert Cailliau; Marc Andreessen (Mosaic browser)",
+    "summary": "istmas 1990. Made freely available without patents, it ame the largest expansion of communication since print.",
+    "key_facts": [
+      "Web proposal submitted: March 1989",
+      "Firstwebsitewent live: 6 August 1991",
+      "Mosaic browser (mass-market): 1993",
+      "No patents: made available to all freely",
+      "~60 trillion web pages; 5 B+ users"
+    ]
+  },
+  {
+    "name": "Search Engines",
+    "period": "1990 (Archie, first internet search tool); 1998 (Google founded)",
+    "key_figures": "Alan Emtage (Archie, 1990); Larry Page and Sergey Brin (Google, 1998)",
+    "summary": "gle&#x27;s Page Rank algorithm (1998) ranked pages by link quality her than keywords alone, dramatically improving relevance Itransforming how humanity accessesknowledge.",
+    "key_facts": [
+      "Firstinternet search tool (Archie): 1990",
+      "Alta Vista, Lycos, Yahoo: mid-1990 s",
+      "Google Page Rank patent: 1998",
+      "Google processes ~8.5 B searches/day",
+      "Al chatbots now beginning to challenge search"
+    ]
+  },
+  {
+    "name": "Satellite Technology",
+    "period": "1957 (Sputnik 1, first artificial satellite); 1963 (first geostationary communication satellite)",
+    "key_figures": "Soviet space programme (Sputnik); NASA; Arthur C. Clarke (geostationary orbit concept, 1945)",
+    "summary": "Itnik 1 (4 Oct 1957) was the first artificial satellite. rkeproposedgeostationarycommunicationssatellites in 5. Over 9, 000 satellites are now in orbit.",
+    "key_facts": [
+      "Sputnik 1: 4 0 ctober 1957",
+      "Clarke&#x27;s geostationary orbit concept: 1945",
+      "First geostationary comms satellite: 1963",
+      "9, 000+ satellitesin orbit（2024)",
+      "Underpins weather, GPS, intemet, TV"
+    ]
+  },
+  {
+    "name": "GPS (Global Positioning System)",
+    "period": "1973 (concept); 1978 (first satellites launched); 1995 (full operational capability)",
+    "key_figures": "US Department of Defense; Roger L. Easton, Ivan Getting, Bradford Parkinson",
+    "summary": "US Do D&#x27;s GPS reached full operational capability in 1995 ective Availability(intentional degradation)removed in 0, enabling civilian metre-level accuracy globally.",
+    "key_facts": [
+      "First Block IGPSsatellite: 1978",
+      "Full 24-satelliteconstellation: 1993",
+      "Full civilian accuracy: May 2000",
+      "Also: GLONASS, Galileo, Bei Dou systems",
+      "Economic value to US economy: $l T+"
+    ]
+  },
+  {
+    "name": "Semiconductor Technology",
+    "period": "1947 (transistor); 1958 (IC); 1960s–present (Moore's Law scaling)",
+    "key_figures": "Bell Labs; Texas Instruments; Intel; TSMC; ASML",
+    "summary": "m the first transistor to chips with 1 o 0 B+ transistors in 60 rs, semiconductor scaling (Moore&#x27;s Law) has driven the most tained technological improvement in history.",
+    "key_facts": [
+      "Transistor: Bell Labs, 1947",
+      "Moore&#x27;s Law(doublesevery~2 years): 1965",
+      "Silicon valley. from planar process, 1959",
+      "Modern nodes: 3-5 nm (2023-2024)",
+      "ASML EUVmachines: ~$380 Meach"
+    ]
+  },
+  {
+    "name": "Laser",
+    "period": "1960 (first working laser, Theodore Maiman); 1961 (first medical laser application)",
+    "key_figures": "Theodore Maiman (first ruby laser, 1960); Charles Townes and Arthur Schawlow (theoretical basis, MASER)",
+    "summary": "man built the first working laser in May 1960. Eary lasers re called &#x27;a solution looking for a problem&#x27;*; by 2024 they lerpin medicine, communications, and manufacturing.",
+    "key_facts": [
+      "First working laser: Maiman, May 1960",
+      "LASER=Light Amplification by Stimulated Emission",
+      "Based on Einstein&#x27;s 1917 stimulated emission",
+      "Used in LASi K, fibre optics, manufacturing",
+      "Li DAR in self-driving vehicles uses lasers"
+    ]
+  },
+  {
+    "name": "Fibre-Optic Communication",
+    "period": "1966 (Kao and Hockham's theoretical paper); 1970 (Corning's low-loss glass fibre); commercial deployment from 1980s",
+    "key_figures": "Charles Kao (Nobel Prize 2009); George Hockham; Robert Maurer, Donald Keck, Peter Schultz (Corning)",
+    "summary": "Kao and Hockham’s 1966 paper proposed ultra-pure glass fibres for optical communication.Coming achieved the required purity in 1970. Kao received the Nobel Prize in 2009.",
+    "key_facts": [
+      "Theoretical paper: Kao and Hockham, 1966",
+      "Low-loss fibre achieved: Corning, 1970",
+      "First commercial fibre phone link: 1977",
+      "Carries~gg%of international internet data",
+      "Nobel Prize in Physics: Kao, 2009"
+    ]
+  },
+  {
+    "name": "Spaceflight",
+    "period": "1957 (Sputnik); 1961 (first human in space, Gagarin); 1969 (Moon landing)",
+    "key_figures": "Sergei Korolev (Soviet); Wernher von Braun (US); NASA; Yuri Gagarin; Neil Armstrong",
+    "summary": "itnik (1957), Gagarin (1961), and Apollo 11 (1969) defined Space Age. Commercial spaceflight (Space X, 2010 s) is now haping access to orbit.",
+    "key_facts": [
+      "Sputnik 1: 4 0 ctober 1957",
+      "Gagarin: first human in space: 12 April 1961",
+      "Moon landing (Apollo 11): 20 July 1969",
+      "ISS continuously inhabited since: 2000",
+      "Global space economy: $546 B (2022)"
+    ]
+  },
+  {
+    "name": "Smartphones",
+    "period": "1992 (IBM Simon, first smartphone concept); 2007 (iPhone, mass market transformation)",
+    "key_figures": "IBM (Simon, 1994); Apple (iPhone, 2007, Steve Jobs); Google (Android, 2008)",
+    "summary": "i Phone(2007)transformed the smartphone from a niche ice into a mass-market platform. Android (2008) brought nparable capability to all price points.",
+    "key_facts": [
+      "IBM Simon (first smartphone concept): 1994",
+      "Apple i Phone launched: 29 June 2007",
+      "Google Android launched: 2008",
+      "App Store opened: July 2008",
+      "6.9 B smartphone users globally (2024)"
+    ]
+  },
+  {
+    "name": "Social Media Platforms",
+    "period": "1997 (SixDegrees, first recognisable social network); 2004 (Facebook); 2006 (Twitter)",
+    "key_figures": "Mark Zuckerberg (Facebook); Jack Dorsey (Twitter); Kevin Systrom (Instagram); multiple others",
+    "summary": "ebook (2004) reached 1 billion usersby 2012. Social media sformed political communication, journalism, and activism le also enabling disinformation andpolarisation.",
+    "key_facts": [
+      "Six Degrees (first social network): 1997",
+      "Facebook: Harvard launch, 2004",
+      "Twitter: 2006; Instagram: 2010; Tik Tok: 2016",
+      "~5 B active social media users (2024)",
+      "Algorithmic curation: major societal debate"
+    ]
+  },
+  {
+    "name": "Artificial Intelligence",
+    "period": "1950 (Turing's test); 1956 (Dartmouth Conference, AI coined); current boom from 2012",
+    "key_figures": "Alan Turing; John McCarthy; Marvin Minsky; Geoffrey Hinton; Yann LeCun; Yoshua Bengio",
+    "summary": "Deep learning&#x27;s breakthrough (AlexNet, 2012) triggered the modern AI era. AlphaFold (2020) solved the 50-year protein structure problem; LLMs now write, code, and reason.",
+    "key_facts": [
+      "Turing Test proposed: 1950",
+      "&#x27;Artificial intelligence&#x27; coined: 1956",
+      "AlexNet deep learning: 2012 inflection",
+      "AlphaFold solved protein folding: 2020",
+      "LLMs: GPT, Claude, Gemini (2020s)"
+    ]
+  },
+  {
+    "name": "Renewable Energy Technologies",
+    "period": "1954 (first practical silicon solar cell); 1970s–present (wind, solar, storage development)",
+    "key_figures": "Bell Labs (silicon solar cell, 1954); Darrieus and other wind turbine pioneers; multiple researchers",
+    "summary": "Solar PV cost has fallen 99% since 1976. Solar and wind provided ~13% of global electricity in 2023, up from near zero in 2000, and are projected to dominate by the 2030s.",
+    "key_facts": [
+      "First practical silicon solar cell: Bell Labs, 1954",
+      "Solarcostfell 99%since 1976",
+      "Windcostfell~90%since 1980 s",
+      "Solarandwind: ~13%ofglobalelectricity(2023)",
+      "IEA projects majority of electricity by 2030 s"
+    ]
+  },
+  {
+    "name": "Battery Technology",
+    "period": "1800 (Volta's pile, first battery); 1991 (Sony's first commercial lithium-ion battery)",
+    "key_figures": "Alessandro Volta (electrochemical battery, 1800); John Goodenough, M. Stanley Whittingham, Akira Yoshino (lithium-ion battery — Nobel Prize 2019)",
+    "summary": "lithium-ion battery, commercialised by Sony in 1991, has en in cost by ~97% since then. It is the enabling hnology for electric vehicles and renewable energy storage.",
+    "key_facts": [
+      "Volta&#x27;s electrochemicalpile: 1800",
+      "Lead-acid battery: Plante, 1859",
+      "Li-ion commercialised by Sony: 1991",
+      "Li-ion cost fell~97% since 1991",
+      "Nobel Prize in Chemistry: 2019"
+    ]
+  },
+  {
+    "name": "Electric Vehicles",
+    "period": "1880s (early EVs); 1990s (GM EV1); 2008–present (Tesla and the modern EV era)",
+    "key_figures": "Charles Jeantaud (France, 1881); GM EV1 (1996); Elon Musk / Martin Eberhard (Tesla, 2003)",
+    "summary": "predate ICE cars, but Tesla&#x27;s Roadster (2008) showed high- formance long-range EVswereviable. Global EV sales passed 10 M/year by 2022.",
+    "key_facts": [
+      "Early EVs predated gasoline cars: 1880 s",
+      "GM EV 1 (modem attempt): 1996-1999",
+      "Tesla Roadsterlaunched: 2008",
+      "Global EV sales &gt;10 M/year: 2022",
+      "Many nations target ICE phase-out: 2030-2040"
+    ]
+  },
+  {
+    "name": "Robotics",
+    "period": "1961 (Unimate, first industrial robot); 1970s (automated manufacturing); 21st century (AI-enabled robotics)",
+    "key_figures": "George Devol (Unimate, 1961); Joseph Engelberger; Boston Dynamics; Rodney Brooks; Masahiro Mori",
+    "summary": "firstindustrialrobot, Unimate, wasinstalled at GM in 61 for spot welding. Al-enabled robots now work in surgery stics, agriculture, and space exploration.",
+    "key_facts": [
+      "Unimaterobotat GM: 1961",
+      "Industnial robotsspread in auto industry: 1970 s-90 s",
+      "Da Vinci surgical robot approved: 1999",
+      "Boston Dynamics Atlas robots: 2013-present",
+      "Global robotics market: &gt;$60 B (2023)"
+    ]
+  },
+  {
+    "name": "3D Printing (Additive Manufacturing)",
+    "period": "1984 (Chuck Hull's stereolithography patent); commercial use from 1990s; mainstream from 2010s",
+    "key_figures": "Chuck Hull (stereolithography, 1984); Carl Deckard (SLS); Scott Crump (FDM, Stratasys)",
+    "summary": "I&#x27;s 1984 stereolithography patent began 3 D printing. FDM d drove consumer printer costs from 14, 000 to 200.",
+    "key_facts": [
+      "Hull&#x27;s stereolithography patent: 1984",
+      "Selective laser sintering (SLS): Deckard, 1987",
+      "FDM patent expired: 2009 (Rep Rap movement)",
+      "Used for titanium implants, jet engine parts",
+      "3 D bioprinting of tissue: emerging field"
+    ]
+  },
+  {
+    "name": "Blockchain",
+    "period": "2008 (Bitcoin whitepaper by Satoshi Nakamoto); 2015 (Ethereum smart contracts)",
+    "key_figures": "Satoshi Nakamoto (pseudonym, identity unknown); Vitalik Buterin (Ethereum)",
+    "summary": "kamoto&#x27;s 2008 whitepaper introduced a decentralised, tamper- Bitcoin whitepaper: 0 ctober 2008 stantledger. Ethereum(2015)addedprogrammablesmart tracts, extending blockchain beyond currency.",
+    "key_facts": [
+      "Bitcoin network launched: January 2009",
+      "Ethereum (smart contracts) launched: 2015",
+      "Bitcoin market cap: $1-2 T (variable)",
+      "Applications: supply chain, identity, De Fi"
+    ]
+  },
+  {
+    "name": "Cloud Computing",
+    "period": "2006 (Amazon Web Services launch); 2008–2010 (Google Cloud, Microsoft Azure); mainstream from 2010s",
+    "key_figures": "Amazon Web Services (Jeff Bezos, Andy Jassy); Salesforce (Marc Benioff, early SaaS); Google; Microsoft",
+    "summary": "Amazon Web Services (2006) offered on-demand computing as a utility. AWS, Azure, and Google Cloud now generate over $250B revenue annually and host most internet services.",
+    "key_facts": [
+      "Salesforce SaaS pioneer: 1999",
+      "Amazon Web Services launched: 2006",
+      "Google Cloud: 2008; Microsoft Azure: 2010",
+      "AWS+Azure+GCP: >$250B revenue/year (2024)",
+      "Democratised access to AI and computing"
+    ]
+  }
+]

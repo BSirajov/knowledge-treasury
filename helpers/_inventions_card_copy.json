@@ -1,0 +1,662 @@
+{
+  "controlled-use-of-fire": {
+    "key_figures": "Homo erectus; later Homo sapiens",
+    "summary": "Fire evidence from Wonderwerk Cave, South Africa dates to ~1 million years ago. Deliberate control enabled cooking, warmth, and protection — reshaping human biology and culture.",
+    "key_facts": [
+      "Oldest evidence: ~1 million years ago",
+      "Key sites: Wonderwerk Cave, South Africa",
+      "Cooking fuelled human brain development",
+      "Enabled settlement in colder climates",
+      "Precursor to metallurgy and industry"
+    ]
+  },
+  "agriculture-and-domestication": {
+    "key_figures": "Multiple independent centres: Fertile Crescent, China, Mesoamerica, Africa",
+    "summary": "Agriculture emerged independently in at least seven regions worldwide, enabling permanent settlement, population growth, and the rise of the first cities.",
+    "key_facts": [
+      "At least 7 independent origins worldwide",
+      "First crops: wheat, barley, millet, rice",
+      "First animals: goats, sheep, cattle, pigs",
+      "Enabled cities, states, writing, trade",
+      "Also introduced zoonotic diseases"
+    ]
+  },
+  "the-wheel": {
+    "key_figures": "Mesopotamia; Eurasian steppe (debated)",
+    "summary": "The wheel appeared in Mesopotamia ~3500 BCE. The key insight was the axle, allowing free rotation. The wheel's principle underpins gears, turbines, engines, and all machinery.",
+    "key_facts": [
+      "First use: pottery wheel (~5500 BCE)",
+      "Transport wheels: ~3500 BCE, Mesopotamia",
+      "Americas and Africa developed without it",
+      "Rotary principle → all modern machinery",
+      "Spindle, lathe, centrifuge all derived"
+    ]
+  },
+  "writing-systems": {
+    "key_figures": "Sumer (cuneiform); Egypt (hieroglyphs); China and Mesoamerica (independent inventions)",
+    "summary": "Writing makes it possible to transmit knowledge across time and space with precision.",
+    "key_facts": [
+      "At least 4 independent inventions",
+      "Cuneiform: earliest writing (~3400 BCE)",
+      "Alphabet invented in ancient Levant ~1800 BCE",
+      "Enabled law, science, literature, history",
+      "Foundational to all accumulated knowledge"
+    ]
+  },
+  "mathematics-and-the-concept-of-zero": {
+    "key_figures": "Babylonian, Egyptian, Indian (Brahmagupta), and Maya mathematicians",
+    "summary": "Mathematics is the language of science, engineering, finance, and computing.",
+    "key_facts": [
+      "Brahmagupta formalised zero: 628 CE",
+      "Babylonian algebra dates to ~2000 BCE",
+      "Hindu-Arabic numerals spread via Islamic world",
+      "Calculus (Newton/Leibniz) built on this base",
+      "Binary arithmetic underpins all computing"
+    ]
+  },
+  "paper": {
+    "key_figures": "Cai Lun (Han Dynasty China); later Islamic and European paper mills",
+    "summary": "Paper made written records cheaper, lighter, and more portable than parchment or papyrus.",
+    "key_facts": [
+      "Invented in Han Dynasty China, 105 CE",
+      "Reached Islamic world: 8th century",
+      "Reached Europe via Islamic Spain: 12th century",
+      "Made books affordable before printing press",
+      "Global production today: 400M tonnes/year"
+    ]
+  },
+  "the-compass": {
+    "key_figures": "Han Dynasty China; independently developed in Europe c. 12th century",
+    "summary": "The compass allowed sailors to navigate with confidence beyond sight of coastlines and stars.",
+    "key_facts": [
+      "Earliest Chinese compass: ~200 BCE",
+      "Maritime use: Chinese texts ~1040–1119 CE",
+      "European navigation use: ~1190 CE",
+      "Enabled Age of Exploration voyages",
+      "Foundation of modern navigation science"
+    ]
+  },
+  "gunpowder": {
+    "key_figures": "Chinese alchemists (Tang Dynasty); spread to Islamic world and Europe by 13th century",
+    "summary": "Gunpowder fundamentally altered warfare, siege technology, mining, quarrying, and later civil engineering.",
+    "key_facts": [
+      "Discovered by Tang Dynasty alchemists ~850 CE",
+      "Military use in China: 10th century",
+      "Reached Europe via Islamic scholars: 13th century",
+      "Made feudal stone castles obsolete",
+      "Later enabled mining and civil engineering"
+    ]
+  },
+  "the-printing-press": {
+    "key_figures": "Johannes Gutenberg (Europe); Bi Sheng (China, c. 1040 CE, earlier movable type)",
+    "summary": "Before the printing press, each book had to be copied by hand — a process taking months, affordable only to the wealthy or the Church.",
+    "key_facts": [
+      "Movable type in China: Bi Sheng, ~1040 CE",
+      "Gutenberg press: Mainz, Germany, ~1440 CE",
+      "Gutenberg Bible printed c. 1455",
+      "Book cost fell ~90% within decades",
+      "Accelerated Renaissance and Reformation"
+    ]
+  },
+  "the-scientific-method": {
+    "key_figures": "Ibn al-Haytham (optics, c. 1021); Francis Bacon; Galileo Galilei; René Descartes",
+    "summary": "The scientific method is the most powerful framework yet devised for building reliable knowledge about the natural world.",
+    "key_facts": [
+      "Ibn al-Haytham's 'Book of Optics': c. 1021 CE",
+      "Bacon's 'Novum Organum': 1620",
+      "Galileo introduced quantitative measurement",
+      "Self-correcting: errors exposed by experiment",
+      "Foundation of all modern science and tech"
+    ]
+  },
+  "the-telescope": {
+    "key_figures": "Hans Lipperhey (inventor, Netherlands); Galileo Galilei (first systematic astronomical use)",
+    "summary": "The telescope transformed astronomy from a mathematical and philosophical discipline into an observational science.",
+    "key_facts": [
+      "Patent: Hans Lipperhey, Netherlands, 1608",
+      "Galileo's observations began Jan 1610",
+      "Revealed moons of Jupiter, craters on Moon",
+      "Began modern observational astronomy",
+      "JWST (2021) is its direct descendant"
+    ]
+  },
+  "the-microscope": {
+    "key_figures": "Zacharias Janssen (compound microscope, c. 1590); Antoni van Leeuwenhoek (high-power single-lens)",
+    "summary": "The microscope revealed that life at scales invisible to the naked eye was extraordinarily complex and abundant.",
+    "key_facts": [
+      "Compound microscope: Janssen ~1590",
+      "Leeuwenhoek magnified up to 270×, 1670s",
+      "First observations of bacteria and protozoa",
+      "Robert Hooke's Micrographia: 1665",
+      "Electron microscopes now image individual atoms"
+    ]
+  },
+  "newtonian-mechanics": {
+    "key_figures": "Isaac Newton",
+    "summary": "Newtonian mechanics provided a single coherent framework for understanding all motion — from falling apples to planetary orbits, from pendulums to projectiles.",
+    "key_facts": [
+      "Principia Mathematica published: 1687",
+      "Three laws of motion + law of gravitation",
+      "Co-invented calculus with Leibniz",
+      "Unified terrestrial and celestial physics",
+      "Foundation of all classical engineering"
+    ]
+  },
+  "steam-engine": {
+    "key_figures": "Thomas Newcomen; James Watt (improved design); Richard Trevithick (high-pressure steam)",
+    "summary": "The steam engine was the prime mover of the Industrial Revolution.",
+    "key_facts": [
+      "Newcomen atmospheric engine: 1712",
+      "Watt's separate condenser patent: 1769",
+      "First steam railway: Trevithick, 1804",
+      "Powered mills, mines, ships, railways",
+      "Inaugurated large-scale fossil fuel use"
+    ]
+  },
+  "electricity-generation-and-distribution": {
+    "key_figures": "Michael Faraday; Thomas Edison; Nikola Tesla; George Westinghouse",
+    "summary": "Electrical power distribution is the infrastructure that underlies virtually all of modern life.",
+    "key_facts": [
+      "Faraday's electromagnetic induction: 1831",
+      "Edison's DC system vs Tesla's AC: 1880s–1890s",
+      "AC won: enables long-distance distribution",
+      "~750M people still lack electricity today",
+      "Most versatile energy form ever developed"
+    ]
+  },
+  "electromagnetism": {
+    "key_figures": "Hans Christian Ørsted; André-Marie Ampère; Michael Faraday; James Clerk Maxwell",
+    "summary": "Maxwell's equations are one of the greatest intellectual achievements in physics.",
+    "key_facts": [
+      "Ørsted: electricity deflects compass: 1820",
+      "Faraday: electromagnetic induction: 1831",
+      "Maxwell's equations published: 1865",
+      "Predicted light, radio, X-rays as EM waves",
+      "Foundation of all motors, radios, Wi-Fi"
+    ]
+  },
+  "internal-combustion-engine": {
+    "key_figures": "Étienne Lenoir; Nikolaus Otto (four-stroke cycle, 1876); Rudolf Diesel (1897)",
+    "summary": "The internal combustion engine (ICE) powered the automobile, the aeroplane, the motorcycle, the tractor, and the ship in the 20th century.",
+    "key_facts": [
+      "Lenoir's first commercial ICE: 1859",
+      "Otto four-stroke cycle patent: 1876",
+      "Diesel compression-ignition engine: 1897",
+      "Compact design enabled cars and aircraft",
+      "Now driving transition to electric vehicles"
+    ]
+  },
+  "automobile": {
+    "key_figures": "Karl Benz; Gottlieb Daimler; Henry Ford (mass production)",
+    "summary": "The automobile created an entirely new industrial ecosystem: steel, rubber, glass, petroleum refining, road construction, urban planning, insurance, tourism, and logistics.",
+    "key_facts": [
+      "Benz Patent-Motorwagen: 1885",
+      "Ford Model T price fell from $825 to $260",
+      "Ford moving assembly line: 1913",
+      "Created entire new industrial ecosystem",
+      "~1.35M road fatalities globally per year"
+    ]
+  },
+  "airplane": {
+    "key_figures": "Orville and Wilbur Wright; later: Louis Blériot, Anthony Fokker, Frank Whittle (jet engine)",
+    "summary": "Aviation compressed the globe, making intercontinental travel routine rather than extraordinary.",
+    "key_facts": [
+      "First powered flight: 17 December 1903",
+      "First powered, heavier-than-air flight at Kitty Hawk",
+      "Jet engine patent: Whittle, 1937",
+      "First operational jet aircraft: 1944",
+      "4+ billion passengers/year pre-pandemic"
+    ]
+  },
+  "refrigeration": {
+    "key_figures": "Jacob Perkins; Carl von Linde; Clarence Birdseye (commercial frozen food)",
+    "summary": "Refrigeration is one of the most consequential public health technologies ever invented.",
+    "key_facts": [
+      "Vapour-compression patent: Perkins, 1834",
+      "Von Linde's industrial refrigeration: 1870s",
+      "Birdseye quick-freezing process: 1920s",
+      "Eliminates most foodborne illness risk",
+      "Enables vaccine and medicine cold chains"
+    ]
+  },
+  "vaccination": {
+    "key_figures": "Edward Jenner (smallpox); Louis Pasteur (rabies, cholera); Jonas Salk (polio)",
+    "summary": "Vaccination is the most cost-effective public health intervention ever developed.",
+    "key_facts": [
+      "Jenner's first vaccination: 1796",
+      "Smallpox eradicated by WHO: 1980",
+      "Polio reduced by >99.9% from peak",
+      "Vaccines saved 154M lives (Lancet, 2024)",
+      "mRNA vaccines developed in 2020 for COVID-19"
+    ]
+  },
+  "antibiotics": {
+    "key_figures": "Alexander Fleming (discovery, 1928); Howard Florey and Ernst Chain (development, 1940s)",
+    "summary": "Antibiotics made bacterial infections — previously often fatal — reliably treatable.",
+    "key_facts": [
+      "Fleming's discovery: 28 September 1928",
+      "Florey and Chain's purification: 1940",
+      "Mass production by WWII: 1944",
+      "Added ~23 years to average lifespan",
+      "Antimicrobial resistance: top global threat"
+    ]
+  },
+  "germ-theory-of-disease": {
+    "key_figures": "Louis Pasteur; Robert Koch; Ignaz Semmelweis; John Snow",
+    "summary": "Germ theory is the conceptual foundation of modern infectious disease medicine, surgery, food safety, and public health.",
+    "key_facts": [
+      "Snow traced cholera to water pump: 1854",
+      "Semmelweis: handwashing reduces deaths: 1847",
+      "Pasteur's germ theory experiments: 1859–61",
+      "Koch identified TB and cholera bacteria",
+      "Foundation of vaccines, antibiotics, surgery"
+    ]
+  },
+  "anaesthesia": {
+    "key_figures": "Crawford Long (ether, 1842); William Morton (1846); James Young Simpson (chloroform, 1847)",
+    "summary": "Morton's public demonstration of ether anaesthesia at Massachusetts General Hospital on 16 October 1846 is the conventional start date. Chloroform anaesthesia, introduced by Simpson in 1847, transformed surgery worldwide.",
+    "key_facts": [
+      "First ether use in surgery: Long, 1842",
+      "Public ether demonstration: Morton, 1846",
+      "Chloroform introduced: Simpson, 1847",
+      "Made complex operations possible",
+      "Modern anaesthesia uses sophisticated drug combos"
+    ]
+  },
+  "x-rays-and-medical-imaging": {
+    "key_figures": "Wilhelm Conrad Röntgen (X-rays, 1895); Godfrey Hounsfield and Allan Cormack (CT, 1971)",
+    "summary": "Medical imaging allows physicians to see inside the human body without surgery.",
+    "key_facts": [
+      "X-rays discovered: 8 November 1895",
+      "Nobel Prize in Physics: Röntgen, 1901",
+      "CT scanner: Hounsfield and Cormack, 1971",
+      "MRI (no ionising radiation): 1977–1980s",
+      "Now includes PET, ultrasound, functional MRI"
+    ]
+  },
+  "sanitation-and-clean-water-systems": {
+    "key_figures": "Joseph Bazalgette (London sewers); Edwin Chadwick; John Snow; Lemuel Shattuck",
+    "summary": "Clean water and sanitation are arguably the single most important public health infrastructure ever built.",
+    "key_facts": [
+      "London's Great Stink: 1858",
+      "Bazalgette's sewer network: completed 1870s",
+      "First water chlorination: Jersey City, 1908",
+      "Eliminated most cholera and typhoid",
+      "2B people still lack safe water (WHO 2023)"
+    ]
+  },
+  "dna-structure-and-molecular-genetics": {
+    "key_figures": "James Watson, Francis Crick; Rosalind Franklin (X-ray crystallography); Erwin Chargaff; Oswald Avery",
+    "summary": "The double helix is the molecular key to heredity, evolution, and life itself.",
+    "key_facts": [
+      "Avery showed DNA carries genetic info: 1944",
+      "Franklin's 'Photo 51': critical X-ray data",
+      "Watson and Crick double helix: April 1953",
+      "Nobel Prize: Watson, Crick, Wilkins, 1962",
+      "Opened molecular biology, biotechnology, CRISPR"
+    ]
+  },
+  "human-genome-sequencing": {
+    "key_figures": "Human Genome Project consortium (NIH, Wellcome Trust, multiple nations); Craig Venter (Celera Genomics)",
+    "summary": "The human genome sequence is a complete parts list of human biology.",
+    "key_facts": [
+      "HGP launched: 1990",
+      "Draft sequence completed: 2001",
+      "HGP declared complete: April 2003",
+      "Cost fell from $3B in 2003 to under $200 by 2024",
+      "Gapless T2T sequence: 2022"
+    ]
+  },
+  "crispr-gene-editing": {
+    "key_figures": "Jennifer Doudna and Emmanuelle Charpentier (Nobel Prize 2020); Feng Zhang (independent parallel work)",
+    "summary": "CRISPR allows scientists to cut DNA at any specified location and insert, delete, or modify genetic sequences.",
+    "key_facts": [
+      "Doudna & Charpentier CRISPR paper: 2012",
+      "Nobel Prize in Chemistry: 2020",
+      "First FDA-approved CRISPR therapy: 2023",
+      "Applications: genetic disease, cancer, crops",
+      "Ethical debate: germline editing prohibited"
+    ]
+  },
+  "the-periodic-table": {
+    "key_figures": "Dmitri Mendeleev; Lothar Meyer (independent parallel work)",
+    "summary": "The periodic table is the foundational organising framework of chemistry.",
+    "key_facts": [
+      "Published: Mendeleev, 1869",
+      "Left gaps for undiscovered elements",
+      "All three predicted elements confirmed by 1886",
+      "Modern table organised by atomic number (1913)",
+      "118 elements confirmed; organises all chemistry"
+    ]
+  },
+  "quantum-mechanics": {
+    "key_figures": "Max Planck; Niels Bohr; Werner Heisenberg; Erwin Schrödinger; Paul Dirac; Albert Einstein",
+    "summary": "Quantum mechanics is the most precisely tested scientific theory in history — its predictions agree with experiment to one part in ten billion in some cases.",
+    "key_facts": [
+      "Planck's quantum hypothesis: 1900",
+      "Bohr atomic model: 1913",
+      "Heisenberg/Schrödinger equations: 1925–26",
+      "Dirac predicted antimatter: 1928",
+      "Foundation: laser, transistor, MRI, computing"
+    ]
+  },
+  "theory-of-relativity": {
+    "key_figures": "Albert Einstein",
+    "summary": "General relativity is the foundation of modern cosmology.",
+    "key_facts": [
+      "Special relativity (E=mc²): 1905",
+      "General relativity: 1915",
+      "GPS requires relativistic corrections to work",
+      "Gravitational waves detected by LIGO: 2015",
+      "First black hole image: EHT, 2019"
+    ]
+  },
+  "nuclear-energy-and-nuclear-science": {
+    "key_figures": "Otto Hahn, Lise Meitner, Fritz Strassmann (fission); Enrico Fermi (reactor); Manhattan Project team",
+    "summary": "Nuclear science revealed a new dimension of physical reality — that the nucleus of atoms contains enormous energy, accessible through fission and fusion.",
+    "key_facts": [
+      "Fission discovered: Hahn, Meitner: Dec 1938",
+      "First controlled chain reaction: Fermi, 1942",
+      "Atomic bombs used: August 1945",
+      "First electricity from nuclear: USSR, 1954",
+      "~10% of world electricity, very low-carbon"
+    ]
+  },
+  "plastics-and-synthetic-materials": {
+    "key_figures": "Leo Baekeland (Bakelite); Wallace Carothers (nylon); DuPont chemists",
+    "summary": "Plastics are lightweight, cheap, durable, chemically resistant, and formable into almost any shape.",
+    "key_facts": [
+      "Bakelite (first synthetic plastic): 1907",
+      "Nylon developed by Carothers at DuPont: 1935",
+      "Polyethylene discovered by ICI: 1933",
+      "Global production: 400M+ tonnes/year",
+      "~8M tonnes enter oceans annually"
+    ]
+  },
+  "fertilisers-and-modern-agricultural-chemistry": {
+    "key_figures": "Fritz Haber; Carl Bosch (BASF); Norman Borlaug (Green Revolution)",
+    "summary": "The Haber-Bosch process has been described as the most important chemical reaction in history.",
+    "key_facts": [
+      "Haber-Bosch process patented: 1909",
+      "~50% of human body nitrogen from this process",
+      "Enabled 3× increase in food production",
+      "Green Revolution saved ~1B people from famine",
+      "Nitrogen runoff causes major water pollution"
+    ]
+  },
+  "telegraph": {
+    "key_figures": "Samuel Morse; Alfred Vail; William Cooke; Charles Wheatstone",
+    "summary": "The telegraph was the first technology to separate communication from physical transport.",
+    "key_facts": [
+      "Cooke and Wheatstone patent: 1837",
+      "Morse code system: 1838",
+      "First transcontinental US line: 1861",
+      "Transatlantic cable: 1866",
+      "Created Reuters, AP, and financial wire services"
+    ]
+  },
+  "telephone": {
+    "key_figures": "Alexander Graham Bell; Elisha Gray (disputed co-inventor); Antonio Meucci",
+    "summary": "The telephone transformed personal, commercial, and governmental communication by enabling real-time two-way voice communication over distance.",
+    "key_facts": [
+      "Bell's telephone patent: 7 March 1876",
+      "Bell Telephone Company founded: 1877",
+      "Legal disputes with Gray and Meucci",
+      "Became AT&T, dominated US for a century",
+      "Phone network became early internet backbone"
+    ]
+  },
+  "radio": {
+    "key_figures": "Guglielmo Marconi; Nikola Tesla; Heinrich Hertz (discovery of radio waves, 1887)",
+    "summary": "Radio was the first wireless communication technology, enabling communication without physical cables.",
+    "key_facts": [
+      "Hertz demonstrated EM waves: 1887",
+      "Marconi's transatlantic signal: 1901",
+      "BBC founded: 1922",
+      "Radio was decisive in both World Wars",
+      "Underpins Wi-Fi, Bluetooth, GPS, mobile phones"
+    ]
+  },
+  "transistor": {
+    "key_figures": "William Shockley, John Bardeen, Walter Brattain (Bell Labs)",
+    "summary": "The transistor is the fundamental building block of all modern electronics.",
+    "key_facts": [
+      "First transistor demonstrated: 23 Dec 1947",
+      "Nobel Prize in Physics: 1956",
+      "First transistor radio: 1954",
+      "Silicon transistor (Texas Instruments): 1954",
+      "100B+ transistors on modern chips"
+    ]
+  },
+  "integrated-circuit-microchip": {
+    "key_figures": "Jack Kilby (Texas Instruments); Robert Noyce (Fairchild Semiconductor)",
+    "summary": "The integrated circuit enabled the miniaturisation and cost reduction of electronics that has driven the digital age.",
+    "key_facts": [
+      "Kilby's IC: 12 September 1958",
+      "Noyce's planar silicon IC: 1959",
+      "Kilby Nobel Prize in Physics: 2000",
+      "Intel founded by Noyce and Moore: 1968",
+      "Semiconductor industry: >$600B revenue/year"
+    ]
+  },
+  "computer": {
+    "key_figures": "Alan Turing (theoretical foundation); Konrad Zuse (Z3, 1941); ENIAC team (1945); John von Neumann",
+    "summary": "The computer is a universal machine: it can simulate any other machine given sufficient time and memory.",
+    "key_facts": [
+      "Turing's 'Computable Numbers' paper: 1936",
+      "Zuse Z3 (first programmable computer): 1941",
+      "ENIAC (first electronic): 1945",
+      "Von Neumann architecture: 1945",
+      "Universal machine: same hardware, any software"
+    ]
+  },
+  "internet": {
+    "key_figures": "ARPA/DARPA team; Vint Cerf and Bob Kahn (TCP/IP, 1974); Tim Berners-Lee (WWW, 1989–1991)",
+    "summary": "The internet is the most significant communication infrastructure in human history.",
+    "key_facts": [
+      "ARPANET first message: 29 October 1969",
+      "TCP/IP protocol: Cerf and Kahn, 1974",
+      "NSFNET opened to commerce: 1991",
+      "5 billion active internet users (2024)",
+      "Carries ~5 exabytes of data per day"
+    ]
+  },
+  "world-wide-web": {
+    "key_figures": "Tim Berners-Lee; Robert Cailliau; Marc Andreessen (Mosaic browser)",
+    "summary": "The web is the user-facing layer of the internet — a system of linked documents (HTML) accessible through browsers.",
+    "key_facts": [
+      "Web proposal submitted: March 1989",
+      "First website went live: 6 August 1991",
+      "Mosaic browser (mass-market): 1993",
+      "No patents: made available to all freely",
+      "~60 trillion web pages; 5B+ users"
+    ]
+  },
+  "search-engines": {
+    "key_figures": "Alan Emtage (Archie, 1990); Larry Page and Sergey Brin (Google, 1998)",
+    "summary": "Search engines transformed access to knowledge from a librarian-mediated or encyclopaedia-lookup process to an instant, universal, self-directed one.",
+    "key_facts": [
+      "First internet search tool (Archie): 1990",
+      "AltaVista, Lycos, Yahoo: mid-1990s",
+      "Google PageRank patent: 1998",
+      "Google processes ~8.5B searches/day",
+      "AI chatbots now beginning to challenge search"
+    ]
+  },
+  "satellite-technology": {
+    "key_figures": "Soviet space programme (Sputnik); NASA; Arthur C. Clarke (geostationary orbit concept, 1945)",
+    "summary": "Satellites enabled global telecommunications, live international television, weather forecasting, GPS navigation, Earth observation, scientific research, and military surveillance.",
+    "key_facts": [
+      "Sputnik 1: 4 October 1957",
+      "Clarke's geostationary orbit concept: 1945",
+      "First geostationary comms satellite: 1963",
+      "9,000+ satellites in orbit (2024)",
+      "Underpins weather, GPS, internet, TV"
+    ]
+  },
+  "gps-global-positioning-system": {
+    "key_figures": "US Department of Defense; Roger L. Easton, Ivan Getting, Bradford Parkinson",
+    "summary": "GPS determines position and time anywhere on Earth with metre-level accuracy using signals from a constellation of satellites in medium Earth orbit.",
+    "key_facts": [
+      "First Block I GPS satellite: 1978",
+      "Full 24-satellite constellation: 1993",
+      "Full civilian accuracy: May 2000",
+      "Also: GLONASS, Galileo, BeiDou systems",
+      "Economic value to US economy: $1T+"
+    ]
+  },
+  "semiconductor-technology": {
+    "key_figures": "Bell Labs; Texas Instruments; Intel; TSMC; ASML",
+    "summary": "Semiconductors are the physical substrate of all digital technology.",
+    "key_facts": [
+      "Transistor: Bell Labs, 1947",
+      "Moore's Law (doubles every ~2 years): 1965",
+      "Silicon Valley: from planar process, 1959",
+      "Modern nodes: 3–5 nm (2023–2024)",
+      "ASML EUV machines: ~$380M each"
+    ]
+  },
+  "laser": {
+    "key_figures": "Theodore Maiman (first ruby laser, 1960); Charles Townes and Arthur Schawlow (theoretical basis, MASER)",
+    "summary": "Lasers produce coherent, monochromatic, highly directional light.",
+    "key_facts": [
+      "First working laser: Maiman, May 1960",
+      "LASER = Light Amplification by Stimulated Emission",
+      "Based on Einstein's 1917 stimulated emission",
+      "Used in LASIK, fibre optics, manufacturing",
+      "LiDAR in self-driving vehicles uses lasers"
+    ]
+  },
+  "fibre-optic-communication": {
+    "key_figures": "Charles Kao (Nobel Prize 2009); George Hockham; Robert Maurer, Donald Keck, Peter Schultz (Corning)",
+    "summary": "Fibre-optic cables carry information as pulses of laser light through ultra-pure glass threads thinner than a human hair.",
+    "key_facts": [
+      "Theoretical paper: Kao and Hockham, 1966",
+      "Low-loss fibre achieved: Corning, 1970",
+      "First commercial fibre phone link: 1977",
+      "Carries ~99% of international internet data",
+      "Nobel Prize in Physics: Kao, 2009"
+    ]
+  },
+  "spaceflight": {
+    "key_figures": "Sergei Korolev (Soviet); Wernher von Braun (US); NASA; Yuri Gagarin; Neil Armstrong",
+    "summary": "Spaceflight provided the platforms for weather satellites, communications satellites, GPS, Earth observation, and scientific instruments such as the Hubble and James Webb space telescopes.",
+    "key_facts": [
+      "Sputnik 1: 4 October 1957",
+      "Gagarin: first human in space: 12 April 1961",
+      "Moon landing (Apollo 11): 20 July 1969",
+      "ISS continuously inhabited since: 2000",
+      "Global space economy: $546B (2022)"
+    ]
+  },
+  "smartphones": {
+    "key_figures": "IBM (Simon, 1994); Apple (iPhone, 2007, Steve Jobs); Google (Android, 2008)",
+    "summary": "Smartphones are the most rapidly adopted technology in history.",
+    "key_facts": [
+      "IBM Simon (first smartphone concept): 1994",
+      "Apple iPhone launched: 29 June 2007",
+      "Google Android launched: 2008",
+      "App Store opened: July 2008",
+      "6.9B smartphone users globally (2024)"
+    ]
+  },
+  "social-media-platforms": {
+    "key_figures": "Mark Zuckerberg (Facebook); Jack Dorsey (Twitter); Kevin Systrom (Instagram); multiple others",
+    "summary": "Social media platforms are the dominant communication infrastructure for personal relationships, journalism, political discourse, marketing, and entertainment in the digital age.",
+    "key_facts": [
+      "SixDegrees (first social network): 1997",
+      "Facebook: Harvard launch, 2004",
+      "Twitter: 2006; Instagram: 2010; TikTok: 2016",
+      "~5B active social media users (2024)",
+      "Algorithmic curation: major societal debate"
+    ]
+  },
+  "artificial-intelligence": {
+    "key_figures": "Alan Turing; John McCarthy; Geoffrey Hinton; Yann LeCun; Yoshua Bengio",
+    "summary": "Deep learning's breakthrough (AlexNet, 2012) triggered the modern AI era. AlphaFold (2020) solved the 50-year protein structure problem; LLMs now write, code, and reason.",
+    "key_facts": [
+      "Turing Test proposed: 1950",
+      "'Artificial intelligence' coined: 1956",
+      "AlexNet deep learning: 2012 inflection",
+      "AlphaFold solved protein folding: 2020",
+      "LLMs: GPT, Claude, Gemini (2020s)"
+    ]
+  },
+  "renewable-energy-technologies": {
+    "key_figures": "Bell Labs (silicon solar cell, 1954); Darrieus and other wind turbine pioneers; multiple researchers",
+    "summary": "Renewable energy technologies — solar photovoltaics, wind turbines, hydropower, geothermal, and tidal — generate electricity without burning fuel and without greenhouse gas emissions.",
+    "key_facts": [
+      "First practical silicon solar cell: Bell Labs, 1954",
+      "Solar cost fell 99% since 1976",
+      "Wind cost fell ~90% since 1980s",
+      "Solar and wind: ~13% of global electricity (2023)",
+      "IEA projects majority of electricity by 2030s"
+    ]
+  },
+  "battery-technology": {
+    "key_figures": "Alessandro Volta (electrochemical battery, 1800); John Goodenough, M. Stanley Whittingham, Akira Yoshino (lithium-ion battery — Nobel Prize 2019)",
+    "summary": "Batteries store electrical energy chemically and release it on demand.",
+    "key_facts": [
+      "Volta's electrochemical pile: 1800",
+      "Lead-acid battery: Planté, 1859",
+      "Li-ion commercialised by Sony: 1991",
+      "Li-ion cost fell ~97% since 1991",
+      "Nobel Prize in Chemistry: 2019"
+    ]
+  },
+  "electric-vehicles": {
+    "key_figures": "Charles Jeantaud (France, 1881); GM EV1 (1996); Elon Musk / Martin Eberhard (Tesla, 2003)",
+    "summary": "Electric vehicles eliminate tailpipe emissions, offer lower running costs and simpler mechanics than ICE vehicles, and can be powered by renewable electricity.",
+    "key_facts": [
+      "Early EVs predated gasoline cars: 1880s",
+      "GM EV1 (modern attempt): 1996–1999",
+      "Tesla Roadster launched: 2008",
+      "Global EV sales >10M/year: 2022",
+      "Many nations target ICE phase-out: 2030–2040"
+    ]
+  },
+  "robotics": {
+    "key_figures": "George Devol (Unimate, 1961); Joseph Engelberger; Boston Dynamics; Rodney Brooks; Masahiro Mori",
+    "summary": "Robotics combines mechanical engineering, sensors, computing, and artificial intelligence to create machines that can perform physical tasks autonomously or semi-autonomously.",
+    "key_facts": [
+      "Unimate robot at GM: 1961",
+      "Industrial robots spread in auto industry: 1970s–90s",
+      "da Vinci surgical robot approved: 1999",
+      "Boston Dynamics Atlas robots: 2013–present",
+      "Global robotics market: >$60B (2023)"
+    ]
+  },
+  "3d-printing-additive-manufacturing": {
+    "key_figures": "Chuck Hull (stereolithography, 1984); Carl Deckard (SLS); Scott Crump (FDM, Stratasys)",
+    "summary": "3D printing can produce complex three-dimensional objects from digital designs without moulds or subtractive machining.",
+    "key_facts": [
+      "Hull's stereolithography patent: 1984",
+      "Selective laser sintering (SLS): Deckard, 1987",
+      "FDM patent expired: 2009 (RepRap movement)",
+      "Used for titanium implants, jet engine parts",
+      "3D bioprinting of tissue: emerging field"
+    ]
+  },
+  "blockchain": {
+    "key_figures": "Satoshi Nakamoto (pseudonym, identity unknown); Vitalik Buterin (Ethereum)",
+    "summary": "Blockchain technology enables trustless, transparent, immutable record-keeping without a central authority.",
+    "key_facts": [
+      "Bitcoin whitepaper: October 2008",
+      "Bitcoin network launched: January 2009",
+      "Ethereum (smart contracts) launched: 2015",
+      "Bitcoin market cap: $1–2T (variable)",
+      "Applications: supply chain, identity, DeFi"
+    ]
+  },
+  "cloud-computing": {
+    "key_figures": "Amazon Web Services (Jeff Bezos, Andy Jassy); Salesforce (Marc Benioff, early SaaS); Google; Microsoft",
+    "summary": "Cloud computing allows organisations to access computing power, storage, and software without owning or maintaining physical infrastructure.",
+    "key_facts": [
+      "Salesforce pioneered SaaS: 1999",
+      "Amazon Web Services launched: 2006",
+      "Google Cloud and Microsoft Azure: 2008–2010",
+      "Pay-as-you-go elastic infrastructure model",
+      "Enables AI, analytics without owning data centres"
+    ]
+  }
+}

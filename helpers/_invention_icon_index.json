@@ -1,0 +1,373 @@
+{
+  "section_folders": {
+    "1": "1-foundational-civilisational-innovations",
+    "2": "2-knowledge-science-and-measurement",
+    "3": "3-industrial-energy-and-transport-revolutions",
+    "4": "4-medicine-biology-and-public-health",
+    "5": "5-physics-chemistry-and-materials-science",
+    "6": "6-digital-space-and-communication-technologies",
+    "7": "7-emerging-and-transformative-technologies"
+  },
+  "icons": {
+    "controlled-use-of-fire": {
+      "num": "1.1",
+      "section": "1-foundational-civilisational-innovations",
+      "path": "images/icons/1-foundational-civilisational-innovations/controlled-use-of-fire.png",
+      "site_path": "../images/icons/1-foundational-civilisational-innovations/controlled-use-of-fire.png"
+    },
+    "agriculture-and-domestication": {
+      "num": "1.2",
+      "section": "1-foundational-civilisational-innovations",
+      "path": "images/icons/1-foundational-civilisational-innovations/agriculture-and-domestication.png",
+      "site_path": "../images/icons/1-foundational-civilisational-innovations/agriculture-and-domestication.png"
+    },
+    "the-wheel": {
+      "num": "1.3",
+      "section": "1-foundational-civilisational-innovations",
+      "path": "images/icons/1-foundational-civilisational-innovations/the-wheel.png",
+      "site_path": "../images/icons/1-foundational-civilisational-innovations/the-wheel.png"
+    },
+    "writing-systems": {
+      "num": "1.4",
+      "section": "1-foundational-civilisational-innovations",
+      "path": "images/icons/1-foundational-civilisational-innovations/writing-systems.png",
+      "site_path": "../images/icons/1-foundational-civilisational-innovations/writing-systems.png"
+    },
+    "mathematics-and-the-concept-of-zero": {
+      "num": "1.5",
+      "section": "1-foundational-civilisational-innovations",
+      "path": "images/icons/1-foundational-civilisational-innovations/mathematics-and-the-concept-of-zero.png",
+      "site_path": "../images/icons/1-foundational-civilisational-innovations/mathematics-and-the-concept-of-zero.png"
+    },
+    "paper": {
+      "num": "1.6",
+      "section": "1-foundational-civilisational-innovations",
+      "path": "images/icons/1-foundational-civilisational-innovations/paper.png",
+      "site_path": "../images/icons/1-foundational-civilisational-innovations/paper.png"
+    },
+    "the-compass": {
+      "num": "1.7",
+      "section": "1-foundational-civilisational-innovations",
+      "path": "images/icons/1-foundational-civilisational-innovations/the-compass.png",
+      "site_path": "../images/icons/1-foundational-civilisational-innovations/the-compass.png"
+    },
+    "gunpowder": {
+      "num": "1.8",
+      "section": "1-foundational-civilisational-innovations",
+      "path": "images/icons/1-foundational-civilisational-innovations/gunpowder.png",
+      "site_path": "../images/icons/1-foundational-civilisational-innovations/gunpowder.png"
+    },
+    "the-printing-press": {
+      "num": "1.9",
+      "section": "1-foundational-civilisational-innovations",
+      "path": "images/icons/1-foundational-civilisational-innovations/the-printing-press.png",
+      "site_path": "../images/icons/1-foundational-civilisational-innovations/the-printing-press.png"
+    },
+    "the-scientific-method": {
+      "num": "2.1",
+      "section": "2-knowledge-science-and-measurement",
+      "path": "images/icons/2-knowledge-science-and-measurement/the-scientific-method.png",
+      "site_path": "../images/icons/2-knowledge-science-and-measurement/the-scientific-method.png"
+    },
+    "the-telescope": {
+      "num": "2.2",
+      "section": "2-knowledge-science-and-measurement",
+      "path": "images/icons/2-knowledge-science-and-measurement/the-telescope.png",
+      "site_path": "../images/icons/2-knowledge-science-and-measurement/the-telescope.png"
+    },
+    "the-microscope": {
+      "num": "2.3",
+      "section": "2-knowledge-science-and-measurement",
+      "path": "images/icons/2-knowledge-science-and-measurement/the-microscope.png",
+      "site_path": "../images/icons/2-knowledge-science-and-measurement/the-microscope.png"
+    },
+    "newtonian-mechanics": {
+      "num": "2.4",
+      "section": "2-knowledge-science-and-measurement",
+      "path": "images/icons/2-knowledge-science-and-measurement/newtonian-mechanics.png",
+      "site_path": "../images/icons/2-knowledge-science-and-measurement/newtonian-mechanics.png"
+    },
+    "steam-engine": {
+      "num": "3.1",
+      "section": "3-industrial-energy-and-transport-revolutions",
+      "path": "images/icons/3-industrial-energy-and-transport-revolutions/steam-engine.png",
+      "site_path": "../images/icons/3-industrial-energy-and-transport-revolutions/steam-engine.png"
+    },
+    "electricity-generation-and-distribution": {
+      "num": "3.2",
+      "section": "3-industrial-energy-and-transport-revolutions",
+      "path": "images/icons/3-industrial-energy-and-transport-revolutions/electricity-generation-and-distribution.png",
+      "site_path": "../images/icons/3-industrial-energy-and-transport-revolutions/electricity-generation-and-distribution.png"
+    },
+    "electromagnetism": {
+      "num": "3.3",
+      "section": "3-industrial-energy-and-transport-revolutions",
+      "path": "images/icons/3-industrial-energy-and-transport-revolutions/electromagnetism.png",
+      "site_path": "../images/icons/3-industrial-energy-and-transport-revolutions/electromagnetism.png"
+    },
+    "internal-combustion-engine": {
+      "num": "3.4",
+      "section": "3-industrial-energy-and-transport-revolutions",
+      "path": "images/icons/3-industrial-energy-and-transport-revolutions/internal-combustion-engine.png",
+      "site_path": "../images/icons/3-industrial-energy-and-transport-revolutions/internal-combustion-engine.png"
+    },
+    "automobile": {
+      "num": "3.5",
+      "section": "3-industrial-energy-and-transport-revolutions",
+      "path": "images/icons/3-industrial-energy-and-transport-revolutions/automobile.png",
+      "site_path": "../images/icons/3-industrial-energy-and-transport-revolutions/automobile.png"
+    },
+    "airplane": {
+      "num": "3.6",
+      "section": "3-industrial-energy-and-transport-revolutions",
+      "path": "images/icons/3-industrial-energy-and-transport-revolutions/airplane.png",
+      "site_path": "../images/icons/3-industrial-energy-and-transport-revolutions/airplane.png"
+    },
+    "refrigeration": {
+      "num": "3.7",
+      "section": "3-industrial-energy-and-transport-revolutions",
+      "path": "images/icons/3-industrial-energy-and-transport-revolutions/refrigeration.png",
+      "site_path": "../images/icons/3-industrial-energy-and-transport-revolutions/refrigeration.png"
+    },
+    "vaccination": {
+      "num": "4.1",
+      "section": "4-medicine-biology-and-public-health",
+      "path": "images/icons/4-medicine-biology-and-public-health/vaccination.png",
+      "site_path": "../images/icons/4-medicine-biology-and-public-health/vaccination.png"
+    },
+    "antibiotics": {
+      "num": "4.2",
+      "section": "4-medicine-biology-and-public-health",
+      "path": "images/icons/4-medicine-biology-and-public-health/antibiotics.png",
+      "site_path": "../images/icons/4-medicine-biology-and-public-health/antibiotics.png"
+    },
+    "germ-theory-of-disease": {
+      "num": "4.3",
+      "section": "4-medicine-biology-and-public-health",
+      "path": "images/icons/4-medicine-biology-and-public-health/germ-theory-of-disease.png",
+      "site_path": "../images/icons/4-medicine-biology-and-public-health/germ-theory-of-disease.png"
+    },
+    "anaesthesia": {
+      "num": "4.4",
+      "section": "4-medicine-biology-and-public-health",
+      "path": "images/icons/4-medicine-biology-and-public-health/anaesthesia.png",
+      "site_path": "../images/icons/4-medicine-biology-and-public-health/anaesthesia.png"
+    },
+    "x-rays-and-medical-imaging": {
+      "num": "4.5",
+      "section": "4-medicine-biology-and-public-health",
+      "path": "images/icons/4-medicine-biology-and-public-health/x-rays-and-medical-imaging.png",
+      "site_path": "../images/icons/4-medicine-biology-and-public-health/x-rays-and-medical-imaging.png"
+    },
+    "sanitation-and-clean-water-systems": {
+      "num": "4.6",
+      "section": "4-medicine-biology-and-public-health",
+      "path": "images/icons/4-medicine-biology-and-public-health/sanitation-and-clean-water-systems.png",
+      "site_path": "../images/icons/4-medicine-biology-and-public-health/sanitation-and-clean-water-systems.png"
+    },
+    "dna-structure-and-molecular-genetics": {
+      "num": "4.7",
+      "section": "4-medicine-biology-and-public-health",
+      "path": "images/icons/4-medicine-biology-and-public-health/dna-structure-and-molecular-genetics.png",
+      "site_path": "../images/icons/4-medicine-biology-and-public-health/dna-structure-and-molecular-genetics.png"
+    },
+    "human-genome-sequencing": {
+      "num": "4.8",
+      "section": "4-medicine-biology-and-public-health",
+      "path": "images/icons/4-medicine-biology-and-public-health/human-genome-sequencing.png",
+      "site_path": "../images/icons/4-medicine-biology-and-public-health/human-genome-sequencing.png"
+    },
+    "crispr-gene-editing": {
+      "num": "4.9",
+      "section": "4-medicine-biology-and-public-health",
+      "path": "images/icons/4-medicine-biology-and-public-health/crispr-gene-editing.png",
+      "site_path": "../images/icons/4-medicine-biology-and-public-health/crispr-gene-editing.png"
+    },
+    "the-periodic-table": {
+      "num": "5.1",
+      "section": "5-physics-chemistry-and-materials-science",
+      "path": "images/icons/5-physics-chemistry-and-materials-science/the-periodic-table.png",
+      "site_path": "../images/icons/5-physics-chemistry-and-materials-science/the-periodic-table.png"
+    },
+    "quantum-mechanics": {
+      "num": "5.2",
+      "section": "5-physics-chemistry-and-materials-science",
+      "path": "images/icons/5-physics-chemistry-and-materials-science/quantum-mechanics.png",
+      "site_path": "../images/icons/5-physics-chemistry-and-materials-science/quantum-mechanics.png"
+    },
+    "theory-of-relativity": {
+      "num": "5.3",
+      "section": "5-physics-chemistry-and-materials-science",
+      "path": "images/icons/5-physics-chemistry-and-materials-science/theory-of-relativity.png",
+      "site_path": "../images/icons/5-physics-chemistry-and-materials-science/theory-of-relativity.png"
+    },
+    "nuclear-energy-and-nuclear-science": {
+      "num": "5.4",
+      "section": "5-physics-chemistry-and-materials-science",
+      "path": "images/icons/5-physics-chemistry-and-materials-science/nuclear-energy-and-nuclear-science.png",
+      "site_path": "../images/icons/5-physics-chemistry-and-materials-science/nuclear-energy-and-nuclear-science.png"
+    },
+    "plastics-and-synthetic-materials": {
+      "num": "5.5",
+      "section": "5-physics-chemistry-and-materials-science",
+      "path": "images/icons/5-physics-chemistry-and-materials-science/plastics-and-synthetic-materials.png",
+      "site_path": "../images/icons/5-physics-chemistry-and-materials-science/plastics-and-synthetic-materials.png"
+    },
+    "fertilisers-and-modern-agricultural-chemistry": {
+      "num": "5.6",
+      "section": "5-physics-chemistry-and-materials-science",
+      "path": "images/icons/5-physics-chemistry-and-materials-science/fertilisers-and-modern-agricultural-chemistry.png",
+      "site_path": "../images/icons/5-physics-chemistry-and-materials-science/fertilisers-and-modern-agricultural-chemistry.png"
+    },
+    "telegraph": {
+      "num": "6.1",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/telegraph.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/telegraph.png"
+    },
+    "telephone": {
+      "num": "6.2",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/telephone.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/telephone.png"
+    },
+    "radio": {
+      "num": "6.3",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/radio.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/radio.png"
+    },
+    "transistor": {
+      "num": "6.4",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/transistor.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/transistor.png"
+    },
+    "integrated-circuit-microchip": {
+      "num": "6.5",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/integrated-circuit-microchip.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/integrated-circuit-microchip.png"
+    },
+    "computer": {
+      "num": "6.6",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/computer.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/computer.png"
+    },
+    "internet": {
+      "num": "6.7",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/internet.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/internet.png"
+    },
+    "world-wide-web": {
+      "num": "6.8",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/world-wide-web.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/world-wide-web.png"
+    },
+    "search-engines": {
+      "num": "6.9",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/search-engines.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/search-engines.png"
+    },
+    "satellite-technology": {
+      "num": "6.10",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/satellite-technology.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/satellite-technology.png"
+    },
+    "gps-global-positioning-system": {
+      "num": "6.11",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/gps-global-positioning-system.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/gps-global-positioning-system.png"
+    },
+    "semiconductor-technology": {
+      "num": "6.12",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/semiconductor-technology.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/semiconductor-technology.png"
+    },
+    "laser": {
+      "num": "6.13",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/laser.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/laser.png"
+    },
+    "fibre-optic-communication": {
+      "num": "6.14",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/fibre-optic-communication.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/fibre-optic-communication.png"
+    },
+    "spaceflight": {
+      "num": "6.15",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/spaceflight.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/spaceflight.png"
+    },
+    "smartphones": {
+      "num": "6.16",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/smartphones.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/smartphones.png"
+    },
+    "social-media-platforms": {
+      "num": "6.17",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/social-media-platforms.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/social-media-platforms.png"
+    },
+    "artificial-intelligence": {
+      "num": "7.1",
+      "section": "7-emerging-and-transformative-technologies",
+      "path": "images/icons/7-emerging-and-transformative-technologies/artificial-intelligence.png",
+      "site_path": "../images/icons/7-emerging-and-transformative-technologies/artificial-intelligence.png"
+    },
+    "renewable-energy-technologies": {
+      "num": "7.2",
+      "section": "7-emerging-and-transformative-technologies",
+      "path": "images/icons/7-emerging-and-transformative-technologies/renewable-energy-technologies.png",
+      "site_path": "../images/icons/7-emerging-and-transformative-technologies/renewable-energy-technologies.png"
+    },
+    "battery-technology": {
+      "num": "7.3",
+      "section": "7-emerging-and-transformative-technologies",
+      "path": "images/icons/7-emerging-and-transformative-technologies/battery-technology.png",
+      "site_path": "../images/icons/7-emerging-and-transformative-technologies/battery-technology.png"
+    },
+    "electric-vehicles": {
+      "num": "7.4",
+      "section": "7-emerging-and-transformative-technologies",
+      "path": "images/icons/7-emerging-and-transformative-technologies/electric-vehicles.png",
+      "site_path": "../images/icons/7-emerging-and-transformative-technologies/electric-vehicles.png"
+    },
+    "robotics": {
+      "num": "7.5",
+      "section": "7-emerging-and-transformative-technologies",
+      "path": "images/icons/7-emerging-and-transformative-technologies/robotics.png",
+      "site_path": "../images/icons/7-emerging-and-transformative-technologies/robotics.png"
+    },
+    "3d-printing-additive-manufacturing": {
+      "num": "7.6",
+      "section": "7-emerging-and-transformative-technologies",
+      "path": "images/icons/7-emerging-and-transformative-technologies/3d-printing-additive-manufacturing.png",
+      "site_path": "../images/icons/7-emerging-and-transformative-technologies/3d-printing-additive-manufacturing.png"
+    },
+    "blockchain": {
+      "num": "7.7",
+      "section": "7-emerging-and-transformative-technologies",
+      "path": "images/icons/7-emerging-and-transformative-technologies/blockchain.png",
+      "site_path": "../images/icons/7-emerging-and-transformative-technologies/blockchain.png"
+    },
+    "cloud-computing": {
+      "num": "6.0",
+      "section": "6-digital-space-and-communication-technologies",
+      "path": "images/icons/6-digital-space-and-communication-technologies/cloud-computing.png",
+      "site_path": "../images/icons/6-digital-space-and-communication-technologies/cloud-computing.png"
+    }
+  }
+}

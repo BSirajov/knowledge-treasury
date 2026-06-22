@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check encyclopedia catalog hrefs against profile files."""
+"""Check prominent figures catalog hrefs against profile files."""
 import re
 from pathlib import Path
 

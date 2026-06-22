@@ -9,6 +9,8 @@
       "industrialRevolutionsDesc": "Tarixi sənaye inqilablarının izləri",
       "majorScientificInventions": "Əsas elmi ixtiralar",
       "majorScientificInventionsDesc": "Elm tarixinin mühüm ixtiraları",
+      "scientificInventionsResearch": "Elmi ixtiralar — tədqiqat",
+      "scientificInventionsResearchDesc": "60 ixtira üzrə ətraflı elmi arayış",
       "ariaMain": "Əsas naviqasiya",
       "ariaHome": "Bilik xəzinəsi ana səhifə",
       "menuOpen": "Menyunu aç",
@@ -25,6 +27,8 @@
       "industrialRevolutionsDesc": "Landmarks of industrial history",
       "majorScientificInventions": "Major Scientific Inventions",
       "majorScientificInventionsDesc": "Key inventions that shaped science",
+      "scientificInventionsResearch": "Scientific Inventions Research",
+      "scientificInventionsResearchDesc": "Scholarly reference for all 60 inventions",
       "ariaMain": "Main navigation",
       "ariaHome": "Knowledge Treasury home",
       "menuOpen": "Open menu",
@@ -36,30 +40,93 @@
   "navIcons": {
     "home": "🏠",
     "treasury": "🏛️",
-    "encyclopedia": "👤",
+    "prominent-figures": "👤",
     "prominentFigures": "👤",
+    "encyclopedia": "👤",
     "industrial-revolutions": "⚙️",
     "industrialRevolutions": "⚙️",
     "major-scientific-inventions": "💡",
-    "majorScientificInventions": "💡"
+    "majorScientificInventions": "💡",
+    "scientific-inventions-research": "💡",
+    "scientificInventionsResearch": "💡"
   },
   "breadcrumbs": {
     "az": {
       "aria": "Səhifə yolu",
       "home": "Ana səhifə",
       "treasury": "Bilik xəzinəsi",
-      "encyclopedia": "Görkəmli şəxsiyyətlər"
+      "prominentFigures": "Görkəmli şəxsiyyətlər",
+      "encyclopedia": "Görkəmli şəxsiyyətlər",
+      "industrialRevolutions": "Sənaye inqilabları",
+      "majorScientificInventions": "Əsas elmi ixtiralar",
+      "scientificInventionsResearch": "Əsas elmi ixtiralar"
     },
     "en": {
       "aria": "Breadcrumb",
       "home": "Home",
       "treasury": "Knowledge Treasury",
-      "encyclopedia": "Prominent Figures"
+      "prominentFigures": "Prominent Figures",
+      "encyclopedia": "Prominent Figures",
+      "industrialRevolutions": "Industrial Revolutions",
+      "majorScientificInventions": "Major Scientific Inventions",
+      "scientificInventionsResearch": "Major Scientific Inventions"
     }
   },
   "meta": {
     "siteNameAz": "Bilik xəzinəsi",
     "siteNameEn": "Knowledge Treasury",
     "catalogCount": 0
+  },
+  "search": {
+    "az": {
+      "navLabel": "Axtarış",
+      "navAria": "Sayt üzrə axtarış",
+      "overlayAria": "Qlobal axtarış",
+      "overlayTitle": "Bilik xəzinəsində axtarış",
+      "placeholder": "Profil, ixtira və ya səhifə axtarın…",
+      "prompt": "Axtarış üçün yazmağa başlayın",
+      "empty": "Nəticə tapılmadı",
+      "loading": "Axtarılır…",
+      "indexError": "Axtarış indeksi yüklənmədi. START-SITE.bat ilə saytı işə salın.",
+      "clear": "Təmizlə",
+      "clearAria": "Axtarış mətnini təmizlə",
+      "panelClose": "Bağla",
+      "panelCloseAria": "Axtarış pəncərəsini bağla",
+      "close": "Bağla",
+      "hintNav": "Keçid",
+      "hintOpen": "aç",
+      "hintClear": "təmizlə",
+      "hintClose": "bağla",
+      "types": {
+        "page": "Səhifə",
+        "profile": "Profil",
+        "invention": "İxtira"
+      }
+    },
+    "en": {
+      "navLabel": "Search",
+      "navAria": "Search the site",
+      "overlayAria": "Global search",
+      "overlayTitle": "Search Knowledge Treasury",
+      "placeholder": "Search profiles, inventions, or pages…",
+      "prompt": "Start typing to search",
+      "empty": "No results found",
+      "loading": "Searching…",
+      "indexError": "Search index could not be loaded. Run START-SITE.bat to preview locally.",
+      "clear": "Clear",
+      "clearAria": "Clear search text",
+      "panelClose": "Close",
+      "panelCloseAria": "Close search panel",
+      "close": "Close",
+      "hintNav": "Navigate",
+      "hintOpen": "open",
+      "hintClear": "clear",
+      "hintClose": "close",
+      "types": {
+        "page": "Page",
+        "profile": "Profile",
+        "invention": "Invention"
+      }
+    }
   }
 }
