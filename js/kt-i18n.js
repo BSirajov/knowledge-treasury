@@ -128,7 +128,7 @@
 
   function loadSearchIndex() {
     return loadCachedJson(
-      i18nUrl("search-index.json") + "?v=1",
+      i18nUrl("search-index.json") + "?v=4",
       function () { return searchIndexCache; },
       function (data) { searchIndexCache = data; },
       function () { return searchIndexInflight; },

@@ -609,15 +609,15 @@
   function indexUrl() {
     var I18N = window.KT_I18N;
     if (I18N && typeof I18N.i18nUrl === "function") {
-      return I18N.i18nUrl("search-index.json") + "?v=1";
+      return I18N.i18nUrl("search-index.json") + "?v=4";
     }
     var root = assetRoot();
-    return root + "i18n/search-index.json?v=1";
+    return root + "i18n/search-index.json?v=4";
   }
 
   function indexScriptUrl() {
     var root = assetRoot();
-    return root + "i18n/search-index.js?v=1";
+    return root + "i18n/search-index.js?v=4";
   }
 
   function loadIndexFromScript() {
